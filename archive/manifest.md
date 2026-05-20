@@ -1,6 +1,6 @@
 # Partner Brief Archive — Manifest
 
-_37 entries · 2026-03-25 → 2026-05-19_
+_37 entries · 2026-03-25 → 2026-05-20_
 
 Each row is one daily brief. The subtitle is the at-a-glance theme; the top alert is what was most urgent that day.
 
@@ -50,9 +50,9 @@ Each row is one daily brief. The subtitle is the at-a-glance theme; the top aler
   - ⚠️ 🔥 BURST WEEK IN TORONTO — Day 1 today (light/setup). Webinar #2 + Burst Day 2 TOMORROW. Bring the AI Growth Playbook story — LATAM has Phase 1 operationalized.
 - **2026-05-14** (Thu) — Partner Brief — Thursday, May 14 · _Toronto · AMER &amp; LATAM Scaled Burst Day 1 · Alli Stewart in the room → the PoC moment_
   - ⚠️ 🎯 TODAY'S #1 MOVE: Walk Alli Stewart through the LATAM Send Sheet + Website Analysis tab in person. Phase 1 Manual MVP shipped Monday — 48 sites diagnosed, 38/50 reached. She authored the framework. This is the live PoC window.
-- **2026-05-15** (Fri) — Partner Brief — Friday, May 15 · _Toronto · Burst Day 2 (closes 4pm) · AC 993 to CDMX 6:15pm · Hotel checkout window_
-  - ⚠️ ✈️ FLIGHT DAY: AC 993 → CDMX departs 6:15 PM, lands 11:25 PM. Burst Day 2 closes 4 PM. ≈2h window for hotel checkout + transit to YYZ. Pack tonight or before the 6:15 AM Burst session.
 - **2026-05-18** (Mon) — Partner Brief — Monday, May 18 · _Back in CDMX · 7 partner meetings (Lobo · Lab51 · TKA-Chile · Lop · Codefy · Maíz · Shopiguru) · Q3 MDF responses landing this week_
   - ⚠️ ⏰ TKA-Chile Shopify Day is T-8 (May 26). Today's 10:30 checkpoint must lock breakfast attendees, logistics, AND your 20m intro deck — all three were Francisca's open items from May 12.
 - **2026-05-19** (Tue) — Partner Brief — Tuesday, May 19 · _CDMX Day 2 · 9 partner-facing slots · conflicts at 11:00 (Sadeira ↔ Disco) and 14:30 (TKA ↔ Lop prep ↔ Andre)_
   - ⚠️ ⏰ TKA-Chile Shopify Day is T-7 (May 26). Yesterday's checkpoint locked the open items — today's 14:30 slot (if you take it) is the last weekly checkpoint before showtime. Conflicts with Lop prep + Andre block — see below.
+- **2026-05-20** (Wed) — Partner Brief — Wednesday, May 20 · _CDMX Day 3 · El Mercurio press interview kicks off · Atoms + Triciclo · Q3 MDF approvals landing all week · TKA-Chile T-6_
+  - ⚠️ 📰 8:30 AM — Chilean press interview (Entrevista Shopify · El Mercurio). 1-hour with Guillermo Vacevedo + Karla Rauch (Milimetrix). Perfect setup for Shopify Day Chile T-6. Lead with LATAM ecosystem narrative; have Lab51, TKA, Forus + Oxford in your back pocket as proof points.

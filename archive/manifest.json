@@ -306,15 +306,6 @@
     "url": "https://martinezbreton.github.io/partner-brief/archive/2026-05-14.html"
   },
   {
-    "date": "2026-05-15",
-    "weekday": "Fri",
-    "title": "Partner Brief — Friday, May 15",
-    "subtitle": "Toronto · Burst Day 2 (closes 4pm) · AC 993 to CDMX 6:15pm · Hotel checkout window",
-    "top_alert": "✈️ FLIGHT DAY: AC 993 → CDMX departs 6:15 PM, lands 11:25 PM. Burst Day 2 closes 4 PM. ≈2h window for hotel checkout + transit to YYZ. Pack tonight or before the 6:15 AM Burst session.",
-    "file": "2026-05-15.html",
-    "url": "https://martinezbreton.github.io/partner-brief/archive/2026-05-15.html"
-  },
-  {
     "date": "2026-05-18",
     "weekday": "Mon",
     "title": "Partner Brief — Monday, May 18",
@@ -331,5 +322,14 @@
     "top_alert": "⏰ TKA-Chile Shopify Day is T-7 (May 26). Yesterday's checkpoint locked the open items — today's 14:30 slot (if you take it) is the last weekly checkpoint before showtime. Conflicts with Lop prep + Andre block — see below.",
     "file": "2026-05-19.html",
     "url": "https://martinezbreton.github.io/partner-brief/archive/2026-05-19.html"
+  },
+  {
+    "date": "2026-05-20",
+    "weekday": "Wed",
+    "title": "Partner Brief — Wednesday, May 20",
+    "subtitle": "CDMX Day 3 · El Mercurio press interview kicks off · Atoms + Triciclo · Q3 MDF approvals landing all week · TKA-Chile T-6",
+    "top_alert": "📰 8:30 AM — Chilean press interview (Entrevista Shopify · El Mercurio). 1-hour with Guillermo Vacevedo + Karla Rauch (Milimetrix). Perfect setup for Shopify Day Chile T-6. Lead with LATAM ecosystem narrative; have Lab51, TKA, Forus + Oxford in your back pocket as proof points.",
+    "file": "2026-05-20.html",
+    "url": "https://martinezbreton.github.io/partner-brief/archive/2026-05-20.html"
   }
 ]
