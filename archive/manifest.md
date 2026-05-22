@@ -1,6 +1,6 @@
 # Partner Brief Archive — Manifest
 
-_39 entries · 2026-03-25 → 2026-05-21_
+_40 entries · 2026-03-25 → 2026-05-22_
 
 Each row is one daily brief. The subtitle is the at-a-glance theme; the top alert is what was most urgent that day.
 
@@ -60,3 +60,5 @@ Each row is one daily brief. The subtitle is the at-a-glance theme; the top aler
   - ⚠️ 📰 8:30 AM — Chilean press interview (Entrevista Shopify · El Mercurio). 1-hour with Guillermo Vacevedo + Karla Rauch (Milimetrix). Perfect setup for Shopify Day Chile T-6. Lead with LATAM ecosystem narrative; have Lab51, TKA, Forus + Oxford in your back pocket as proof points.
 - **2026-05-21** (Thu) — Partner Brief — Thursday, May 21 · _Pash intro live · Latech vs Nico conflict (Nico declined → Latech) · 11am mass webinar to ~130 MX agencies · Lop x Arcor enterprise · Kosmetics vs Co-Marketing conflict · TKA-Chile T-5_
   - ⚠️ ⚠️ 3 calendar conflicts today. 9:00 Latech-biweekly vs Nico-Toño (Nico already declined → go Latech, 5 attendees + Q3 MDF live). 10:00 B2B Partner Spotlight (Zaelab, 108 attendees) vs unattended DNB block (skip DNB). 13:00 Kosmetics-Moxie (Sarah Roberts AE present) vs Co-Marketing Office Hours (Lyndsay declined OOO — drop in for 15m after Kosmetics if needed).
+- **2026-05-22** (Fri) — Partner Brief — Friday, May 22 · _Q3 MDF Zift deadline EOD · TKA-Chile T-4 · Konvertti booked from yesterday's webinar (Top 50 Phase 2 signal!) · Marcelo Fischer joins partner cadence · 9:00 + 9:30 + 11:30 conflicts_
+  - ⚠️ 💸 Q3 MDF Zift deadline = TODAY EOD. Atoms (Commerce Stack MX), Latech (Grace migration $3,500), Triciclo, Moxie all should be in. Pull a final status check at 3pm. If anything still pending → ping Vicki Tone + post in #partners-team-co-marketing-help with the partner name and submission date.
