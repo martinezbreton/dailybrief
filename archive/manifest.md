@@ -1,6 +1,6 @@
 # Partner Brief Archive — Manifest
 
-_41 entries · 2026-03-25 → 2026-05-25_
+_42 entries · 2026-03-25 → 2026-05-26_
 
 Each row is one daily brief. The subtitle is the at-a-glance theme; the top alert is what was most urgent that day.
 
@@ -64,3 +64,5 @@ Each row is one daily brief. The subtitle is the at-a-glance theme; the top aler
   - ⚠️ 💸 Q3 MDF Zift deadline = TODAY EOD. Atoms (Commerce Stack MX), Latech (Grace migration $3,500), Triciclo, Moxie all should be in. Pull a final status check at 3pm. If anything still pending → ping Vicki Tone + post in #partners-team-co-marketing-help with the partner name and submission date.
 - **2026-05-25** (Mon) — Partner Brief — Monday, May 25 🇨🇱 · _Just landed Santiago 04:55 (LA 621) · Shopify Day Chile T-1 (TKA tomorrow, 20-min keynote) · Moxie Grupo Pash gets $3.5K Q3 extemporary MDF · Site audits Atoms+Buda submission due TUE · Comida partners welcome 15:45 (Lab51 + Lobo + Kickass)_
   - ⚠️ ⚠ T-1: TKA-Chile Shopify Day Tuesday — Shopify Day Prep block 10:00-12:15 today is the LAST refinement window before showtime
+- **2026-05-26** (Tue) — Partner Brief — Tuesday, May 26 🇨🇱 · _TKA-Chile Shopify Day — 20-min keynote on stage today · Minimeetup DONE (25 Chilean agencies, "very inspiring") · Joe Chung asked about Cris/Moxie intro · Andrea + Megan want a Bluebird recap · Tomorrow is the Santiago in-person partner blitz (Forus + Lab51 + Lobo + IFC + Vitamina + Atoms + VNS + Uber Direct pilot)_
+  - ⚠️ ⚠ SHOPIFY DAY CHILE = TODAY — 9:00–20:00 SCL. The 20-min keynote is what this whole week was built around.
