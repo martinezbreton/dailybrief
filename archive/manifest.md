@@ -1,6 +1,6 @@
 # Partner Brief Archive — Manifest
 
-_42 entries · 2026-03-25 → 2026-05-26_
+_43 entries · 2026-03-25 → 2026-05-27_
 
 Each row is one daily brief. The subtitle is the at-a-glance theme; the top alert is what was most urgent that day.
 
@@ -66,3 +66,4 @@ Each row is one daily brief. The subtitle is the at-a-glance theme; the top aler
   - ⚠️ ⚠ T-1: TKA-Chile Shopify Day Tuesday — Shopify Day Prep block 10:00-12:15 today is the LAST refinement window before showtime
 - **2026-05-26** (Tue) — Partner Brief — Tuesday, May 26 🇨🇱 · _TKA-Chile Shopify Day — 20-min keynote on stage today · Minimeetup DONE (25 Chilean agencies, "very inspiring") · Joe Chung asked about Cris/Moxie intro · Andrea + Megan want a Bluebird recap · Tomorrow is the Santiago in-person partner blitz (Forus + Lab51 + Lobo + IFC + Vitamina + Atoms + VNS + Uber Direct pilot)_
   - ⚠️ ⚠ SHOPIFY DAY CHILE = TODAY — 9:00–20:00 SCL. The 20-min keynote is what this whole week was built around.
+- **2026-05-27** (Wed) — 🇨🇱 Partner Brief — Wednesday, May 27 — Santiago in-person blitz day · _11:00 Forus + Lab51 joint visit (Las Condes) · 15:30 Lobo visit · 16:15 Uber Direct × Atoms pilot kickoff (Antonio DECLINED — physical Lobo conflict) · 4 days of high-signal partner work concentrated into 7 hours_
