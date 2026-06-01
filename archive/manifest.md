@@ -1,6 +1,6 @@
 # Partner Brief Archive — Manifest
 
-_44 entries · 2026-03-25 → 2026-05-28_
+_45 entries · 2026-03-25 → 2026-06-01_
 
 Each row is one daily brief. The subtitle is the at-a-glance theme; the top alert is what was most urgent that day.
 
@@ -68,3 +68,7 @@ Each row is one daily brief. The subtitle is the at-a-glance theme; the top aler
   - ⚠️ ⚠ SHOPIFY DAY CHILE = TODAY — 9:00–20:00 SCL. The 20-min keynote is what this whole week was built around.
 - **2026-05-27** (Wed) — 🇨🇱 Partner Brief — Wednesday, May 27 — Santiago in-person blitz day · _11:00 Forus + Lab51 joint visit (Las Condes) · 15:30 Lobo visit · 16:15 Uber Direct × Atoms pilot kickoff (Antonio DECLINED — physical Lobo conflict) · 4 days of high-signal partner work concentrated into 7 hours_
 - **2026-05-28** (Thu) — 🇨🇱 Partner Brief — Thursday, May 28 — Santiago day 4 · marathon-stacked day · _9:00 Propultech coffee · 9:30 Federico/Kinegun · 11:00 Lab51 AMA (11 employees at 51 Mercantil) · 12:00 Atoms × Klaviyo joint webinar · 14:30 La Fête Chocolat merchant visit (Lobo client) · 15:30 Co-Marketing Office Hours (Antonio still needsAction)_
+
+## June 2026
+
+- **2026-06-01** (Mon) — 🇲🇽 Partner Brief — Monday, June 1 — Mexico City landing · Bluebird Q2 final-call DM day · MX-Expansion tiger team activates · _07:15 Bluebird email focus block · 09:00 [HOLD] LATAM Tech Webinar 2/3 (Michelle declined — likely cancel) · 09:30 Steph 1:1 · 10:00 Amanda biweekly (CONFLICT: niklas@niklas.mx booked over Amanda) · 10:30 MM Launch Pilot NORAM PSM (Antonio still ACCEPTED — Megan told scaled to decline 5/27) · 17:00 DM block_
