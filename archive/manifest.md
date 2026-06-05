@@ -1,6 +1,6 @@
 # Partner Brief Archive — Manifest
 
-_47 entries · 2026-03-25 → 2026-06-03_
+_49 entries · 2026-03-25 → 2026-06-05_
 
 Each row is one daily brief. The subtitle is the at-a-glance theme; the top alert is what was most urgent that day.
 
@@ -74,3 +74,7 @@ Each row is one daily brief. The subtitle is the at-a-glance theme; the top aler
 - **2026-06-01** (Mon) — 🇲🇽 Partner Brief — Monday, June 1 — Mexico City landing · Bluebird Q2 final-call DM day · MX-Expansion tiger team activates · _07:15 Bluebird email focus block · 09:00 [HOLD] LATAM Tech Webinar 2/3 (Michelle declined — likely cancel) · 09:30 Steph 1:1 · 10:00 Amanda biweekly (CONFLICT: niklas@niklas.mx booked over Amanda) · 10:30 MM Launch Pilot NORAM PSM (Antonio still ACCEPTED — Megan told scaled to decline 5/27) · 17:00 DM block_
 - **2026-06-02** (Tue) — Tuesday June 2 · Partner biweekly stack day · _5 partners back-to-back 09:00–12:00 (Cluster · XPRTS · Moxie · Lop · Wualá) · Andrea 1:1 14:30 · Q2 has 4w3d left · Adena OOO 6/3–6/6_
 - **2026-06-03** (Wed) — Partner Brief — Wednesday Jun 3, 2026 · _5-partner LATAM agency biweekly stack day · Latech / Vitamina / Getmore / VNS / Triciclo · Antonio ↔ Alexis 1:1 at 12:30 (Friday MX Expansion debrief)_
+- **2026-06-04** (Thu) — Thursday · Jun 4, 2026
+  - ⚠️ 🚨 Critical · 11:30 Infracommerce ONSITE Mariano Oriozabala (CEO) + Maximiliano Dahn + Enrique Giron — same Meet for remote (mo@infracommerce.lat organizer). Likely team also: Julian Martel, Kimo Alvarado, Pablo Gomez, Marcos Villaquira (from 4/24 Michelle PSE intro). Bring: GEO/SEO playbook · ERP integration guide · agent commerce / UCP framing · Spanish webinar translations status. Michelle teased BIG announcements in 4/24 wrap.
+- **2026-06-05** (Fri) — Friday · Jun 5, 2026 · _Cristina/Moxie 8:30 · Mango 9:00 · Melissa 9:30 · Juan/Experimentality 10:00 · MercadoLibre Chile 10:30 · Kickass 11:00 · Team Check In 11:30 · Alce 11:30 · space.bar 12:30 · TGIF 13:00 — packed Friday, lean into Moxie deal momentum_
+  - ⚠️ 🚨 Critical · 8:30 Cristina Vélez (Moxie, Colombia) — DEAL MOMENTUM Julia Fielding (Shopify) organized this via Shopify Connect — likely a sales-side intro to formalize one of Cristina's recent leads. Megan flagged this yesterday: "Fingers crossed for the Moxie deal! Would be huge to get a LATAM large account win." Carry-forward from 5/25 monthly: Cristina has 9 leads from E-commerce Day, with active meetings this week with Grupo David (Adidas / Victoria's Secret LATAM franchises) and Tommy Hilfiger. June event invite in progress ("beyond commerce, new channels to grow with technology"). Q3 MDF approved $3,500 (50% of $7K asked) — Cristina learned to put per-line costs in future asks. Q4 MDF window: Aug 17 → Sept 4.

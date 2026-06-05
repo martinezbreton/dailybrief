@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Partner Brief — Thu Jun 4, 2026</title>
+<style>
+  :root {
+    --red:#c0392b; --orange:#e67e22; --blue:#2980b9; --green:#16a085;
+    --gold:#f39c12; --purple:#8e44ad; --ink:#2c3e50; --mute:#7f8c8d;
+    --bg:#fafafa; --card:#fff; --line:#ecf0f1;
+  }
+  *{box-sizing:border-box}
+  body{font:14px/1.5 -apple-system,system-ui,Segoe UI,Roboto,sans-serif;color:var(--ink);background:var(--bg);margin:0;padding:24px}
+  .wrap{max-width:1280px;margin:0 auto}
+  .banner{background:linear-gradient(135deg,#34495e,#2c3e50);color:#fff;padding:20px 24px;border-radius:8px;margin-bottom:16px}
+  .banner h1{margin:0 0 4px;font-size:20px}
+  .banner .sub{opacity:.85;font-size:13px}
+  .alerts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:20px}
+  .alert{background:var(--card);border-left:4px solid var(--mute);padding:12px 14px;border-radius:6px;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+  .alert.critical{border-color:var(--red)}
+  .alert.warning{border-color:var(--orange)}
+  .alert.info{border-color:var(--blue)}
+  .alert h3{margin:0 0 6px;font-size:12px;text-transform:uppercase;letter-spacing:.5px;color:var(--mute)}
+  .alert p{margin:4px 0;font-size:13px}
+  .alert strong{color:var(--ink)}
+  .layout{display:grid;grid-template-columns:1fr 360px;gap:20px}
+  .col h2{font-size:13px;text-transform:uppercase;letter-spacing:.5px;color:var(--mute);margin:20px 0 10px;border-bottom:1px solid var(--line);padding-bottom:6px}
+  .partner{background:var(--card);border-radius:8px;padding:16px 18px;margin-bottom:12px;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+  .partner .head{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid var(--line);padding-bottom:8px;margin-bottom:10px}
+  .partner .head h3{margin:0;font-size:15px}
+  .partner .head .time{font-size:12px;color:var(--mute);font-variant-numeric:tabular-nums}
+  .partner .badge{display:inline-block;font-size:10px;text-transform:uppercase;letter-spacing:.4px;padding:2px 6px;border-radius:3px;background:var(--line);color:var(--ink);margin-left:6px;vertical-align:middle}
+  .partner .badge.red{background:#fadbd8;color:var(--red)}
+  .partner .badge.orange{background:#fdebd0;color:var(--orange)}
+  .partner .badge.green{background:#d1f2eb;color:var(--green)}
+  .partner .badge.blue{background:#d6eaf8;color:var(--blue)}
+  .partner .badge.gold{background:#fdeaa7;color:#b7770f}
+  .partner .badge.purple{background:#e8daef;color:var(--purple)}
+  .partner h4{margin:10px 0 4px;font-size:12px;text-transform:uppercase;letter-spacing:.4px;color:var(--mute)}
+  .partner ul{margin:4px 0 0;padding-left:18px}
+  .partner li{margin-bottom:3px}
+  .partner .bubble{background:#f8f9fa;border-left:3px solid var(--blue);padding:8px 10px;border-radius:4px;font-size:12.5px;margin:8px 0;color:#34495e}
+  .partner .bubble.red{border-color:var(--red);background:#fdf2f2}
+  .partner .bubble.green{border-color:var(--green);background:#f2faf7}
+  .partner .bubble.orange{border-color:var(--orange);background:#fef6ee}
+  .partner .bubble.gold{border-color:var(--gold);background:#fef9e7}
+  .partner .bubble.purple{border-color:var(--purple);background:#f5eef8}
+  .quote{font-style:italic;color:#566573;border-left:2px solid #bdc3c7;padding-left:8px;margin:6px 0;font-size:12.5px}
+  .side{background:var(--card);border-radius:8px;padding:14px 16px;margin-bottom:12px;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+  .side h3{margin:0 0 8px;font-size:12px;text-transform:uppercase;letter-spacing:.5px;color:var(--mute);border-bottom:1px solid var(--line);padding-bottom:5px}
+  .side ul{margin:0;padding-left:16px}
+  .side li{margin-bottom:5px;font-size:12.5px}
+  .side .red{color:var(--red);font-weight:600}
+  .side .green{color:var(--green)}
+  .side .orange{color:var(--orange);font-weight:600}
+  .recap{background:var(--card);border-radius:8px;padding:16px 18px;margin-bottom:12px;box-shadow:0 1px 3px rgba(0,0,0,.05);border-top:3px solid var(--purple)}
+  .recap h3{margin:0 0 8px;font-size:14px}
+  .recap-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;font-size:12.5px}
+  .recap-grid h4{margin:0 0 4px;font-size:12px;color:var(--purple);text-transform:uppercase;letter-spacing:.4px}
+  .frame{font-size:11.5px;color:var(--mute);font-style:italic}
+  a{color:var(--blue);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .archive-link{font-size:11px;color:var(--mute);margin-top:8px;text-align:right}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="banner">
+  <h1>Thursday · Jun 4, 2026</h1>
+  <div class="sub">Cluster (Nicolás declined) 9:00 · Triciclo 10:00 (rescheduled from yesterday) · <strong>Infracommerce ONSITE 11:30</strong> · Wallet lock 11:59pm ET · Pulse Survey opens</div>
+</div>
+
+<div class="alerts">
+  <div class="alert critical">
+    <h3>🚨 Critical · 11:30 Infracommerce ONSITE</h3>
+    <p><strong>Mariano Oriozabala (CEO) + Maximiliano Dahn + Enrique Giron</strong> — same Meet for remote (mo@infracommerce.lat organizer).</p>
+    <p>Likely team also: <strong>Julian Martel, Kimo Alvarado, Pablo Gomez, Marcos Villaquira</strong> (from 4/24 Michelle PSE intro).</p>
+    <p>Bring: <strong>GEO/SEO playbook · ERP integration guide · agent commerce / UCP framing · Spanish webinar translations status</strong>. Michelle teased BIG announcements in 4/24 wrap.</p>
+  </div>
+  <div class="alert warning">
+    <h3>⚠️ Warning · 9:00 Cluster · Nicolás DECLINED</h3>
+    <p>Nicolás Cabieses (nicolas@cluster.pe) marked decline. <strong>Call may not happen</strong> — protect time for Infracommerce prep.</p>
+    <p>If it does happen: lead with <strong>Vtex migration tool internal spotlight</strong> (promised 5/21), <strong>Avinka close timing</strong> (Mat ejecutivo this Q), Toronto trip logistics.</p>
+    <p>Triciclo 10:00 — <strong>rescheduled from yesterday 11:30</strong>. Owed: <strong>15% commission investigation result</strong>. Renata pending, Juan accepted.</p>
+  </div>
+  <div class="alert info">
+    <h3>ℹ️ Today’s admin · plus Bharati signal</h3>
+    <p><strong>Wallet selections lock tonight 11:59pm ET</strong> · <strong>Pulse Survey opens today through 6/13</strong> · Adena OOO through 6/6.</p>
+    <p><strong>Bharati 5:43am</strong> (group DM): SMB at risk of missing Q2'26. <em>"we should support a partner always on Partner Powered or Sales Assist - whatever they want to do. Just need to make sure the reporting flows through."</em> → needs reply / alignment with Alli.</p>
+  </div>
+</div>
+
+<div class="layout">
+
+<div class="col">
+
+<h2>Today's calls</h2>
+
+<div class="partner">
+  <div class="head">
+    <h3>Cluster <span class="badge orange">declined</span> <span class="badge gold">PE</span></h3>
+    <div class="time">9:00–9:30 · Nicolás Cabieses</div>
+  </div>
+
+  <div class="bubble orange">
+    <strong>Status:</strong> Nicolás marked DECLINED on the invite. Antonio organized. <strong>Call likely won't happen today</strong> — but keep slot warm in case he joins, and use the time block for Infracommerce 11:30 prep otherwise.
+  </div>
+
+  <h4>If it happens — lead with these (carry-forward from 5/21)</h4>
+  <ul>
+    <li><strong>Vtex migration tool internal spotlight</strong> — Antonio promised to share the tool URL internally; tool extracts full Vtex catalog (products, metadata, images, categories) via Vtex public APIs in 2 hours, packaged as a Shopify app, $2,500, 30-day dev-store test drive. Status update owed.</li>
+    <li><strong>Avinka closing this Q</strong> — Mat ejecutivo on deal, Plus migration. Confirm timeline.</li>
+    <li><strong>Rosatel</strong> (sushi delivery chain, migrated to Vtex 10 months ago, exploring Shopify) — Nicolás had 1:30pm meeting 5/21. Outcome?</li>
+    <li><strong>Plaza Vea AI grocery comparator</strong> — handwritten lists → cart via ChatGPT integration; SAT integration for Peru electronic invoicing.</li>
+    <li><strong>Toronto trip</strong> — Martín + Daniel + Nicolás confirmed; logistics check.</li>
+    <li><strong>MDF Q4 window</strong> — late August / early September. Lock topic + venue.</li>
+  </ul>
+
+  <div class="bubble">
+    <strong>Pipeline (Cluster Plus moves):</strong> Een (Peru→Colombia expansion store unifying) · App Nutrition · Dermotienda · Calma · Avinka (closing).
+  </div>
+
+  <h4>Antonio's open commitments</h4>
+  <ul>
+    <li>Probable H2 campaign paying agencies for VTEX merchant captures — Antonio teased; clarify when more is sharable.</li>
+    <li>"Don't put Shopify in URL before first slash" — coaching noted; check if Nicolás updated landing.</li>
+  </ul>
+</div>
+
+<div class="partner">
+  <div class="head">
+    <h3>Triciclo / Revie <span class="badge gold">resched</span> <span class="badge red">15% owed</span></h3>
+    <div class="time">10:00–10:30 · Renata Raya · Juan Sotres</div>
+  </div>
+
+  <div class="bubble orange">
+    <strong>Status:</strong> Moved from yesterday 11:30 to today 10:00. Juan accepted, Renata still needsAction. <strong>No Gemini note from yesterday's slot</strong> — confirming the call didn't happen.
+  </div>
+
+  <h4>The big owe — bring up first</h4>
+  <ul>
+    <li><strong>15% commission investigation</strong> — Antonio committed to clarify. Result owed.</li>
+  </ul>
+
+  <h4>Carry-forwards from last sync</h4>
+  <ul>
+    <li><strong>Home Depot Costa Rica</strong> — status check.</li>
+    <li><strong>Flexi</strong> — 95% migration finish; what blockers on the last 5%?</li>
+    <li><strong>Alexis Salas (AZ AE) intro</strong> — confirm landed; align cadence.</li>
+    <li><strong>Discovery price decision</strong> — outcome of internal discussion.</li>
+    <li><strong>20% homologation tease</strong> — Antonio's positioning; reset expectations if needed.</li>
+  </ul>
+</div>
+
+<div class="partner">
+  <div class="head">
+    <h3>Infracommerce — ONSITE <span class="badge red">in person</span> <span class="badge purple">BIG</span></h3>
+    <div class="time">11:30–12:30 · Mariano Oriozabala (CEO) + team</div>
+  </div>
+
+  <div class="bubble red">
+    <strong>Format:</strong> Antonio physically onsite. Same meeting has a Meet link (11:30–12:20) for <strong>Mariano + Maximiliano Dahn + Enrique Giron</strong> (Mariano organizer from mo@infracommerce.lat). Expect Julian Martel, Kimo Alvarado, Pablo Gomez, Marcos Villaquira from the 4/24 PSE-intro session also present in person or remote.
+  </div>
+
+  <h4>Why this call matters — Michelle's 4/24 setup</h4>
+  <ul>
+    <li>First onsite since the Michelle PSE introduction on 4/24 — Infracommerce is comparing Shopify constantly to <strong>Vtex and Adobe Commerce</strong>. This is the "they're ready to commit deeper" check-in.</li>
+    <li>Michelle teased <strong>BIG announcements coming</strong> in the wrap of 4/24. Antonio should be ready to either share or align on what's shareable now.</li>
+  </ul>
+
+  <h4>Topics queued from 4/24 — bring something concrete on each</h4>
+  <ul>
+    <li><strong>Agent commerce / Universal Commerce Protocol (UCP)</strong> — they asked specifically. Internal positioning + roadmap timing.</li>
+    <li><strong>Custom metafields for product attributes</strong> — important for AI channel visibility. Examples / templates.</li>
+    <li><strong>GEO/SEO playbook</strong> — Michelle referenced; bring the doc / link.</li>
+    <li><strong>Knowledge-base app</strong> — discussion was open-ended last time; bring 1-2 candidate apps from app store.</li>
+    <li><strong>ERP integration guide</strong> — they wanted a reference doc; print or have URL ready.</li>
+    <li><strong>Spanish translation of webinars</strong> — pending from 4/24. Status?</li>
+  </ul>
+
+  <div class="bubble purple">
+    <strong>Frame for this visit:</strong> Infracommerce is a multi-platform agency with deep Vtex roots and Adobe Commerce muscle. The onsite is the moment to show Shopify is the platform that ships fastest on agent commerce + AI surfaces — they'll keep comparing until they see a differentiator they can sell.
+  </div>
+</div>
+
+<h2>Yesterday's recap — what came out of the 5-partner stack + Alexis</h2>
+
+<div class="recap">
+  <h3>Wed Jun 3 — what Antonio owes / what moved</h3>
+  <div class="recap-grid">
+    <div>
+      <h4>Latech (Tomás, PT)</h4>
+      <ul>
+        <li>Bot/POS hardware: Tomás needs POS hardware path (NorAm hardware ≠ AR).</li>
+        <li><strong>Greg Grill West</strong> Plus migration story: 3 Miami stores, AR Ledger (account-receivable for direct clients), bots filling carts artificially. Greg writing paper on Plus migration ROI — cliente hesitant on data.</li>
+        <li>Webinar postponed past World Cup. Marmot in dev. Shopify Day Chile 200 people.</li>
+        <li><strong>Antonio owes:</strong> "support US clients" commitment. <strong>Graciela owes:</strong> registration page + landing.</li>
+        <li>Tomás vacationing next week (still working FT), planning GW visits with Juan Cruz.</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Vitamina (Mayra, ES)</h4>
+      <ul>
+        <li>Gabi (marketing PM) on health break in June after accident.</li>
+        <li>Hot Sale results still missing.</li>
+        <li>B2B for <strong>Uniformes Bárbara</strong> via Customers/Companies panel — dev store works but plan activation needed.</li>
+        <li><strong>NEW Shopify policy ⚠️</strong> — transferring stores forces deactivating payment methods including Shopify Payments. Antonio owes context points.</li>
+        <li>Garantía / IA exclusion clause needed. World Cup 11am matches will conflict (PT/MX).</li>
+        <li>Push SEO reviews (Google's recent SEO changes). Mayra to invite Josué + Fátima next session.</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Getmore (Alejandro, PT)</h4>
+      <ul>
+        <li>Mostly personal — Vancouver Island sabbatical Oct walkthrough (ferry 45min+1.5hr+40min, sauna boat in Victoria, Marathon week, Sydney).</li>
+        <li>Q2 > Q1.</li>
+        <li><strong>Both Q3 MDF events APPROVED ✅</strong> (told Kim via WhatsApp despite mid-process PM change).</li>
+        <li>Webinar in 3 weeks on POS/unified commerce with John. Alejandro to send presencial event date.</li>
+        <li>Alejandro monitoring sauna availability for Antonio's Oct week. 1 night Vancouver confirmed.</li>
+        <li>No Q2 new-business close before 6/30 (no opps).</li>
+      </ul>
+    </div>
+    <div>
+      <h4>VNS (Ricardo, ES)</h4>
+      <ul>
+        <li><strong>BN Studios &lt;&gt; Shopify Slack Connect</strong> created — Ricardo invited Antonio + Michelle (needs admin approval).</li>
+        <li><strong>SUS payment gateway:</strong> 9-country proxy w/ distributor split-payment model. Two paths: custom gateway from Shopify (rare, needs Mat-type advocate) OR expansion stores via Mercado Pago split. Mill researching.</li>
+        <li><strong>Steamod:</strong> enable multi-entity markets, transfer to client before end June for bonus.</li>
+        <li>Saleswoman external interference reflagged.</li>
+        <li><strong>La Puisan</strong> ($250K rev 2025, $7,500/yr 0.6% + $400/mo) doesn't justify Plus YET — Antonio to check app spend for Flow native opportunities.</li>
+        <li><strong>Milly Pixel/Meta crash 🚨</strong> — Shopify Jan 14 change crashed Meta ads, sales halved. Antonio escalating — Ricardo owes full doc.</li>
+      </ul>
+    </div>
+    <div style="grid-column:1/-1">
+      <h4>Antonio / Alexis 12:30 (Friday MX Expansion debrief)</h4>
+      <div class="quote">Gemini transcript ended 00:00:09 — "not enough conversation in supported language." But Slack tells the story:</div>
+      <div class="quote"><strong>Alexis 14:46:</strong> "Gracias por la conversación y por ser un excelente terapeuta"</div>
+      <div class="quote"><strong>Alexis 15:54:</strong> "En términos de la solución de pagos, ¿qué ventajas tiene nuestro sistema frente a las opciones existentes en México? (tasas, easy check out, etc) — En cuanto a Shop Pay, ¿tenemos una base de usuarios en México que ya utilizan este método de pago y contamos con información de esos consumidores?"</div>
+      <ul>
+        <li><strong>Action ↗ Antonio owes Alexis written answers</strong> on (1) Shopify Payments MX advantages vs Stripe / Conekta / Openpay / MP — rates, easy checkout, conversion lift; (2) Shop Pay MX user base + buyer-data slice.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<div class="col">
+
+<div class="side">
+  <h3>⏱ Critical · next 48h</h3>
+  <ul>
+    <li><span class="red">Wallet lock tonight</span> 11:59pm ET — confirm picks submitted.</li>
+    <li><span class="red">Alexis payments answers</span> — Shopify Payments MX advantages + Shop Pay MX user base + buyer data. Owed since 6/3 15:54.</li>
+    <li><span class="orange">Bharati SMB reporting</span> — group DM 5:43am asks Antonio + Alli to support partners on PPS or Sales Assist <em>"whatever they want to do, just make sure reporting flows through."</em> Loop Alli today.</li>
+    <li><span class="orange">Pulse Survey opens</span> — 6/4 → 6/13 window.</li>
+    <li><span class="orange">Andrea / Kika Chile list</span> — Andrea 6/3 10:33: SFCC available <strong>until June 15</strong> for marketing-leads upload. Send Kika's list.</li>
+    <li>Adena OOO through 6/6 — don't expect partner-ops responses until 6/9.</li>
+  </ul>
+</div>
+
+<div class="side">
+  <h3>📈 Pipeline watch</h3>
+  <ul>
+    <li><strong>Avinka</strong> (Cluster) — Plus, Mat ejecutivo, closing this Q.</li>
+    <li><strong>Greg Grill West</strong> (Latech) — Plus migration paper in flight.</li>
+    <li><strong>Gran Vía</strong> — Plus eval pending (carry).</li>
+    <li><strong>Home Depot Costa Rica</strong> (Triciclo) — status.</li>
+    <li><strong>Flexi</strong> (Triciclo) — 95% migration done; last 5%.</li>
+    <li><strong>La Puisan</strong> (VNS) — Plus doesn't justify yet; Flow native angle.</li>
+    <li><strong>Milly Pixel/Meta</strong> (VNS) — escalating internally.</li>
+    <li><strong>VTEX → Shopify deal</strong> (Joe Chung / Jason Wilson) — $40M revenue partner pushing platform-fee discount; MBA negotiation in flight, DD shorthanded.</li>
+    <li><strong>Steamod</strong> (VNS) — multi-entity markets enable, transfer before end June for bonus.</li>
+    <li><strong>eCohete</strong> — Plus lock July 1 if metrics hold; POS Peninsula event w/ César + Star Micronics queued.</li>
+  </ul>
+</div>
+
+<div class="side">
+  <h3>💬 Slack inbox — needs reply today</h3>
+  <ul>
+    <li><span class="red">Alexis Perez</span> — 2 payments questions (above).</li>
+    <li><span class="red">Bharati Balakrishnan</span> — SMB reporting flow-through ask + Alli loop.</li>
+    <li><span class="orange">Alli Stewart</span> 6/3 8:52 — <em>"How was Chile!? I cant believe you ran a week long session??"</em> Quick recap reply.</li>
+    <li><span class="orange">Andrea Castillo</span> 6/3 10:33 — Kika Chile event list, SFCC marketing-leads window closes <strong>6/15</strong>.</li>
+    <li><span class="green">Bobby Dunn</span> 6/3 15:45 — <em>"You're the man!"</em> Yukan resolved ✓ no action.</li>
+    <li>Kate Chapman — Innovative SOW signature blocker still pending; Muebles El Bosque (Tempo Design, Ecuador) ghosted after Simplify proposal.</li>
+    <li>Tashna Yu — Lab51 PM ✓ resolved.</li>
+    <li>Joe Chung 6/2 15:56 — <em>"If you could help me by messaging #help-salesforce, that'd be super helpful!"</em> Salesforce error.</li>
+  </ul>
+</div>
+
+<div class="side">
+  <h3>⏰ Fellow — overdue (auto-nag)</h3>
+  <ul>
+    <li>Partner Incentive Compensation Auditing Sheet — Nov 2025.</li>
+    <li>Partner Communication — Jan 2026.</li>
+  </ul>
+</div>
+
+<div class="side">
+  <h3>📨 Channel mentions</h3>
+  <ul>
+    <li>#partners-talk — unreads queued (C0AB01B11FC).</li>
+    <li>VTEX→Shopify deal thread (Jason / Joe) — group DM.</li>
+  </ul>
+</div>
+
+<div class="side">
+  <h3>🧭 Frame</h3>
+  <p class="frame">Today is dominated by the <strong>11:30 Infracommerce onsite</strong>. The two morning blocks (Cluster declined + Triciclo rescheduled) are flexible — use the slack to prep. Two parallel writeups are owed today: <strong>Alexis MX payments answers</strong> and a <strong>Bharati SMB reporting alignment</strong> with Alli. Wallet picks tonight. Adena out — anything that needs partner-ops blocks until 6/9.</p>
+</div>
+
+<div class="side">
+  <p class="archive-link">Archive: <a href="archive/">all dated briefs</a> · <a href="archive/manifest.md">manifest.md</a></p>
+</div>
+
+</div>
+</div>
+
+</div>
+</body>
+</html>
