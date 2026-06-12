@@ -1,6 +1,6 @@
 # Partner Brief Archive — Manifest
 
-_53 entries · 2026-03-25 → 2026-06-11_
+_54 entries · 2026-03-25 → 2026-06-12_
 
 Each row is one daily brief. The subtitle is the at-a-glance theme; the top alert is what was most urgent that day.
 
@@ -91,3 +91,8 @@ Each row is one daily brief. The subtitle is the at-a-glance theme; the top aler
   - ⚠️ Warning · 11:00 Lobo maquipan.cl — yesterday's bakery-machinery client lands today. Sebastián Dagá flagged Wed: sister's friend on VTEX, considering Plus. Don't promise Q3 cashback (informal/unapproved); lead platform value. Lobo also owes Mac Online (Chilean reseller) account-owner contact ask.
   - ⚠️ Warning · 12:00 MaryFrances 1:1 vs AMER All Hands conflict. Default: MaryFrances live, All Hands recording.
   - ⚠️ Owed · Sadeira ICP/history/offer doc (use internal LATAM agency ICP agent → Robin HV w/ Daniel + Carlos review) · 47 Street analysis run → Lop · Cashback/rebate details → Lop · Stanley POS demo timing → Pablo Veliz (VNS, before end of month) · Mac Online contact → Sebastián/Lobo · Michelle Drawert MSI rate status + checkout-extension ruling.
+- **2026-06-12** (Fri) — Friday · Jun 12, 2026 · _2 Plus calls (Atoms 10:00 + Getmore 11:00) — 4th + 5th Alexis Pérez ride-alongs in 5 business days, completing the Mon Infracommerce → Wed Triciclo → Thu Dinkbit → Fri Atoms + Getmore sprint. 9:00 Brown Bag I "Listen and Learn" (52 attendees incl. Bharati's full org: Alli Stewart, Megan, Steph, Marcelo, Nassim, Michelle, Lyndsay, Vicki, Adena, Shawn, Nick, Conrad, Matt, Candice, Eric, Scott, Tiffany, Juan Jacinto, Santina, Mackenzie, Kyra, Ali, Tim, Nicole, Chantelle). Alce 11:30 + Doctor 12:00 close out the week. Thu recap: Lop Cost contract SIGNED, Dinkbit/Edgar CFDI deal-breakers, Co-Marketing Zift sunset July 10, Lobo + maquipan.cl no Gemini doc._
+  - ⚠️ 🚨 Critical · 10:00 Atoms + 11:00 Getmore — back-to-back Alexis ride-alongs, 4th and 5th in 5 days. Atoms: Riverline + Surtidor Tapicero landed Jun 9 (Plus-eligible audit program approved at $150/audit capped $6K + $1K/Plus close capped $8K, 80→40 priority list). Wed 12:00 audit review already booked. Webinar deck w/ Klaviyo + Markets + Tane pending. Cámara de Comercio routing TBD. Getmore: 2 events approved last biweekly Jun 3, unified-commerce webinar in 3 weeks w/ John, Q2 new-business bonus, October sabbatical overlap (Vancouver Island marathon + Victoria sauna).
+  - ⚠️ Warning · 9:00–10:00 Brown Bag I "Listen and Learn" — 52-person internal w/ Bharati's full org. Listen-mode session, NOT a pitch.
+  - ⚠️ Warning · 11:30 Alce — BR checkout checkpoint.
+  - ⚠️ Owed (carried) · Sadeira ICP doc · Mac Online contact (Sebastián/Lobo) · Stanley POS (Pablo Veliz, before EoM) · 47 Street analysis (Lop) · Cashback/rebate (Lop) · Michelle Drawert MSI rate + checkout-extension ruling · Lop revenue-share doc review w/ Ezequiel · Canasintra/Armando routing.
