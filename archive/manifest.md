@@ -1,6 +1,6 @@
 # Partner Brief Archive — Manifest
 
-_54 entries · 2026-03-25 → 2026-06-12_
+_55 entries · 2026-03-25 → 2026-06-15_
 
 Each row is one daily brief. The subtitle is the at-a-glance theme; the top alert is what was most urgent that day.
 
@@ -96,3 +96,8 @@ Each row is one daily brief. The subtitle is the at-a-glance theme; the top aler
   - ⚠️ Warning · 9:00–10:00 Brown Bag I "Listen and Learn" — 52-person internal w/ Bharati's full org. Listen-mode session, NOT a pitch.
   - ⚠️ Warning · 11:30 Alce — BR checkout checkpoint.
   - ⚠️ Owed (carried) · Sadeira ICP doc · Mac Online contact (Sebastián/Lobo) · Stanley POS (Pablo Veliz, before EoM) · 47 Street analysis (Lop) · Cashback/rebate (Lop) · Michelle Drawert MSI rate + checkout-extension ruling · Lop revenue-share doc review w/ Ezequiel · Canasintra/Armando routing.
+- **2026-06-15** (Mon) — Monday · Jun 15, 2026 · **The Pinflag Reckoning** · _14:00 Pinflag + Shopify (juanjose@pinflag.cl + joseignacio@pinflag.cl) — first formal pickup since Nov 20, 2025 Juanjo-Toño ask. 10:30 Pinflag CL internal solo block = prep window. 9:30 Shawn Fulham ☕ biweekly + 10:00 Amanda Bankes biweekly. Quiet weekend (no partner Slack signals Fri 7:53pm → Mon 7:51am)._
+  - ⚠️ 🚨 Critical · 14:00 Pinflag + Shopify — Juan José García (CEO) + José Ignacio. Two asks on the table from Nov 2025: (1) Pinlab → Plus partner status (feasible path), (2) Pinflag the payments/checkout product → Shopify-approved processor (still "doloroso" — payments team confirmed CLOSED on Fri Jun 12 per Antonio in #shared-shopify-vn-studios: "payment integrations are closed at the moment and has been historically one of the most painful processes"). Loaded with Nov 19, 2025 FORUS Sync history: Josh Encarnacion + Julia Cardenas flagged Pinflag's checkout as TOS-violating "checkout hijack" — cancelled Andrés Vizcarrondo's US showroom visit. Slack search confirms merchants live on Pinflag in production: Forus, Reindeer.cl, Lippioutdoor, Pronobel.cl (operationally noncompliant). Pinlab stats: 4 yrs on Shopify, 30 staff (17 engineers), 8 brands migrated incl. Limonada + Forus, 2 partner accounts still unmerged.
+  - ⚠️ 🚨 Critical · Action Owed — Atoms Alexis + César Mon follow-up call for MX market strategy (explicit Fri Jun 12 Atoms commitment, Antonio is convener).
+  - ⚠️ Warning · 10:30–11:30 Pinflag CL solo block — read as prep window for 14:00. Prep list: account-unification status, 8 migrations registered as collaborator?, current Plus client on books?, Forus's current checkout status?, anyone building Payments Partners dossier?
+  - ⚠️ Owed (carried) · Atoms MDF asset · Lab51 Bon Graven WhatsApp intro · Lop B2B Plus PDF + Arcor deck v2 · Sadeira Session 1 reschedule + recap email send · Myshopiguru Session 1 deliverable · Marketino Digital HP-2 reschedule · Codefy Javo intervene + competing-agency escalation · eCohete POS Peninsula event · EverestUP SOW v2 · Chile Minimeetup per-partner Session 1 docs (8 agencies).
