@@ -1,6 +1,6 @@
 # Partner Brief Archive — Manifest
 
-_55 entries · 2026-03-25 → 2026-06-15_
+_56 entries · 2026-03-25 → 2026-06-16_
 
 Each row is one daily brief. The subtitle is the at-a-glance theme; the top alert is what was most urgent that day.
 
@@ -101,3 +101,11 @@ Each row is one daily brief. The subtitle is the at-a-glance theme; the top aler
   - ⚠️ 🚨 Critical · Action Owed — Atoms Alexis + César Mon follow-up call for MX market strategy (explicit Fri Jun 12 Atoms commitment, Antonio is convener).
   - ⚠️ Warning · 10:30–11:30 Pinflag CL solo block — read as prep window for 14:00. Prep list: account-unification status, 8 migrations registered as collaborator?, current Plus client on books?, Forus's current checkout status?, anyone building Payments Partners dossier?
   - ⚠️ Owed (carried) · Atoms MDF asset · Lab51 Bon Graven WhatsApp intro · Lop B2B Plus PDF + Arcor deck v2 · Sadeira Session 1 reschedule + recap email send · Myshopiguru Session 1 deliverable · Marketino Digital HP-2 reschedule · Codefy Javo intervene + competing-agency escalation · eCohete POS Peninsula event · EverestUP SOW v2 · Chile Minimeetup per-partner Session 1 docs (8 agencies).
+- **2026-06-16** (Tue) — Tuesday · Jun 16, 2026 · **The Moxie Squeeze** · _Cristina Vélez Restrepo declined the 9:00 Moxie biweekly while two live Plus escalations sit on her desk. 9:30 Pickit (AR) first formal call w/ 4 attendees. 10:00 XPRTS/Dinkbit Edgar García biweekly. 10:30 Atoms × Klaviyo webinar align — MOVED UP Wed→Tue by Joselín Ramírez Mon 8:03 PM UTC; Mateo Velayos joining for Klaviyo + 10 Atoms attendees. 11:00 Escalate Ops intro w/ Celeste Lamami + Santi (Vadim Danko intro, latamcommerce.com) — Disco biweekly dead, Bruno + Marcelo both declined. 11:30 Wualá w/ César solo, Pablo Bacco declined Tue AM._
+  - ⚠️ 🚨 Critical · 9:00 Moxie — Cristina declined; Alejandro Pineda is the only Moxie attendee. Two live Plus escalations Cristina has on her desk: (1) Joe Chung pinged Antonio Mon 10:13 PT on Comodin SAS — AEG American Eagle Outfitters contract change (REQ-1914691, IC-130949, 4 brands on Dev Affiliate). Antonio replied Mon 11:24 CT "I just pinged her to action asap." (2) Julia Fielding (Plus AE) emailed Cristina Mon 11:23 ET asking her to confirm Arturo Calle online revenue — hot Plus pipeline. Use Alejandro as proxy + DM Cristina at 9:35 to confirm she has both threads.
+  - ⚠️ 🚨 Critical · Owed Deliverable — Atoms × Klaviyo webinar prep moved up Wed Jun 17 → Tue Jun 16 10:30. This IS the alignment owed from Fri Jun 12 Atoms call. Output: agenda + speaker order + landing page + post-event handoff to Alexis Pérez & Juan Navarrete. Brands to anchor: Vicky Form, Cleto Reyes, Shasa, Forever 21, Crocs. CDMX rooftop event for ~100 ppl end of June.
+  - ⚠️ Warning · NEW · 9:30 Pickit (AR) first formal call — 4 Pickit attendees: Verónica Petrocco, Sebastián Lutz, Ayelen Delgado, Daniel Alves. Logistics/lockers operator. Agreement template shared Apr 27. AR + MX expansion ask. NOT in 50-partner Mexico DB.
+  - ⚠️ Warning · NEW · 11:00 Escalate Ops intro w/ Celeste Lamami + Santi — Vadim Danko (LATAM Commerce) intro: "funcionalidades interesantes para Shopify." AR-based. NOT in 50-partner DB.
+  - ⚠️ Info · 10:00 XPRTS/Dinkbit Edgar García biweekly — continuation of Thu Jun 11 Dinkbit ↔ LATAM Sales w/ Alexis + Juan Navarrete.
+  - ⚠️ Info · 11:30 Wualá — César Aguirre solo; Pablo Bacco declined Tue AM. Read whether absence is logistical or signals disengagement.
+  - ⚠️ Owed (carried) · Pinflag Jun 15 14:00 follow-up writeup (no Gemini notes captured) · Atoms Alexis+César MX market strategy convene · Atoms MDF asset · Lab51 Bon Graven WhatsApp · Lop B2B Plus PDF + Arcor v2 · Sadeira Session 1 reschedule + recap email send · Myshopiguru Session 1 deliverable · Marketino HP-2 · Codefy Javo · eCohete POS Peninsula · EverestUP SOW v2 · Chile Minimeetup per-partner docs.
