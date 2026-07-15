@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Partner Brief — Mon Jul 13, 2026</title>
+<style>
+:root {
+  --ink:#0e1420; --ink-soft:#2b3648; --paper:#f7f8fb; --line:#e4e8ef;
+  --card:#ffffff; --muted:#5d6b82; --link:#0057ff;
+  --crit:#b3261e; --crit-bg:#fdecea;
+  --warn:#8a5a00; --warn-bg:#fff4dc;
+  --info:#1c4b8a; --info-bg:#e6efff;
+  --teal:#0f6b60; --teal-bg:#e2f6f2;
+  --win:#256b2a; --win-bg:#e8f6ea;
+  --neutral:#3b4658; --neutral-bg:#eef1f6;
+}
+* { box-sizing: border-box; }
+html, body { margin:0; padding:0; background:var(--paper); color:var(--ink); font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.wrap { max-width: 980px; margin: 0 auto; padding: 0 20px 60px; }
+.banner {
+  background: linear-gradient(135deg,#0f2540 0%,#2d4f78 60%,#5a8dc0 100%);
+  color:#fff; padding: 28px 32px; margin: 20px 0 22px; border-radius: 14px;
+  box-shadow: 0 2px 20px rgba(15,37,64,.15);
+}
+.banner .kicker { font-size: 12px; letter-spacing: .12em; text-transform: uppercase; opacity: .85; }
+.banner h1 { margin: 6px 0 6px; font-size: 26px; font-weight: 700; letter-spacing: -.01em; }
+.banner .sub { font-size: 14px; opacity: .92; }
+.banner .anchor { margin-top: 14px; padding-top: 14px; border-top: 1px solid rgba(255,255,255,.22); font-size: 14px; }
+.banner .anchor strong { font-weight: 600; }
+
+.grid { display: grid; grid-template-columns: 1fr; gap: 14px; }
+.card {
+  background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+  padding: 18px 20px;
+}
+.card h2 { margin: 0 0 12px; font-size: 15px; font-weight: 700; letter-spacing: -.005em; }
+.card h2 .count { color: var(--muted); font-weight: 500; margin-left: 6px; font-size: 13px; }
+.card p { margin: 0 0 8px; }
+.card p:last-child { margin-bottom: 0; }
+
+.alert { display: grid; grid-template-columns: 78px 1fr; gap: 14px; padding: 12px 0; border-top: 1px solid var(--line); }
+.alert:first-of-type { border-top: 0; padding-top: 4px; }
+.alert .tag {
+  align-self: start; font-size: 11px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase;
+  padding: 4px 8px; border-radius: 6px; text-align: center;
+}
+.tag.crit { background: var(--crit-bg); color: var(--crit); }
+.tag.warn { background: var(--warn-bg); color: var(--warn); }
+.tag.info { background: var(--info-bg); color: var(--info); }
+.tag.teal { background: var(--teal-bg); color: var(--teal); }
+.tag.win  { background: var(--win-bg);  color: var(--win); }
+.alert .body .headline { font-weight: 600; margin-bottom: 4px; }
+.alert .body .detail { color: var(--ink-soft); font-size: 14px; }
+
+.layer {
+  display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+  padding: 2px 6px; border-radius: 4px; margin-right: 6px; vertical-align: 1px;
+  background: var(--neutral-bg); color: var(--neutral);
+}
+.layer.owe    { background: #f2dfe7; color: #8a1849; }
+.layer.thread { background: #e6efff; color: #1c4b8a; }
+.layer.context{ background: #eef1f6; color: #3b4658; }
+.layer.history{ background: #eef1f6; color: #3b4658; }
+.layer.signal { background: #e2f6f2; color: #0f6b60; }
+.layer.risk   { background: #fdecea; color: #b3261e; }
+.layer.action { background: #fff4dc; color: #8a5a00; }
+.layer.win    { background: #e8f6ea; color: #256b2a; }
+
+ul.tight { margin: 6px 0 0; padding-left: 20px; }
+ul.tight li { margin: 3px 0; }
+.footer { color: var(--muted); font-size: 12px; margin-top: 22px; text-align: center; }
+.footer a { color: var(--muted); }
+
+.pto-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 22px; }
+@media (max-width: 700px) { .pto-grid { grid-template-columns: 1fr; } }
+.pto-grid .day { padding: 6px 0; border-top: 1px solid var(--line); }
+.pto-grid .day:first-child, .pto-grid .day:nth-child(2) { border-top: 0; padding-top: 0; }
+.pto-grid .day .d-hd { font-weight: 700; color: var(--ink); font-size: 13px; margin-bottom: 4px; letter-spacing: .01em; }
+.pto-grid .day .d-body { color: var(--ink-soft); font-size: 13.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="banner">
+    <div class="kicker">Partner Brief · LATAM Agencies</div>
+    <h1>Mon Jul 13 · Still OOO — back tomorrow · PTO catch-up</h1>
+    <div class="sub">Only anchor today: Amanda biweekly at 10:00. Ecomsur escalation is live and sitting with Kevin — worth eyes before tomorrow. Comodin closed while you were out.</div>
+    <div class="anchor"><strong>Today's meeting:</strong> 10:00 CST · Amanda ↔ Antonio biweekly (<a href="https://meet.google.com/zvq-prcp-mxe" style="color:#cfe0f5;">meet</a>)</div>
+  </div>
+
+  <div class="grid">
+
+    <div class="card">
+      <h2>Alerts <span class="count">· 4</span></h2>
+
+      <div class="alert">
+        <div class="tag crit">Critical</div>
+        <div class="body">
+          <div class="headline">L'Oréal Plus / Ecomsur escalation LIVE — ball with Kevin Sahakian</div>
+          <div class="detail">
+            <span class="layer thread">Thread</span>
+            Thu Jul 9 09:37 CST: Max Dahn → Kevin Sahakian: <em>"Doesn't exist the Ecomsur SA de CV Partner Account"</em> — blocking L'Oréal Plus production account. Kevin confirmed receipt same day 09:50 PT: <em>"Looking into it now."</em> Alan Kimo also on thread. <strong>No further movement Fri–Mon.</strong> Legal owns it, but this is the one to eyeball tomorrow morning — a stalled account creation on a Plus deal ages fast.
+          </div>
+        </div>
+      </div>
+
+      <div class="alert">
+        <div class="tag win">Win</div>
+        <div class="body">
+          <div class="headline">Comodin S.A.S. #REQ-1914691 CLOSED — 7 brands under Org 216237817</div>
+          <div class="detail">
+            <span class="layer win">Win</span>
+            Thu Jul 9 21:54 UTC: Carol Su: <em>"We are finally done with this one! BizOps has consolidated these 7 brands together under Organization 216237817. American Eagle · Esprit · Chevignon · Americanino · Naf Naf …"</em> Joe Chung acknowledged. Multi-week consolidation thread wrapped clean.
+          </div>
+        </div>
+      </div>
+
+      <div class="alert">
+        <div class="tag info">This week</div>
+        <div class="body">
+          <div class="headline">Softlimit Jul 15 9:30 + Michelle Q3 planning Jul 14 12:30</div>
+          <div class="detail">
+            <span class="layer signal">Signal</span>
+            Eric Osborne sent the Softlimit invite direct to you + <strong>ben.lord@softlimit.com</strong> Thu — clean dividend from your Jul 8 1:1 with Eric, called out as an outcome that day. Michelle's Q3 planning locked Tue 12:30 CST. Both on the calendar.
+          </div>
+        </div>
+      </div>
+
+      <div class="alert">
+        <div class="tag teal">In motion</div>
+        <div class="body">
+          <div class="headline">Three fresh intros — Undurraga (Chile Plus) needs a call this week</div>
+          <div class="detail">
+            <span class="layer action">Action</span>
+            <ul class="tight">
+              <li><strong>Undurraga × Lab51 (Chile Plus):</strong> Luis Di Meco → Nicolas Valenzuela → Magdalena + Camila (Undurraga). Nicolas open Mon 10:30 or Tue 12:30 — <strong>he travels Jul 15–23 for the Toronto Summit</strong>. Grab tomorrow's slot or wait until Jul 27.</li>
+              <li><strong>Modermo × Atoms:</strong> Andrea Suárez confirmed Sun Jul 12; Gabriela Teixeira offered <strong>Thu Jul 16 12pm</strong> — pending your confirm.</li>
+              <li><strong>Lonbali ↔ Lobo Creaciones:</strong> Your Jul 8 send landed clean, no reply yet — natural pace, no nudge needed.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>What moved Jul 9–12 <span class="count">· while you were out</span></h2>
+
+      <div class="pto-grid">
+        <div class="day">
+          <div class="d-hd">Thu Jul 9</div>
+          <div class="d-body">L'Oréal / Ecomsur escalation opened. Comodin closed. Undurraga intro landed. Softlimit invite arrived. Michelle Q3 invite arrived. Getmore webinar swap (Colchones Atlas in, Fantasías Miguel out — Shawn accepted). Commerce Stack MX MDF follow-up from Joselin Ramírez landed with lead list.</div>
+        </div>
+        <div class="day">
+          <div class="d-hd">Fri Jul 10</div>
+          <div class="d-body">Juan Sotres (Triciclo) replied to your Lievant/CAT MX push: <em>"Interesante oportunidad, gracias Toño! Lo platicamos en el próximo bi-weekly"</em> → surface at Wed 11:30 CST Triciclo/Revie biweekly. Next-gen fulfillments partner enablement kickoff ran (Gemini notes archived). Luis Di Meco chased Nikolaj (ECCO) on Lefarc August go-live.</div>
+        </div>
+        <div class="day">
+          <div class="d-hd">Sat/Sun Jul 11–12</div>
+          <div class="d-body">Studio F Mexico emails to <code>lesi@</code> + <code>madeleine@studiofmexico.com</code> <strong>bounced permanently</strong> — need a new contact. Andrea Suárez confirmed Modermo/Atoms window Sun 19:10.</div>
+        </div>
+        <div class="day">
+          <div class="d-hd">Mon Jul 13 (today, so far)</div>
+          <div class="d-body">Kate Chapman is back and handled the La Virginia LOI DocuSign reminder loop herself at 08:21 CST (apology for tech glitch, no re-engagement from you needed). Ricardo Ceci (VNS) re-pinged Michelle Drawert 13:46 UTC; Michelle replied 09:10 asking scope questions. Nicolas Valenzuela declined the Jul 17 QBR Lab51 (Toronto Summit).</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Threads &amp; reactive <span class="count">· 3</span></h2>
+
+      <div class="alert">
+        <div class="tag info">Thread</div>
+        <div class="body">
+          <div class="headline">Grupo Pash walked back — Chanelle's "contracting this month" is not real</div>
+          <div class="detail">
+            <span class="layer context">Context</span>
+            Cristina Vélez (Moxie) to Chanelle Lalonde Jul 9: <em>"No, they're still far from moving forward with Shopify. We were simply conducting a technical due diligence assessment…"</em> 6-week stall confirmed. Don't quote Pash as pipeline until Moxie escalates.
+          </div>
+        </div>
+      </div>
+
+      <div class="alert">
+        <div class="tag info">Thread</div>
+        <div class="body">
+          <div class="headline">Merchant Growth 8-agency send block from Jul 8 — all delivered</div>
+          <div class="detail">
+            <span class="layer signal">Signal</span>
+            Ads-Alchemy · Unmade · eCohete · Codefy · METARD · Konvertti · MHA · Lievant — all 8 shipped clean, plus the Lonbali↔Lobo intro. No bounces on that block (Studio F block is separate and unrelated). Now waiting for replies at natural pace.
+          </div>
+        </div>
+      </div>
+
+      <div class="alert">
+        <div class="tag warn">Risk</div>
+        <div class="body">
+          <div class="headline">LATAM Leads Report — broken every day Jul 9–13 since CRM changeover</div>
+          <div class="detail">
+            <span class="layer risk">Risk</span>
+            <em>"You lost access"</em> bounces at 02:30 UTC every single day since Jul 8. Five consecutive days broken. Worth pinging RevOps if it still fails tomorrow — you're flying blind on the leads pipeline until it's re-provisioned.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Look-ahead <span class="count">· Jul 14–17</span></h2>
+
+      <div class="pto-grid">
+        <div class="day">
+          <div class="d-hd">Tue Jul 14 · Back-to-work</div>
+          <div class="d-body">
+            9:00 Moxie biweekly · 10:00 XPRTS · 11:00 Disco (Marcelo) · 11:30 Wualá · <strong>12:30 Michelle Q3 planning</strong> · 14:30 Andre-Toño.<br>
+            Kate Chapman is officially back on the wire.
+          </div>
+        </div>
+        <div class="day">
+          <div class="d-hd">Wed Jul 15 · Heavy day</div>
+          <div class="d-body">
+            9:00 Maquipan/Lobo co-marketing · 9:00 Latech · <strong>9:30 Softlimit (Ben Lord + Eric Osborne)</strong> · 10:00 Estec intro · 10:00 AMER LATAM Monthly · 11:30 Triciclo/Revie (raise CAT MX with Juan) · 12:00 AMER Partners Q3 KO · 13:30 Partner Webinar Sync.
+          </div>
+        </div>
+        <div class="day">
+          <div class="d-hd">Thu Jul 16</div>
+          <div class="d-body">
+            9:00 Nico-Toño · 10:30 Steph 1:1 · <strong>11:00 QBR Moxie Plus</strong> · 12:00 Modermo/Atoms intro (pending confirm) · 13:30 Co-Marketing Office Hours.
+          </div>
+        </div>
+        <div class="day">
+          <div class="d-hd">Fri Jul 17</div>
+          <div class="d-body">
+            9:00 Mango biweekly · 9:30 Melissa biweekly · 10:00 Alce biweekly · 10:00 QBR Lab51 (<em>Nicolas declined — Toronto Summit</em>) · 11:00 Kickass · 11:30 Alce case study checkpoint · 13:00 TGIF LATAM Revenue.
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    Generated 2026-07-13 · <a href="./archive/">archive</a> · <a href="https://github.com/martinezbreton/dailybrief">source</a>
+  </div>
+</div>
+</body>
+</html>
