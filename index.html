@@ -2,248 +2,283 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Partner Brief — Wed Jul 8, 2026</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E📋%3C/text%3E%3C/svg%3E">
+<title>Partner Brief — Tue Jul 14, 2026</title>
 <style>
-  *{box-sizing:border-box}
-  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;margin:0;background:#f4f6f8;color:#1d2939;line-height:1.45}
-  .wrap{max-width:1240px;margin:0 auto;padding:24px}
-  .banner{background:linear-gradient(135deg,#0f2540 0%,#2d4f78 60%,#5a8dc0 100%);color:#fff;border-radius:14px;padding:22px 26px;margin-bottom:18px;box-shadow:0 4px 14px rgba(15,37,64,.18)}
-  .banner h1{margin:0 0 4px;font-size:22px;letter-spacing:.2px}
-  .banner .sub{opacity:.9;font-size:13.5px;line-height:1.55}
-  .banner .meta{margin-top:10px;font-size:12px;opacity:.78}
-  .alerts{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-bottom:18px}
-  .alert{padding:12px 14px;border-radius:10px;font-size:13px;line-height:1.45;border-left:4px solid}
-  .alert .h{font-weight:700;margin-bottom:4px;font-size:13px}
-  .alert .b{font-size:12.5px}
-  .alert.crit{background:#fff1f0;border-color:#c0392b;color:#5a1c14}
-  .alert.warn{background:#fff7e6;border-color:#d4a017;color:#5e4309}
-  .alert.info{background:#e8f1fb;border-color:#2980b9;color:#143b5e}
-  .alert.teal{background:#e6f5f1;border-color:#16a085;color:#0d4a3c}
-  .grid{display:grid;grid-template-columns:2fr 1fr;gap:18px}
-  @media(max-width:900px){.grid{grid-template-columns:1fr}.alerts{grid-template-columns:1fr}}
-  .card{background:#fff;border-radius:12px;padding:16px 18px;margin-bottom:14px;box-shadow:0 1px 3px rgba(0,0,0,.06);border-top:4px solid #34495e}
-  .card.meetings{border-top-color:#2980b9}
-  .card.execution{border-top-color:#d4a017}
-  .card.threads{border-top-color:#2980b9}
-  .card.inbound{border-top-color:#16a085}
-  .card h3{margin:0 0 4px;font-size:15px}
-  .card .time{color:#667085;font-size:12px;margin-bottom:8px;font-weight:600;letter-spacing:.3px}
-  .card .who{font-size:12.5px;color:#475467;margin-bottom:8px}
-  .card .blk{margin:7px 0;padding:8px 10px;background:#f7f9fc;border-radius:7px;font-size:12.5px;line-height:1.5}
-  .card .blk.action{background:#fff8e1;border-left:3px solid #d4a017}
-  .card .blk.owe{background:#fff1f0;border-left:3px solid #c0392b}
-  .card .blk.thread{background:#e8f1fb;border-left:3px solid #2980b9}
-  .card .blk.context{background:#f4f0fa;border-left:3px solid #7e57c2}
-  .card .blk.history{background:#eef2f6;border-left:3px solid #475467}
-  .card .blk.signal{background:#fff7e6;border-left:3px solid #d4a017}
-  .card .blk.risk{background:#fde8e8;border-left:3px solid #c0392b}
-  .card .blk.win{background:#e6f5f1;border-left:3px solid #16a085}
-  .meet{border-left:3px solid #2980b9;padding:8px 12px;margin:6px 0;background:#f7f9fc;border-radius:0 6px 6px 0}
-  .meet .mt{font-weight:700;font-size:13px;color:#0f2540;margin-bottom:2px}
-  .meet .mw{font-size:12px;color:#475467;margin-bottom:3px}
-  .meet .mn{font-size:12.5px;color:#334155;line-height:1.5}
-  .meet.hot{border-left-color:#c0392b;background:#fff7f5}
-  .meet.hot .mt{color:#7a1c14}
-  .meet.confidential{border-left-color:#d4a017;background:#fdf6e3}
-  .meet.confidential .mt{color:#5a4400}
-  .tag{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.4px;padding:2px 6px;border-radius:4px;margin-right:5px;text-transform:uppercase;vertical-align:middle}
-  .tag.owe{background:#c0392b;color:#fff}
-  .tag.thread{background:#2980b9;color:#fff}
-  .tag.context{background:#7e57c2;color:#fff}
-  .tag.history{background:#475467;color:#fff}
-  .tag.signal{background:#d4a017;color:#fff}
-  .tag.risk{background:#c0392b;color:#fff}
-  .tag.action{background:#b08400;color:#fff}
-  .tag.win{background:#16a085;color:#fff}
-  .side h3{margin:0 0 6px;font-size:15px}
-  .pill{display:inline-block;background:#eef2f6;color:#334155;font-size:11px;padding:2px 7px;border-radius:11px;margin-right:4px;font-weight:600}
-  .pill.crit{background:#fde8e8;color:#7a1c14}
-  .pill.warn{background:#fff3cd;color:#5e4309}
-  .pill.win{background:#d4eee5;color:#0d4a3c}
-  .pill.info{background:#dbeafe;color:#143b5e}
-  ul.tight{margin:6px 0;padding-left:18px}
-  ul.tight li{margin-bottom:5px;font-size:12.5px;line-height:1.45}
-  .footer{text-align:center;color:#667085;font-size:12px;margin-top:20px;padding-top:12px;border-top:1px solid #e4e7ec}
-  .footer a{color:#2980b9}
-  details{margin:6px 0}
-  summary{cursor:pointer;font-size:12.5px;color:#475467;font-weight:600;padding:4px 0}
-  summary:hover{color:#2980b9}
+:root {
+  --ink:#0e1420; --ink-soft:#2b3648; --paper:#f7f8fb; --line:#e4e8ef;
+  --card:#ffffff; --muted:#5d6b82; --link:#0057ff;
+  --crit:#b3261e; --crit-bg:#fdecea;
+  --warn:#8a5a00; --warn-bg:#fff4dc;
+  --info:#1c4b8a; --info-bg:#e6efff;
+  --teal:#0f6b60; --teal-bg:#e2f6f2;
+  --win:#256b2a; --win-bg:#e8f6ea;
+  --neutral:#3b4658; --neutral-bg:#eef1f6;
+}
+* { box-sizing: border-box; }
+html, body { margin:0; padding:0; background:var(--paper); color:var(--ink); font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.wrap { max-width: 980px; margin: 0 auto; padding: 0 20px 60px; }
+.banner {
+  background: linear-gradient(135deg,#0f2540 0%,#2d4f78 60%,#5a8dc0 100%);
+  color:#fff; padding: 28px 32px; margin: 20px 0 22px; border-radius: 14px;
+  box-shadow: 0 2px 20px rgba(15,37,64,.15);
+}
+.banner .kicker { font-size: 12px; letter-spacing: .12em; text-transform: uppercase; opacity: .85; }
+.banner h1 { margin: 6px 0 6px; font-size: 26px; font-weight: 700; letter-spacing: -.01em; }
+.banner .sub { font-size: 14px; opacity: .92; }
+.banner .anchor { margin-top: 14px; padding-top: 14px; border-top: 1px solid rgba(255,255,255,.22); font-size: 14px; }
+.banner .anchor strong { font-weight: 600; }
+
+.grid { display: grid; grid-template-columns: 1fr; gap: 14px; }
+.card {
+  background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+  padding: 18px 20px;
+}
+.card h2 { margin: 0 0 12px; font-size: 15px; font-weight: 700; letter-spacing: -.005em; }
+.card h2 .count { color: var(--muted); font-weight: 500; margin-left: 6px; font-size: 13px; }
+.card p { margin: 0 0 8px; }
+.card p:last-child { margin-bottom: 0; }
+
+.alert { display: grid; grid-template-columns: 78px 1fr; gap: 14px; padding: 12px 0; border-top: 1px solid var(--line); }
+.alert:first-of-type { border-top: 0; padding-top: 4px; }
+.alert .tag {
+  align-self: start; font-size: 11px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase;
+  padding: 4px 8px; border-radius: 6px; text-align: center;
+}
+.tag.crit { background: var(--crit-bg); color: var(--crit); }
+.tag.warn { background: var(--warn-bg); color: var(--warn); }
+.tag.info { background: var(--info-bg); color: var(--info); }
+.tag.teal { background: var(--teal-bg); color: var(--teal); }
+.tag.win  { background: var(--win-bg);  color: var(--win); }
+.alert .body .headline { font-weight: 600; margin-bottom: 4px; }
+.alert .body .detail { color: var(--ink-soft); font-size: 14px; }
+
+.layer {
+  display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+  padding: 2px 6px; border-radius: 4px; margin-right: 6px; vertical-align: 1px;
+  background: var(--neutral-bg); color: var(--neutral);
+}
+.layer.owe    { background: #f2dfe7; color: #8a1849; }
+.layer.thread { background: #e6efff; color: #1c4b8a; }
+.layer.context{ background: #eef1f6; color: #3b4658; }
+.layer.history{ background: #eef1f6; color: #3b4658; }
+.layer.signal { background: #e2f6f2; color: #0f6b60; }
+.layer.risk   { background: #fdecea; color: #b3261e; }
+.layer.action { background: #fff4dc; color: #8a5a00; }
+.layer.win    { background: #e8f6ea; color: #256b2a; }
+
+ul.tight { margin: 6px 0 0; padding-left: 20px; }
+ul.tight li { margin: 3px 0; }
+.footer { color: var(--muted); font-size: 12px; margin-top: 22px; text-align: center; }
+.footer a { color: var(--muted); }
+
+.mtg-row { display: grid; grid-template-columns: 96px 1fr; gap: 12px; padding: 6px 0; border-top: 1px dashed var(--line); font-size: 14px; }
+.mtg-row:first-of-type { border-top: 0; padding-top: 0; }
+.mtg-row .t { color: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
+.mtg-row .n { color: var(--ink-soft); }
 </style>
 </head>
 <body>
 <div class="wrap">
   <div class="banner">
-    <h1>Wed Jul 8, 2026 · 🚀 CRM Landing 9:00 · 📩 Merchant Growth send-8 9:30 · 🤝 Eric Osborne 14:30</h1>
-    <div class="sub">12-meeting day, meetings-first: Lonbali first-touch 8:30 → CRM Landing Session (Salesforce sunset, ~120 attendees) 9:00 → Merchant Growth 8-agency send block 9:30 → Lab51 / Lobo / IFC / Atoms back-to-back through noon → Partner Webinar Sync with Getmore 13:30 → VNS 14:00 → <b>Eric Osborne 1:1 14:30</b> (net-new). Threads landed with answers: Escalate/Fin API dump, Space.bar Plus-multimarca, Pinflag tier ping. Balloon+Coppel Payments boundary confirmed. Cluster/Avinka stalled on Peru election; La Virginia LOI signed but Kate OOO.</div>
-    <div class="meta">Generated 2026-07-08 · Local time America/Mexico_City · Antonio's brief</div>
-  </div>
-
-  <div class="alerts">
-    <div class="alert warn">
-      <div class="h">🚀 CRM Landing Session — 9:00, partnerships tool migration off Salesforce</div>
-      <div class="b">Lauren Karpman leading. ~120 accepted incl. Alli, Eric Osborne, Marcelo Fischer, Niklas Arsenault, Kyra (declined). Recorded. Track how partner referrals + deal registration will surface in the new CRM — direct impact on daily workflow.</div>
-    </div>
-    <div class="alert crit">
-      <div class="h">🤝 Eric Osborne 1:1 — 14:30, net-new invite dropped yesterday</div>
-      <div class="b">Eric organized a 30-min connect. First direct 1:1. Come with a crisp view of LATAM Q3: Top-40 sprint status, Advanced→Plus pipeline (Merchant Growth), Partner Incentive rollout, and 1-2 clear asks.</div>
-    </div>
-    <div class="alert info">
-      <div class="h">📩 9:30 send block — 8 Merchant Growth emails ready in Drafts</div>
-      <div class="b">Ads-Alchemy, Unmade, eCohete, Codefy, Konvertti, METARD, MHA, Lievant. 6 are first-ever-referral agencies held pending Q3 incentives. Review + send in one push, then log to Scaled Activities.</div>
-    </div>
-    <div class="alert teal">
-      <div class="h">🟢 Threads landed with answers — 3 replies to advance today</div>
-      <div class="b">Escalate/Celeste: full Fin API dump (Admin GraphQL + Catalog, webhooks, 45 languages, all-plans, revenue-share model coming). Space.bar/Alfredo: sent Plus-multimarca answers 17:16. Pinflag/Joche: pinging on 3 tier-update tickets since Jun 25.</div>
-    </div>
-    <div class="alert warn">
-      <div class="h">⚠ LATAM Leads Report — Day 2 broken ("You lost access to the report")</div>
-      <div class="b">Auto-report interrupted Jul 7 02:30 and Jul 8 02:30 — access revoked, need to find the report owner and request access back. 1,351 records / 1,147 converted / 344 SF customers was last known state (Jul 1).</div>
-    </div>
+    <div class="kicker">Partner Brief · LATAM Agencies</div>
+    <h1>Tue Jul 14 · Back from PTO · MDF Q4 window PULLED 3 weeks earlier · 5 partner biweeklies stacked</h1>
+    <div class="sub">The story of the week landed while you were out: Vicki Tone moved the Q4 MDF submissions window from Aug 17–Sep 4 to <strong>Jul 27–Aug 12</strong>. Partners need to hear it this week — no Mozart email is going out, PSMs own the comms. Meanwhile 5 back-to-back partner biweeklies + Michelle Q3 planning fill 9:00–15:00.</div>
+    <div class="anchor"><strong>Today's stack:</strong> 09:00 Moxie (<a href="https://meet.google.com/hcq-fizj-tnc" style="color:#cfe0f5;">meet</a>) · 10:00 XPRTS/Dinkbit (<a href="https://meet.google.com/jqa-aprd-jsg" style="color:#cfe0f5;">meet</a>) · 11:00 Disco/Marcelo (<a href="https://meet.google.com/kzm-imfb-ozx" style="color:#cfe0f5;">meet</a>) · 11:30 Wualá (<a href="https://meet.google.com/gez-snwf-ndx" style="color:#cfe0f5;">meet</a>) · 12:30 Michelle Q3 planning (<a href="https://meet.google.com/qaw-qtqu-ego" style="color:#cfe0f5;">meet</a>) · 14:30 Andre-Toño (<a href="https://meet.google.com/bik-xzxu-qfj" style="color:#cfe0f5;">meet</a>)</div>
   </div>
 
   <div class="grid">
-    <div class="main">
 
-      <div class="card meetings">
-        <h3>📅 Meetings — Wed Jul 8 (12 events, heaviest day of the week)</h3>
-        <div class="who">Order below is time-ordered. Two 13:00 conflicts: Shopify&lt;&gt;Atoms (tentative) vs Partner Webinar Sync (accepted).</div>
+    <div class="card">
+      <h2>Alerts <span class="count">· 4</span></h2>
 
-        <div class="meet"><div class="mt">08:25 · Run VS Daily Pulse</div><div class="mn">5-min self-block. No prep.</div></div>
-
-        <div class="meet hot"><div class="mt">08:30 · Lonbali &lt;&gt; Shopify LATAM 🆕 first-touch</div>
-          <div class="mw">Marí Riva (accepted), Marc García (accepted), Miriam Germain (declined). Meet: nac-shdb-irb</div>
-          <div class="mn"><span class="tag context">CONTEXT</span> Spanish brand expanding into Chile — Expansion Store project. Consulta: sistemas de inventario, devoluciones y SGA. Intro landed via Laura Martin (who is OOO until Jul 13).<br>
-          <span class="tag action">ACTION</span> Discovery-first: their tech stack, inventory model (single vs multi-warehouse), returns flow, WMS incumbent, and Plus vs Advanced fit. Marí confirmed "nos vemos mañana" 17:29 CEST.</div></div>
-
-        <div class="meet confidential"><div class="mt">09:00 · 🚀 CRM Landing Session — Partnerships</div>
-          <div class="mw">Lauren Karpman org · ~120 attendees · Recorded · Meet: ofn-kwbn-vxq</div>
-          <div class="mn"><span class="tag signal">SIGNAL</span> Salesforce is being replaced. This session covers what changed for partners: how referrals + deal registration + partner activity land in the new CRM. Direct blast radius on LATAM Leads Report (currently broken — probably related to this migration).<br>
-          <span class="tag action">ACTION</span> Take notes on referral-tracking + deal-reg flows; ask post-session about the LATAM Leads Report subscription that broke Jul 7.</div></div>
-
-        <div class="meet hot"><div class="mt">09:30 · 📩 Send Merchant Growth partner emails — 8 agencies</div>
-          <div class="mw">Self-block · Drafts already queued · No attendees</div>
-          <div class="mn"><span class="tag action">ACTION</span> Review + send in order: Ads-Alchemy (pm.campos), Unmade (alfredo@unmade.mx), eCohete (carlos@ecohete.com), Codefy (hello@codefy.com.mx), Konvertti (contact@konvertti.com), METARD (edgarmade@gmail.com), MHA (memo@mhaconsulting.mx), Lievant (fabian@lievant.com). Log all 8 to Scaled Activities sheet after send.</div></div>
-
-        <div class="meet"><div class="mt">09:45 · Lab51 biweekly (Nicolas Valenzuela)</div>
-          <div class="mw">Confirmed 14:45 UTC · Meet: qpk-ocgu-okc</div>
-          <div class="mn"><span class="tag thread">THREAD</span> Fresh Undurraga Wine Group referral from Luis Di Meco yesterday — VTEX→Advanced migration, Lab51 said yes 15:39. Ask Nicolas how the connection landed and timeline expectations.</div></div>
-
-        <div class="meet"><div class="mt">10:00 · Lobo bisemanal (Frida Moreno + Sebastián Daga)</div>
-          <div class="mw">Meet: nbj-oskf-dwb · Sebastián needsAction</div>
-          <div class="mn"><span class="tag context">CONTEXT</span> Maquipan intro accepted for Jul 15. Standing bi-weekly on Chile-focused pipeline.</div></div>
-
-        <div class="meet"><div class="mt">10:30 · IFC biweekly — Maxi Dahn + Daniela + Pablo Gomez</div>
-          <div class="mw">Meet: sfh-wndu-wuf · Chile + regional squad</div>
-          <div class="mn"><span class="tag thread">THREAD</span> Standing biweekly. Bring status on any active pipeline; ask about deal reg workflow moves once new CRM is live.</div></div>
-
-        <div class="meet"><div class="mt">11:30 · Atoms bisemanal (César Basurto)</div>
-          <div class="mw">Meet: niu-vcoo-xzw · Fellow notes: BXRX22QGHC9B</div>
-          <div class="mn"><span class="tag thread">THREAD</span> Recurring 1:1. Liz Minelli audit draft sitting in Drafts from yesterday (17:26) — ready to send to Abraham + Salomón with César cc'd; ask César to review before send.<br>
-          <span class="tag context">CONTEXT</span> Cesar-Joe intro carry from Jul 7 still open.</div></div>
-
-        <div class="meet"><div class="mt">13:00 · Shopify &lt;&gt; Atoms — ⚠ conflict (tentative)</div>
-          <div class="mw">Andrea org · César, Joe Chung, Antonio (tentative) · Meet: vsy-tiku-nnq</div>
-          <div class="mn"><span class="tag risk">CONFLICT</span> Overlaps with 13:30 Webinar Sync. Antonio marked tentative Jul 7 14:46. Joe Chung is on it — safe to drop if Atoms bilateral is not net-new content; confirm with César during 11:30.</div></div>
-
-        <div class="meet"><div class="mt">13:30 · Partner Webinar Sync — Getmore</div>
-          <div class="mw">Shawn Fulham + Colin Sinclair + Luis Di Meco + Alejandro Moreno + Kim (Getmore) · Meet: pbg-anyf-arx</div>
-          <div class="mn"><span class="tag context">CONTEXT</span> Standing webinar co-planning with Getmore. Goltan (organizer) declined. Held after prior Konvertti webinar signal that self-bookings don't convert without a confirmation touch — bring this if webinar tactics come up.</div></div>
-
-        <div class="meet"><div class="mt">14:00 · VNS biweekly (Ricardo Ceci + Pablo Veliz)</div>
-          <div class="mw">Meet: qyt-dunv-mhk</div>
-          <div class="mn"><span class="tag thread">THREAD</span> Ricardo's test-orders question got resolved yesterday — Michelle Drawert recommended Bogus Gateway swap for the offline-payment testing edge. VN Studios reply-all carry from Jul 7 brief still open; confirm nothing else stuck.</div></div>
-
-        <div class="meet hot"><div class="mt">14:30 · 🤝 Eric Osborne 1:1 — net-new</div>
-          <div class="mw">Eric org · Meet: qtg-rsqb-rfp · Invite dropped Jul 7 19:10 UTC</div>
-          <div class="mn"><span class="tag signal">SIGNAL</span> First direct 1:1. Eric attends CRM Landing 9:00 — this is presumably a broader touch, not just CRM.<br>
-          <span class="tag action">PREP</span> Anchor points: (1) Top-40 sprint — 3 partners through Session 1 (Codefy, Maíz, eCohete); (2) Merchant Growth Advanced→Plus batch just launched today; (3) Partner Incentive rollout status in MX/LATAM; (4) H2 Partner Matchmaking (co-championed w/ Alli); (5) 1-2 asks: LATAM Leads Report access + CRM referral-tracking clarity.</div></div>
+      <div class="alert">
+        <div class="tag warn">Action</div>
+        <div class="body">
+          <div class="headline">Q4 MDF submissions window MOVED — Jul 27–Aug 12 (was Aug 17–Sep 4)</div>
+          <div class="detail">
+            <span class="layer action">Action</span><span class="layer signal">Signal</span>
+            Fri Jul 10 Vicki Tone broadcast to #partners-team-amer-latam (<a href="https://shopify.enterprise.slack.com/archives/C0A9RH1EX9R/p1783703840893319">permalink</a>): three announcements from co-marketing office hours: (1) <strong>Zift One is retained</strong> — not sunset Jul 10 as originally planned; (2) <strong>Q4 dates pulled ~3 weeks earlier</strong> — Jul 27–Aug 12 submissions in Zift, Aug 13–21 review, Aug 24–28 leadership review, week of Aug 31 partner notifications; (3) partner comms (Slack + email) "early next week" from Marketing. Because Mozart email isn't going out, <strong>PSMs own communicating the new dates</strong> — Vicki explicitly asks for this. Antonio was tagged on the FYI thread. Backdrop: Wed Jul 9 Vicki's proposal in #proj-comarketing-tooling got sign-off (<a href="https://shopify.enterprise.slack.com/archives/C0ANDFY3YKZ/p1783608078503909">permalink</a>). Practical read: Top 40 partners need to know they now have 2.5 weeks to prep Q4 co-marketing plans instead of 6 — bring it up in every biweekly this week (Moxie, XPRTS, Disco, Wualá today; Latech Wed; Getmore Thu-16).
+          </div>
+        </div>
       </div>
 
-      <div class="card threads">
-        <h3>🧵 Threads to advance today</h3>
-
-        <div class="blk thread"><b>Escalate Ops / Fin (Celeste Lamami)</b> — 17:47 ART yesterday, full Fin technical answers. APIs: Admin GraphQL + Catalog + webhooks; multi-currency in review; 45 languages; available on ALL plans (not just Plus); revenue-share model coming from Santi (CEO) start of next week. Piloto with any partners OK, no volume floor. Pets Table = Shopify+Fin reference (1500-2000 convos/mo). Cases: Whoop, Rebag, Meroda (+3.4% rev), Ninja Transfers (+20% AOV).
-        <br><span class="tag action">ACTION</span> Reply to align call this week or next. Ping when Santi's revenue-share terms land.</div>
-
-        <div class="blk thread"><b>Balloon Group / Coppel Payments (Matias Poso)</b> — Matias replied 03:06 UTC "Mañana tenemos sesión con Coppel y le planteamos esto." Coppel session is TODAY (Jul 8). Antonio's boundary letter (Jul 2) laid out: PPP process only, no influence, apply via www.shopify.com/paymentsplatformapplication.
-        <br><span class="tag win">WIN</span> Boundary held clean. Balloon acknowledged and is going into Coppel with correct expectations.</div>
-
-        <div class="blk thread"><b>Space.bar / Alfredo Martínez</b> — Antonio replied 17:16 CST yesterday to Plus-multimarca + POS technical questions. Alfredo is advancing a Plus lead. Await his next response before next follow-up.
-        <br><span class="tag context">CONTEXT</span> Space.bar was one of 3 new inbounds from Jul 7 brief; now in play.</div>
-
-        <div class="blk thread"><b>Pinflag / Jose Ignacio López (Joche)</b> — 13:11 UTC yesterday, pinging on 3 tickets: 63719505 (tier update), 68547393 (Lippi/Andes Brands referral credit), 68547433 (Nacional/Artel referral credit). Last Antonio reply was Jun 23. Also carries: Payments (paymentspartners@shopify.com), Partner Plus validation, Brazil pasarela benchmark ask, ecosystem intros.
-        <br><span class="tag owe">OWE</span> 12 days silent. Reply today with status on the 3 tickets and where the tier validation stands.</div>
-
-        <div class="blk thread"><b>Cluster / Avinka (Nicolás Cabieses via Matt Giannone)</b> — Nicolás replied 14:49 CST: reached out to Diana multiple times, no reply. Peru election just wrapped days ago — political landscape was slowing strategic decisions. Nicolás will retry Diana this week.
-        <br><span class="tag context">CONTEXT</span> Peruvian Plus opportunity, VTEX→Plus. Cluster proposed $16K implementation (down from $28K); Matt offered $6.9K credit for 3-yr term.</div>
-
-        <div class="blk thread"><b>Comodin S.A.S. — Contract Changes (REQ-1914691)</b> — Joe Chung confirmed twice yesterday: Chevignon + ESPIRIT are unconfigured, Jason verified no SAML / no verified domain. Helpdesk (Carol Su) has what she needs.
-        <br><span class="tag history">HISTORY</span> Long-standing merchant migration. Pending Helpdesk action; no touch owed today.</div>
-
-        <div class="blk thread"><b>Undurraga Wine Group / Lab51 (Luis Di Meco intro)</b> — Luis fresh-intro'd Nicolas Valenzuela yesterday for a VTEX→Advanced migration quote. Nicolas said yes 15:39 CST — "Ponme en contacto con ellos". Luis to bridge.
-        <br><span class="tag signal">SIGNAL</span> Fresh Chile pipeline. Watch for close-loop today at Lab51 9:45.</div>
+      <div class="alert">
+        <div class="tag crit">Risk</div>
+        <div class="body">
+          <div class="headline">Comodin S.A.S. RE-OPENED — merchant disputes Plus upgrade, ball back with Carol Su</div>
+          <div class="detail">
+            <span class="layer risk">Risk</span><span class="layer thread">Thread</span>
+            Yesterday Mon Jul 13 11:23 EDT Joe Chung added new comment to #REQ-1914691 (<a href="mailto:shopify_helpdesk@helpdesk.shopify.com">helpdesk</a>): <em>"The merchant says their stores haven't been upgraded to Plus. Can you please check for us? If the stores have been consolidated under a master Plus store, would all the stores have to be closed?"</em> This is the same ticket Carol Su declared closed Thu Jul 9 21:54 with the 7-brand Org 216237817 confirmation. Merchant is now questioning it. Antonio is cc'd, Jason Wilson primary. Joe is asking two things: (a) verify the actual Plus upgrade status, (b) confirm what closure of legacy stores looks like post-consolidation. <strong>Wait 24h for Carol before nudging</strong> — this hit her Monday afternoon and BizOps needs internal verification time. If no Carol reply by Wed midday, ping Jason to escalate. Real risk here is a "closed win" that unravels — Comodin is 7 brands, high visibility internally.
+          </div>
+        </div>
       </div>
 
-      <div class="card inbound">
-        <h3>🟢 Wins + fresh signal</h3>
-        <div class="blk win"><b>Balloon/Coppel</b> — clean boundary respected, Matias thanked and is going into Coppel session today with correct process framing.</div>
-        <div class="blk win"><b>Lonbali</b> — Marí Riva confirmed intro meeting for 8:30 in &lt;24 hours from Laura Martin's referral; Marc García also accepted.</div>
-        <div class="blk win"><b>Lab51</b> — Nicolas said yes to Undurraga Wine Group referral within hours of Luis Di Meco's intro.</div>
-        <div class="blk signal"><b>Sep 28 MEX-BOG</b> — Colombia trip flight confirmed (Navan CEZPMT), Aeromexico loyalty pending on Flair leg (Navan D2IHSLLPX).</div>
-        <div class="blk signal"><b>Summit border-crossing letter</b> — Travel document received for Canada Summit entry.</div>
+      <div class="alert">
+        <div class="tag info">Thread</div>
+        <div class="body">
+          <div class="headline">L'Oréal Plus × Ecomsur — Day 5 silent, Kevin Sahakian ball</div>
+          <div class="detail">
+            <span class="layer thread">Thread</span><span class="layer history">History</span>
+            Thu Jul 9 09:37 CST Max Dahn (Infracommerce) → Kevin Sahakian: <em>"Doesn't exist the Ecomsur SA de CV Partner Account"</em> blocking L'Oréal Plus production. Kevin acked same day 09:50 PT <em>"Looking into it now."</em> Alan Kimo on thread. <strong>Fri Jul 10 → Mon Jul 13: no visible movement.</strong> Now Day 5. This isn't Antonio's ball but it's the highest-value stalled thread across LATAM Plus — L'Oréal is a marquee logo. Quick DM to Kevin today (post-Moxie, pre-Q3-Michelle) to check status won't be out of line. If still stuck by EOW, worth flagging on Wed's AMER & LATAM Monthly.
+          </div>
+        </div>
+      </div>
+
+      <div class="alert">
+        <div class="tag win">Win</div>
+        <div class="body">
+          <div class="headline">Getmore locks Colchones Atlas for August webinar — Shawn's sync moved Thu Jul 16 12:30 EDT</div>
+          <div class="detail">
+            <span class="layer win">Win</span><span class="layer signal">Signal</span>
+            Yesterday Mon Jul 13 16:32 CST Kim Ahumada confirmed to Shawn Fulham: <em>"Yes! It will be awesome :) Thank you so much for changing the day and time!"</em> — closes the Fantasías Miguel dropout swap from last Thu. Webinar sync bumped to Thu Jul 16 12:30 EDT (Antonio + Kim + Ale + Luis Di Meco + Goltan). One yellow flag: Ale Moreno declined the Getmore biweekly for Fri Jul 24 (same day the sync landed) — this is the second Getmore biweekly declined in a row from Ale; Kim carrying the relationship solo. Track for pattern but don't press yet — webinar coordination is going well, and Getmore has been consistently high-engagement (Fantasías→Atlas swap in <48h is strong signal).
+          </div>
+        </div>
       </div>
 
     </div>
 
-    <div class="side">
+    <div class="card">
+      <h2>Today's meetings <span class="count">· 6 partner touches + OOO tail</span></h2>
 
-      <div class="card">
-        <h3>📌 Carry watchlist</h3>
-        <ul class="tight">
-          <li><span class="pill warn">Day 8</span> <b>La Virginia LOI</b> — Florencia signed Jul 1 in DocuSign, still getting reminders Jul 6. Kate OOO until Jul 13, Cassie Handrahan is backup. Ping Cassie today to confirm DocuSign closure.</li>
-          <li><span class="pill warn">Day 2</span> <b>LATAM Leads Report</b> — access broken twice (Jul 7 + Jul 8 02:30 UTC). Owner lookup + reinstate needed; likely CRM migration side-effect.</li>
-          <li><span class="pill crit">OWE</span> <b>Pinflag tier tickets</b> — 12 days since last reply. 3 tickets pending: 63719505 / 68547393 / 68547433.</li>
-          <li><span class="pill info">Ship</span> <b>Liz Minelli audit</b> — draft ready in Drafts (Abraham + Salomón + César). Ask César to review at 11:30, send after.</li>
-          <li><span class="pill info">Coord</span> <b>Escalate call</b> — schedule this week / next; wait for Santi's revenue-share terms first.</li>
-          <li><span class="pill info">Track</span> <b>Cluster/Avinka</b> — Nicolás retrying Diana this week post-election. Passive.</li>
-          <li><span class="pill">OOO</span> Kate Chapman (til Jul 13), Laura Martin (til Jul 13, ref Marc Lerma), Alexis Katigbak Jul 10 fulfillments kickoff declined.</li>
-        </ul>
+      <div class="mtg-row">
+        <div class="t">09:00 CST</div>
+        <div class="n"><strong>Moxie ↔ Shopify biweekly</strong> — Alejandro Pineda ✓, Cristina Vélez declined. Carry: Grupo Pash confirmed stalled (Cristina told Chanelle Jul 9 "still far from moving forward"). Chanelle's Mon 11:49 EDT reply proposes Shopify intro for Grupo Pash trust-building. Also carry: <strong>MDF Q4 dates moved</strong> — Moxie is your steadiest MDF submitter, they need the new deadline now.</div>
       </div>
-
-      <div class="card">
-        <h3>⚙ Ops housekeeping</h3>
-        <ul class="tight">
-          <li>Log the 8 Merchant Growth sends to Scaled Activities sheet after 9:30 block.</li>
-          <li>Ricardo/VNS testing question resolved by Michelle (Bogus Gateway) — nothing owed there.</li>
-          <li>Next Gen Fulfillments kickoff Jul 10 — Antonio declined (OOO).</li>
-          <li>Fastforward.ai / Balloon acquisition context — Cristian Camelli on the Coppel thread now too.</li>
-        </ul>
+      <div class="mtg-row">
+        <div class="t">10:00 CST</div>
+        <div class="n"><strong>XPRTS/Dinkbit ↔ Shopify biweekly</strong> — Edgar Ortiz ✓. Edgar's Wed Jul 8 17:01 email: needs Agentic Commerce recurso for late-July speaking slot. Answer live today — either point at Shopify.dev docs + Shopify Magic case studies, or offer to route through Marketing/Comms. Also: MDF Q4 dates. XPRTS is on the Partner Incentive Program first-wave send list.</div>
       </div>
-
-      <div class="card">
-        <h3>🗓 Look-ahead — this week</h3>
-        <ul class="tight">
-          <li><b>Thu Jul 9</b> — no major anchors in view yet; likely space for La Virginia + Pinflag follow-through.</li>
-          <li><b>Fri Jul 10</b> — Fulfillments kickoff (declined). Maxi (was moved to Fri).</li>
-          <li><b>Wed Jul 15</b> — Maquipan // Lobo // Shopify 11:00 GMT-4 (accepted yesterday).</li>
-        </ul>
+      <div class="mtg-row">
+        <div class="t">11:00 CST</div>
+        <div class="n"><strong>Disco ↔ Shopify biweekly</strong> (with Marcelo Fischer) — Bruno Berezaga declined, Marcelo declined. Just Antonio + Disco. Watch for whether this becomes a Marcelo carry — 2 declines in a row from him breaks the co-owned pattern.</div>
       </div>
-
-      <div class="card">
-        <h3>📎 Fast links</h3>
-        <ul class="tight">
-          <li><a href="https://docs.google.com/spreadsheets/d/18kNhR9l93cF-eHSbDOJDdYiPkdJIWmUgCuApKjjOvuo/edit">BoB Toño 2026</a></li>
-          <li><a href="https://martinezbreton.github.io/dailybrief/archive/">Brief archive</a></li>
-          <li>Repo: martinezbreton/dailybrief</li>
-        </ul>
+      <div class="mtg-row">
+        <div class="t">11:30 CST</div>
+        <div class="n"><strong>Wualá biweekly</strong> — César Aguirre ✓, Pablo Bacco ✓. Fresh eCohete/POS Peninsula context (César is central to the POS event push). MDF Q4 dates. Also revisit the "Plus partner status Jul 1" milestone — did metrics hold?</div>
+      </div>
+      <div class="mtg-row">
+        <div class="t">12:30 CST</div>
+        <div class="n"><strong>Antonio / Michelle — Q3 planning</strong> — Michelle Drawert organizer. Direct dividend from Fri Jul 10 booking. Bring: (a) Top 40 coaching sprint status (Codefy, Maíz, eCohete through Session 1); (b) Merchant Growth upgrades doc / Partners tab; (c) Partner Matchmaking H2 three-pillar (Alli-championed); (d) MDF Q4 shift.</div>
+      </div>
+      <div class="mtg-row">
+        <div class="t">14:30 CST</div>
+        <div class="n"><strong>Andre-Toño</strong> — Andrea Castillo ✓. Weekly 1:1. Fresh from Q3 Michelle session — good time to talk Partner Incentive Program rollout status on the Top 40 send list.</div>
+      </div>
+      <div class="mtg-row">
+        <div class="t">All-day</div>
+        <div class="n"><em>OOO event tail from yesterday still on calendar (started Mon 00:00, ends today 00:00 — should have cleared, cosmetic only).</em></div>
       </div>
 
     </div>
+
+    <div class="card">
+      <h2>Threads owed / in motion <span class="count">· 6</span></h2>
+
+      <div class="alert">
+        <div class="tag teal">Signal</div>
+        <div class="body">
+          <div class="headline">Wati.io — Daniel Da Cas reopens LATAM partnership dialogue</div>
+          <div class="detail">
+            <span class="layer signal">Signal</span>
+            Mon Jul 13 19:45 CEST Daniel Da Cas → Antonio + Ricardo Fogos (Clare.ai): <em>"Ha pasado un tiempo desde nuestra última conversación, y quería retomar el contacto. Sigo muy enfocado en fortalecer la relación entre Wati y el ecosistema de partners de..."</em> — cross-partner reintro pattern (Clare.ai looped in). WhatsApp/WATI is a live ecosystem gap for MX/LATAM merchants. Reply this week with a call slot; potential Top 40-adjacent tool partner (not agency but conversation-layer).
+          </div>
+        </div>
+      </div>
+
+      <div class="alert">
+        <div class="tag teal">Win</div>
+        <div class="body">
+          <div class="headline">Varone Fragances × Kashti Joshi — intro landed clean, warm reply</div>
+          <div class="detail">
+            <span class="layer win">Win</span>
+            You sent this at 08:17 CST this morning; Kashti Joshi (CS) replied 10:25 EDT: <em>"Thanks for the introduction, Toño. Hi Kim and Ale, It is great to meet you both! I am really looking forward to working together and supporting Varone Fragances."</em> Clean handoff to CS — Kim + Ale have a dedicated Shopify contact now for Varone. Filed away, no further action.
+          </div>
+        </div>
+      </div>
+
+      <div class="alert">
+        <div class="tag info">Thread</div>
+        <div class="body">
+          <div class="headline">Triciclo — Juan Sotres wants Lievant/CAT MX Plus discussion in today's biweekly</div>
+          <div class="detail">
+            <span class="layer thread">Thread</span>
+            Fri Jul 10 11:39 CST Juan Sotres replied to your Jul 8 push on Lievant/Triciclo CAT MX Plus: <em>"Interesante oportunidad, gracias Toño! Lo platicamos en el próximo bi-weekly."</em> That biweekly is <strong>Wed Jul 15 11:30 CST</strong>. Prep: pull latest Lievant/CAT MX numbers from Merchant Growth Partners tab, thread it back to Rebeca and Juan tomorrow morning.
+          </div>
+        </div>
+      </div>
+
+      <div class="alert">
+        <div class="tag info">Thread</div>
+        <div class="body">
+          <div class="headline">VN Studios — Michelle answered scope Qs; Ricardo's ball</div>
+          <div class="detail">
+            <span class="layer thread">Thread</span>
+            Mon Jul 13 09:10 CDT Michelle Drawert to Ricardo Ceci: <em>"I should have asked originally — is your work here for an existing merchant? Or are you working on app development? What I recommend in your case given you're on a development store…"</em> Michelle turned Ricardo's re-ping into a proper scoping question. Antonio not owed anything — watch for Ricardo's reply, then decide if this rolls into Fri VNS biweekly.
+          </div>
+        </div>
+      </div>
+
+      <div class="alert">
+        <div class="tag info">Thread</div>
+        <div class="body">
+          <div class="headline">La Virginia — Kate's Spanish reply worked, Florencia 👍</div>
+          <div class="detail">
+            <span class="layer thread">Thread</span>
+            Mon Jul 13 10:21 CST Kate Chapman replied to Florencia in Spanish: <em>"Gracias por avisarme. Ya debería haberse detenido. Es posible fallo técnico, disculpas por las molestias."</em> Florencia reacted 👍 today 07:34 ART. DocuSign reminder glitch fully closed. Kate handled solo, Antonio not owed anything.
+          </div>
+        </div>
+      </div>
+
+      <div class="alert">
+        <div class="tag info">Thread</div>
+        <div class="body">
+          <div class="headline">Balloon/Coppel — Matias presenting today, awaits outcome</div>
+          <div class="detail">
+            <span class="layer thread">Thread</span>
+            Tue Jul 7 22:06 UTC Matias Poso: <em>"Muchas gracias, Toño querido! Mañana tenemos sesión con Coppel y le planteamos esto."</em> That session was Wed Jul 8. Silent since — no update on how Coppel took the Payments-Platform application framing. If nothing lands by Wed AM, a light nudge to Matias is fair.
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="card">
+      <h2>This week look-ahead <span class="count">· heavy Wed</span></h2>
+      <p><strong>Wed Jul 15</strong> — 09:00 Maquipan/Lobo · 09:00 Latech biweekly · <strong>09:30 SOFTLIMIT</strong> (Eric Osborne + ben.lord — Jul 8 dividend, first LATAM discussion) · 10:00 Estec intro · 10:00 AMER & LATAM Monthly (Megan) · 11:30 Triciclo/Revie (Lievant Plus discussion) · <strong>12:00 AMER Partners Q3 Kick Off</strong> (Mackenzie Rangel) · 13:30 Partner Webinar Sync. Heaviest day of the week — 8 anchors.</p>
+      <p><strong>Thu Jul 16</strong> — 09:00 Nico-Toño · 11:00 QBR Moxie Plus · 12:00 Modermo × Atoms (pending Andrea final confirm) · 12:30 Partner Webinar Sync (moved to Thu, Colchones Atlas confirmed) · 13:30 Co-Marketing.</p>
+      <p><strong>Fri Jul 17</strong> — Mango 09:00 · Melissa 09:30 · Alce 10:00 · Kickass 11:00 · Alce case study 11:30 · TGIF 13:00. Steph 1:1 proposed to move here from Thu (Fri 12:30 EDT).</p>
+    </div>
+
+    <div class="card">
+      <h2>Housekeeping <span class="count">· 3</span></h2>
+      <p><span class="layer risk">Risk</span><strong>LATAM Leads Report — DAY 6 broken.</strong> Every day Jul 9–14 the 02:30 UTC subscription bounces with <em>"You lost access to the report. Ask the report owner for access."</em> Six consecutive days since the Jul 8 CRM changeover. Should have been fixed by the Landing Session workflow. Ping RevOps / #latam-sales-ops today if you haven't already — this is now clearly not going to self-heal.</p>
+      <p><span class="layer context">Context</span><strong>Jul 13 brief never shipped</strong> — YubiKey was unplugged yesterday, signed commit failed. Jul 13 HTML + archive + 3 manifests are staged in the checkout; today's commit rolls both days forward together.</p>
+      <p><span class="layer context">Context</span><strong>FORUS SA lead auto-submitted</strong> Tue 13:27 UTC via Lobo Creaciones — Marina Kats owner, opted out of sales support. No action, informational.</p>
+    </div>
+
+    <div class="card">
+      <h2>Legend</h2>
+      <p style="font-size: 13px; color: var(--muted);">
+        <span class="layer owe">Owe</span>Antonio owes a reply ·
+        <span class="layer thread">Thread</span>live conversation ·
+        <span class="layer signal">Signal</span>fresh info ·
+        <span class="layer risk">Risk</span>at-risk ·
+        <span class="layer action">Action</span>needs Antonio move ·
+        <span class="layer win">Win</span>closed positive ·
+        <span class="layer context">Context</span>background ·
+        <span class="layer history">History</span>prior chain
+      </p>
+    </div>
+
   </div>
 
-  <div class="footer">Partner Brief — Wed Jul 8, 2026 · Generated 2026-07-08 · <a href="archive/">archive</a></div>
+  <div class="footer">
+    Generated Tue Jul 14, 2026 · <a href="archive/">archive</a> · <a href="https://github.com/martinezbreton/dailybrief">source</a>
+  </div>
+
 </div>
 </body>
 </html>
