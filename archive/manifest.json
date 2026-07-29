@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-07-29",
+    "weekday": "Wed",
+    "title": "Partner Brief",
+    "subtitle": "Five back-to-back catch-ups and a clean noon finish — the only one to prep is Latech at 09:00",
+    "top_alert": "Latech 09:00 — confirm Lucas: Ansilta's MercadoLibre integration is custom API through their middleware, never hits Shopify checkout, so no per-order variable fee. Close the thread in the biweekly.",
+    "file": "2026-07-29.html",
+    "url": "https://martinezbreton.github.io/dailybrief/archive/2026-07-29.html"
+  },
+  {
     "date": "2026-07-28",
     "weekday": "Tue",
     "title": "Partner Brief",
