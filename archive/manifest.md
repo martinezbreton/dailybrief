@@ -1,6 +1,6 @@
 # Partner Brief Archive — Manifest
 
-_86 entries · 2026-03-25 → 2026-08-06_
+_87 entries · 2026-03-25 → 2026-08-07_
 
 Each row is one daily brief. The subtitle is the at-a-glance theme; the top alert is what was most urgent that day.
 
@@ -317,3 +317,4 @@ Each row is one daily brief. The subtitle is the at-a-glance theme; the top aler
 - **2026-08-04** (Tue) — Tuesday · Aug 4, 2026 · **Two unanswered tags before nine — and two loops already closed** · _Taylor Harrington asked for named Shopify Payments Mexico migrations at 08:57 and Caroline Schwartz can't reach LOP for Sebemar; meanwhile Dyna went from stuck to introduced in 28 minutes and the VTEX six-months-free campaign landed with two QBRs to spend it in_
 - **2026-08-05** (Wed) — Wednesday · Aug 5, 2026 · **Every alert from yesterday closed — and four people are now waiting on you instead** · _Michelle & Megan blocked on your VTEX blessing with Tucker and Clement queued behind you; Alli Stewart's matchmaking expansion unanswered 16 minutes after your share; TANGO due Aug 14 with Scott saying prioritize; one meeting left and an empty afternoon_
 - **2026-08-06** (Thu) — Thursday · Aug 6, 2026 · **You cleared the whole board by five yesterday — then LOP spent this morning booking you into Buenos Aires** · _Ariel Delesano sent four invites in fourteen minutes: a two-day Aug 25-26 Buenos Aires program with two live Luma pages and Antonio named as organizer, confirmed by nobody; Lop QBR at 09:30 is where it gets corrected; Caroline still off the invite; VTEX unblocked but split across two documents with the partner input on the wrong one_
+- **2026-08-07** (Fri) — Friday · Aug 7, 2026 · **One live call and an empty afternoon — while Friday the 28th in Buenos Aires books out from under you** · _Graciela confirms the Latech wrap-up time today into a Fri Aug 28 that already holds the LOP Executive Lunch, the Latech event, and a 23:25 EZE flight; hotel is booked at the Dazzler Recoleta but she still doesn't have the name; Humberto wants MDF for an Effix Medellin booth with Q4 submissions closing Wed; app 307907231745 is on hold specifically so you can reach the partner before the next rejection becomes a suspension; 12 Crossbeam requests in 24h._
