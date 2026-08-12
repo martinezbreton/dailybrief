@@ -1,6 +1,6 @@
 # Partner Brief Archive — Manifest
 
-_89 entries · 2026-03-25 → 2026-08-11_
+_90 entries · 2026-03-25 → 2026-08-12_
 
 Each row is one daily brief. The subtitle is the at-a-glance theme; the top alert is what was most urgent that day.
 
@@ -320,3 +320,4 @@ Each row is one daily brief. The subtitle is the at-a-glance theme; the top aler
 - **2026-08-07** (Fri) — Friday · Aug 7, 2026 · **One live call and an empty afternoon — while Friday the 28th in Buenos Aires books out from under you** · _Graciela confirms the Latech wrap-up time today into a Fri Aug 28 that already holds the LOP Executive Lunch, the Latech event, and a 23:25 EZE flight; hotel is booked at the Dazzler Recoleta but she still doesn't have the name; Humberto wants MDF for an Effix Medellin booth with Q4 submissions closing Wed; app 307907231745 is on hold specifically so you can reach the partner before the next rejection becomes a suspension; 12 Crossbeam requests in 24h._
 - **2026-08-10** (Mon) — Monday · Aug 10, 2026 · **Two calls stacked at 10:00, two more at 15:00 — and Arctic Grey just handed you the fix for one of them** · _Anthony Spallone asked at 08:16 to move today's 10:00, which clears the Amanda double-book if Antonio answers before 09:30; the Latech H1 recap never sent and is still in drafts since Friday 11:13 while Kickass and LOP got theirs, with the Latech QBR Wednesday at 09:00; Graciela still doesn't have the hotel name that is already on the calendar (Dazzler Recoleta, Av Las Heras 2161) and still owes the Aug 24 invite and the Aug 28 wrap-up time; Modermo books 90 minutes over Arthros with the merchant unconfirmed for the second time; Q4 co-marketing submissions close Wednesday with Humberto unanswered; the LATAM leads report has failed seven mornings straight._
 - **2026-08-11** (Tue) — Tuesday · Aug 11, 2026 · **Arctic Grey did what you asked and now you're the one not showing up** · _It isn't one H1 recap sitting in drafts, it's eight — Latech and Triciclo both have QBRs tomorrow morning, and four of the eight still say [DÍA]_
+- **2026-08-12** (Wed) — Wednesday · Aug 12, 2026 · **Latech pulled the 09:00 because they never got the template** · _The reschedule hands back a free hour on a light day — and Triciclo is at 11:30 with their H1 recap still in drafts, one of nine now, not eight_
