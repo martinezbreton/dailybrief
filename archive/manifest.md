@@ -1,6 +1,6 @@
 # Partner Brief Archive — Manifest
 
-_91 entries · 2026-03-25 → 2026-08-13_
+_92 entries · 2026-03-25 → 2026-08-14_
 
 Each row is one daily brief. The subtitle is the at-a-glance theme; the top alert is what was most urgent that day.
 
@@ -322,3 +322,4 @@ Each row is one daily brief. The subtitle is the at-a-glance theme; the top aler
 - **2026-08-11** (Tue) — Tuesday · Aug 11, 2026 · **Arctic Grey did what you asked and now you're the one not showing up** · _It isn't one H1 recap sitting in drafts, it's eight — Latech and Triciclo both have QBRs tomorrow morning, and four of the eight still say [DÍA]_
 - **2026-08-12** (Wed) — Wednesday · Aug 12, 2026 · **Latech pulled the 09:00 because they never got the template** · _The reschedule hands back a free hour on a light day — and Triciclo is at 11:30 with their H1 recap still in drafts, one of nine now, not eight_
 - **2026-08-13** (Thu) — Thursday · Aug 13, 2026 · **Megan announced your C7 — Argentina, Colombia and Chile are formally yours** · _Thirteen minutes later Thom was asking which Chilean partner to put in front of Unilever — and at 13:00 you host 158 invitees at the eCohete Lunch&Learn_
+- **2026-08-14** (Fri) — Friday · Aug 14, 2026 · **You cleared two of yesterday's pileups — and at 11:30 you organize a duplicate you haven't answered on either copy** · _Moving Maíz to Aug 20 and MetaRD to Wednesday took Friday from four collisions to two; app 307907231745 got a second reviewer at 06:25 and the hold depends on you; Dimnsa B2B contracts went in at 08:49_
