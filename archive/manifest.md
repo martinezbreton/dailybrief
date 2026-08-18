@@ -1,6 +1,6 @@
 # Partner Brief Archive — Manifest
 
-_93 entries · 2026-03-25 → 2026-08-17_
+_94 entries · 2026-03-25 → 2026-08-18_
 
 Each row is one daily brief. The subtitle is the at-a-glance theme; the top alert is what was most urgent that day.
 
@@ -324,3 +324,4 @@ Each row is one daily brief. The subtitle is the at-a-glance theme; the top aler
 - **2026-08-13** (Thu) — Thursday · Aug 13, 2026 · **Megan announced your C7 — Argentina, Colombia and Chile are formally yours** · _Thirteen minutes later Thom was asking which Chilean partner to put in front of Unilever — and at 13:00 you host 158 invitees at the eCohete Lunch&Learn_
 - **2026-08-14** (Fri) — Friday · Aug 14, 2026 · **You cleared two of yesterday's pileups — and at 11:30 you organize a duplicate you haven't answered on either copy** · _Moving Maíz to Aug 20 and MetaRD to Wednesday took Friday from four collisions to two; app 307907231745 got a second reviewer at 06:25 and the hold depends on you; Dimnsa B2B contracts went in at 08:49_
 - **2026-08-17** (Mon) — Monday · Aug 17, 2026 · **Copec came back asking for Wednesday, and the Latech HBR you rewrote three times is still unsent an hour before the QBR** · _Fernando Cerda says he called Marcelo repeatedly last week with no answer; his proposed Wednesday 11:00 Chile lands on Lobo; Nassim's decline cleared the 11:00 collision; 13 merchant audit drafts from Friday morning are all unsent_
+- **2026-08-18** (Tue) — Tuesday · Aug 18, 2026 · **Copec's proposed meeting is tomorrow with nobody having answered, and Dimnsa just disclosed they were hacked** · _Fernando's Wednesday 11:00 Chile ask lands on Lobo and the thread Marcelo is copied on has gone a second week silent; Daniel Salazar reported the Dimnsa breach at 11:07 forty minutes after Insiya chased Sergio for the contract; tomorrow's IFC and VNS HBR drafts both still say [DÍA]; Dyna.com.co upgraded to Plus at 12:28_
