@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-09-11",
+    "weekday": "Friday",
+    "title": "Partner Brief",
+    "subtitle": "Casa Ferretera at 14:00 with Antonio still tentative; Addi silent 14 days because Gmail filed it as spam",
+    "top_alert": "Ran at 09:37 with the 09:30 double-booking already live, so the brief led on what was left: the 11:30 Brazil checkout checkpoint (Antonio needsAction on his own event, Bryan Elanko too), 13:00 TGIF Latam, and 14:00 Shopify x Casa Ferretera x Moxie where Antonio was the only tentative - the merchant had accepted, Cristina Velez had not responded, and Luis Di Meco organized the call off the back of the VTEX promotion he got approved. Three framings from yesterday closed: the Alli/Mike referral validations went out Sep 10 13:10 and 13:11, Novaventa's cancellation is processing per Joe Chung Sep 11 08:06, and Sarkany was answered Sep 10 13:16. New root cause found on Addi: Yira Caneva's Aug 28 procurement request about the 2021 contract and its tax treatment carries the SPAM label, which is why three weeks of her outreach went unanswered, and Antonio's draft reply has since disappeared from drafts unsent. The VTEX CRM current-platform gate was still blank at 04:50 when Kristine asked Waseem for a screenshot. Two MDF lead lists arrived unopened - Graciela Di Rado's Asistentes al Ecommerce Connect #2 and Ricardo Ceci's Proof event leads naming Rafael Lee and Soraya Gimenez. Berlei got approved but is not in the opp yet and Atoms have not finalized their contract. Zero Slack mentions all period. Look-ahead: Bharati's new biweekly 1:1 opens Fri Sep 18 09:30, Kickass moved to Mon Sep 14 09:30, Lab51 is duplicated twice at Wed 09:30, and next Friday 11:00 is triple-booked.",
+    "file": "2026-09-11.html",
+    "url": "https://martinezbreton.github.io/dailybrief/archive/2026-09-11.html"
+  },
+  {
     "date": "2026-09-10",
     "weekday": "Thursday",
     "title": "Partner Brief",
