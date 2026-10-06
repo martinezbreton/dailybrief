@@ -1,6 +1,6 @@
 # Partner Brief Archive — Manifest
 
-_121 entries · 2026-03-25 → 2026-09-29_
+_122 entries · 2026-03-25 → 2026-09-30_
 
 Each row is one daily brief. The subtitle is the at-a-glance theme; the top alert is what was most urgent that day.
 
@@ -352,3 +352,4 @@ Each row is one daily brief. The subtitle is the at-a-glance theme; the top aler
 - **2026-09-24** (Thu) — Thursday · Sep 24, 2026 · **Berlei is out for signature and you own the chase** · _Waseem asked for your read on Berlei at 10:42 and you gave it - out for signature, partner says done deal, merchant gone quiet, 13,800 on the line. You committed to hound the partner at 10:44 and said 'on it' at 10:46, and his question about whether the promo carries an expiry is still unanswered. Nikita Ber has now asked twice whether VN Studios ever submitted the Cocoons lead in Partners and your 08:30 reply was social, not substantive - which matters because you already told Pablo Veliz the store counts toward their co-sell. Kristine walked back the Reebok date: Deal Desk has the sheet but she has no idea when they will apply it. Zip 30003976 came back approving on the strength of Tuesday's MXN email. Joe Chung is about to close Amora lost unless Cesar answers. Tomorrow stacks four deep before 10:00 and Bogota starts Monday._
 - **2026-09-28** (Mon) — Monday · Sep 28, 2026 · **Reebok's promo needs three years, and Salomon has gone quiet** · _Finance ruled the six-month VTEX credit needs a three-year term; agree a path with Tristan before the 14:00 flight to Bogota, nudge Berlei before Q3 closes Wednesday, NRF booth/POS demo deadline today; Retryver closed-won Friday at 141K PBR._
 - **2026-09-29** (Tue) — Tuesday · Sep 29, 2026 · **Arturo Calle signs tomorrow or loses the credit, and Julia is waiting on your PES answer** · _Julia needs your Colombia PES answer before Arturo Calle's Sep 30 signature; Simplify at 07:30 with no agreed Reebok path and Salomon silent four days; Berlei shows no signature with one day left in Q3; Bharati wants Q4-H1 plans and a 2027 acquisition number by Friday; Lab51 and Atoms collide Wed 11:30._
+- **2026-09-30** (Wed) — Wednesday · Sep 30, 2026 · **Q3 closes today with Arturo Calle unblocked, and the OXXO email is yours to send** · _Julia cleared PES and language; Charu's two OXXO edits; twelve toolkits still in Drafts_
