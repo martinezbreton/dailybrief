@@ -1,6 +1,6 @@
 # Partner Brief Archive — Manifest
 
-_122 entries · 2026-03-25 → 2026-09-30_
+_123 entries · 2026-03-25 → 2026-10-02_
 
 Each row is one daily brief. The subtitle is the at-a-glance theme; the top alert is what was most urgent that day.
 
@@ -353,3 +353,4 @@ Each row is one daily brief. The subtitle is the at-a-glance theme; the top aler
 - **2026-09-28** (Mon) — Monday · Sep 28, 2026 · **Reebok's promo needs three years, and Salomon has gone quiet** · _Finance ruled the six-month VTEX credit needs a three-year term; agree a path with Tristan before the 14:00 flight to Bogota, nudge Berlei before Q3 closes Wednesday, NRF booth/POS demo deadline today; Retryver closed-won Friday at 141K PBR._
 - **2026-09-29** (Tue) — Tuesday · Sep 29, 2026 · **Arturo Calle signs tomorrow or loses the credit, and Julia is waiting on your PES answer** · _Julia needs your Colombia PES answer before Arturo Calle's Sep 30 signature; Simplify at 07:30 with no agreed Reebok path and Salomon silent four days; Berlei shows no signature with one day left in Q3; Bharati wants Q4-H1 plans and a 2027 acquisition number by Friday; Lab51 and Atoms collide Wed 11:30._
 - **2026-09-30** (Wed) — Wednesday · Sep 30, 2026 · **Q3 closes today with Arturo Calle unblocked, and the OXXO email is yours to send** · _Julia cleared PES and language; Charu's two OXXO edits; twelve toolkits still in Drafts_
+- **2026-10-02** (Fri) — Friday · Oct 2, 2026 · **Arturo Calle slipped into Q4, and an email went to Elias with the placeholder still in it** · _Arturo Calle to Q4; Elias email sent with the template placeholder; twelve toolkits still in Drafts; Oct 9 intermission collisions_
