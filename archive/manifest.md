@@ -1,6 +1,6 @@
 # Partner Brief Archive — Manifest
 
-_123 entries · 2026-03-25 → 2026-10-02_
+_124 entries · 2026-03-25 → 2026-10-06_
 
 Each row is one daily brief. The subtitle is the at-a-glance theme; the top alert is what was most urgent that day.
 
@@ -354,3 +354,4 @@ Each row is one daily brief. The subtitle is the at-a-glance theme; the top aler
 - **2026-09-29** (Tue) — Tuesday · Sep 29, 2026 · **Arturo Calle signs tomorrow or loses the credit, and Julia is waiting on your PES answer** · _Julia needs your Colombia PES answer before Arturo Calle's Sep 30 signature; Simplify at 07:30 with no agreed Reebok path and Salomon silent four days; Berlei shows no signature with one day left in Q3; Bharati wants Q4-H1 plans and a 2027 acquisition number by Friday; Lab51 and Atoms collide Wed 11:30._
 - **2026-09-30** (Wed) — Wednesday · Sep 30, 2026 · **Q3 closes today with Arturo Calle unblocked, and the OXXO email is yours to send** · _Julia cleared PES and language; Charu's two OXXO edits; twelve toolkits still in Drafts_
 - **2026-10-02** (Fri) — Friday · Oct 2, 2026 · **Arturo Calle slipped into Q4, and an email went to Elias with the placeholder still in it** · _Arturo Calle to Q4; Elias email sent with the template placeholder; twelve toolkits still in Drafts; Oct 9 intermission collisions_
+- **2026-10-06** (Tue) — Tuesday · Oct 6, 2026 · **Newsan wants a Solutions Engineer on Thursday, and Juan is waiting on you about Lop for tomorrow** · _Newsan asks for a Solutions Engineer; Lop question for Vital unanswered; seven toolkits still in Drafts; Copec routes to Rohit_
