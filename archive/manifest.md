@@ -1,6 +1,6 @@
 # Partner Brief Archive — Manifest
 
-_125 entries · 2026-03-25 → 2026-10-07_
+_126 entries · 2026-03-25 → 2026-11-09_
 
 Each row is one daily brief. The subtitle is the at-a-glance theme; the top alert is what was most urgent that day.
 
@@ -356,3 +356,7 @@ Each row is one daily brief. The subtitle is the at-a-glance theme; the top aler
 - **2026-10-02** (Fri) — Friday · Oct 2, 2026 · **Arturo Calle slipped into Q4, and an email went to Elias with the placeholder still in it** · _Arturo Calle to Q4; Elias email sent with the template placeholder; twelve toolkits still in Drafts; Oct 9 intermission collisions_
 - **2026-10-06** (Tue) — Tuesday · Oct 6, 2026 · **Newsan wants a Solutions Engineer on Thursday, and Juan is waiting on you about Lop for tomorrow** · _Newsan asks for a Solutions Engineer; Lop question for Vital unanswered; seven toolkits still in Drafts; Copec routes to Rohit_
 - **2026-10-07** (Wed) — Wednesday · Oct 7, 2026 · **Andrés still has no answer on a Solutions Engineer for Newsan, and Maxi and Getmore both moved off Thursday** · _Newsan SE question still unanswered; seven toolkits still in Drafts; Maxi and Getmore reschedule; Swarovski contract signed_
+
+## November 2026
+
+- **2026-11-09** (Mon) — Monday · Nov 9, 2026 · **River still needs an owner for the merged Landers account, and Novaventa is back at the table at 13:00** · _River's Landers merge question unanswered; Novaventa needs Nutresa's signature; SEIDOR date and Humberto ticket owed; METARD toolkit in Drafts; Thursday Pursuit clashes_
