@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Partner Brief — Wed Nov 11, 2026</title>
+<style>
+:root {
+  --ink:#0e1420; --ink-soft:#2b3648; --paper:#f7f8fb; --line:#e4e8ef;
+  --card:#ffffff; --muted:#5d6b82; --link:#0057ff;
+  --crit:#b3261e; --crit-bg:#fdecea;
+  --warn:#8a5a00; --warn-bg:#fff4dc;
+  --info:#1c4b8a; --info-bg:#e6efff;
+  --teal:#0f6b60; --teal-bg:#e2f6f2;
+  --win:#256b2a; --win-bg:#e8f6ea;
+  --neutral:#3b4658; --neutral-bg:#eef1f6;
+}
+* { box-sizing: border-box; }
+html, body { margin:0; padding:0; background:var(--paper); color:var(--ink); font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.wrap { max-width: 980px; margin: 0 auto; padding: 0 20px 60px; }
+.banner {
+  background: linear-gradient(135deg,#0f2540 0%,#2d4f78 60%,#5a8dc0 100%);
+  color:#fff; padding: 28px 32px; margin: 20px 0 22px; border-radius: 14px;
+  box-shadow: 0 2px 20px rgba(15,37,64,.15);
+}
+.banner .kicker { font-size: 12px; letter-spacing: .12em; text-transform: uppercase; opacity: .85; }
+.banner h1 { margin: 6px 0 6px; font-size: 24px; font-weight: 700; letter-spacing: -.01em; }
+.banner .sub { font-size: 14px; opacity: .92; }
+.banner .anchor { margin-top: 14px; padding-top: 14px; border-top: 1px solid rgba(255,255,255,.22); font-size: 14px; }
+.banner .anchor strong { font-weight: 600; }
+
+.grid { display: grid; grid-template-columns: 1fr; gap: 14px; }
+.card {
+  background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+  padding: 18px 20px;
+}
+.card h2 { margin: 0 0 12px; font-size: 15px; font-weight: 700; letter-spacing: -.005em; }
+.card h2 .count { color: var(--muted); font-weight: 500; margin-left: 6px; font-size: 13px; }
+.card p { margin: 0 0 8px; }
+.card p:last-child { margin-bottom: 0; }
+
+.alert { display: grid; grid-template-columns: 78px 1fr; gap: 14px; padding: 12px 0; border-top: 1px solid var(--line); }
+.alert:first-of-type { border-top: 0; padding-top: 4px; }
+.alert .tag {
+  align-self: start; font-size: 11px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase;
+  padding: 4px 8px; border-radius: 6px; text-align: center;
+}
+.tag.crit { background: var(--crit-bg); color: var(--crit); }
+.tag.warn { background: var(--warn-bg); color: var(--warn); }
+.tag.info { background: var(--info-bg); color: var(--info); }
+.tag.teal { background: var(--teal-bg); color: var(--teal); }
+.tag.win  { background: var(--win-bg);  color: var(--win); }
+.alert .body .headline { font-weight: 600; margin-bottom: 4px; }
+.alert .body .detail { color: var(--ink-soft); font-size: 14px; }
+
+.layer {
+  display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+  padding: 2px 6px; border-radius: 4px; margin-right: 6px; vertical-align: 1px;
+  background: var(--neutral-bg); color: var(--neutral);
+}
+.layer.owe    { background: #f2dfe7; color: #8a1849; }
+.layer.thread { background: #e6efff; color: #1c4b8a; }
+.layer.context{ background: #eef1f6; color: #3b4658; }
+.layer.history{ background: #eef1f6; color: #3b4658; }
+.layer.signal { background: #e2f6f2; color: #0f6b60; }
+.layer.risk   { background: #fdecea; color: #b3261e; }
+.layer.action { background: #fff4dc; color: #8a5a00; }
+.layer.win    { background: #e8f6ea; color: #256b2a; }
+
+ul.tight { margin: 6px 0 0; padding-left: 20px; }
+ul.tight li { margin: 3px 0; }
+.footer { color: var(--muted); font-size: 12px; margin-top: 22px; text-align: center; }
+.footer a { color: var(--muted); }
+
+.mtg-row { display: grid; grid-template-columns: 96px 1fr; gap: 12px; padding: 6px 0; border-top: 1px dashed var(--line); font-size: 14px; }
+.mtg-row:first-of-type { border-top: 0; padding-top: 0; }
+.mtg-row .t { color: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
+.mtg-row .n { color: var(--ink-soft); }
+.mtg-row .cx { color: var(--muted); font-size: 13px; margin-top: 2px; }
+.strike { text-decoration: line-through; opacity: .55; }
+
+.split { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+@media (max-width: 720px) { .split { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="banner">
+<div class="kicker">Partner Brief · Wednesday, November 11, 2026 · Mexico City</div>
+<h1>Agencies need 1:1 calls on the app security allowlist before Nov 20, and SEIDOR's invite landed on the wrong Thursday</h1>
+<div class="sub">Yesterday's urgent PSM/PSE all-hands turned app security into this week's priority: partner managers are expected to reach their agencies one by one. Several of yesterday's replies went out (Facturante, ANJUN, Victor, Lop, SEIDOR), but the H1 2027 deck never reached partners. Today has nine meetings, Town Hall at 09:00 and VNS at 14:00. All times are Mexico City.</div>
+<a class="jump" href="#lookahead">Jump to look-ahead</a>
+</div>
+<div class="grid">
+
+<h2>Make today count</h2>
+
+<div class="alert">
+<div class="tag crit">Security</div>
+<div class="alert-body">
+<div class="alert-title">Agencies need to put IP restrictions on their custom apps, and the first date is Nov 20</div>
+<p>Andre Lyver ran the urgent PSM/PSE all-hands yesterday. Recent incidents involved compromised credentials and app partners, so IP allowlists now limit which addresses can call the API. The Nov 10 agency email set two dates. From Nov 20, new partner custom apps need IP restrictions. From Jan 1, an agency can create a new custom app only if all of its existing custom apps have them. Bulk operations now default to off, and anomaly checks already block unknown IPs.</p>
+<div class="layer context"><strong>What worked in the last two weeks,</strong> per Jeff Kennedy: 1:1 outreach from partner managers beat any mass email. Start with the biggest agencies, because that's where the risk sits. Point them to the <a href="https://shopify.dev/docs/apps/build/dev-dashboard/ip-allowlist#compatibility">IP allowlist dev docs</a>, which cover fixed IPs and hosting ASNs. River's check: the two dates aren't on shopify.dev yet. Andre still owes the email template doc. The recording is pinned in #partners-team-amer-latam.</div>
+<div class="layer action"><strong>Make a short list of your largest custom-app agencies and start calling today.</strong> Use Andre's template when it lands. For a partner-specific draft, tag River in #temp-partners-agency-security, the way Igor did this morning.</div>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag warn">SEIDOR</div>
+<div class="alert-body">
+<div class="alert-title">Diego asked for Thu 19, but the invite went out for tomorrow</div>
+<p>Diego proposed Thursday Nov 19 at 08:30 Mexico. You replied "te envié la invitación para charlar el jueves", but the Diego-Antonio invite is on <strong>Thu Nov 12</strong>, 08:30 to 09:00. Diego hasn't responded and Joachim marked it "maybe". On Nov 19 you're at the icomm Trends Summit until 10:00.</p>
+<div class="layer action"><strong>Email Diego this morning.</strong> If he meant the 19th, move the invite to Thu 19 at 10:30 Mexico (17:30 Spain). If tomorrow works for him, keep it, since it ends right as Pursuit scouting starts.</div>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag warn">Resend</div>
+<div class="alert-body">
+<div class="alert-title">The H1 2027 deck never reached partners</div>
+<p>Elias (Simplify) replied "La presentación no llegó". Monday's BCC email says "La presentación va adjunta", but drafts made with the Gmail tool can't carry attachments, so the rest of the list probably didn't get it either. The video link worked: Graciela (Latech) watched it and is already planning around Shift to Shopify and Cost of Standing Still.</p>
+<div class="layer action"><strong>Send a short follow-up to the same BCC list with a Drive link to the deck.</strong> Check that the link is shared with view access before it goes out.</div>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag warn">Moxie</div>
+<div class="alert-body">
+<div class="alert-title">Tennis and Polo POS pricing now has two parallel tracks, and one is yours</div>
+<p>Out of yesterday's 09:30, Capri is asking the pricing team about a discount on per-location fees for Polo and Tennis. She'll report back by email before the end of the week. The variable fee can't be waived. The cost of additional locations is what's making the tech bill hard to justify. Cristina sent the Tennis pilot business case right after. Its argument: Shopify Payments isn't live in Colombia, early POS adopters carry a higher rate, and a large installed base now sets up Payments for launch.</p>
+<div class="layer action"><strong>Your next step from the notes: open the long-term pricing conversation with the POS pricing team</strong> and keep Capri and Cristina posted. The Moxie Q4 MDF webinar hold is today at 11:00 with Cristina, if you want to mention it then.</div>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag info">Inbox</div>
+<div class="alert-body">
+<div class="alert-title">Five partner questions are waiting</div>
+<p><strong>Victor Yacaman:</strong> OFFCORSS won't move to Plus until March 1, so he can't register yet. He asks whether his October emails with Jason count toward the commission. <strong>César (Wualá):</strong> they move to Silver in January and he wants to know what changes from today's Plus tier, especially how you work together. <strong>Elias:</strong> is Sprayground Mexico really on Plus? <strong>Graciela (Latech):</strong> they want to co-fund a community event during EEE Miami week with an app partner sponsoring EEE, such as Klaviyo. She's asking for intros and whether Shopify will be at EEE. <strong>Matías (Infracommerce):</strong> requested edit access to Calculadora de Plus.</p>
+<div class="layer action"><strong>Victor:</strong> don't commit on credit. Point him back to the referral terms and confirm with Jason. <strong>César:</strong> link the public tier page instead of restating the benefits. <strong>Matías:</strong> view access is probably enough.</div>
+</div>
+</div>
+
+<h2 id="threads">Threads in motion</h2>
+<div class="split">
+<div>
+
+<div class="alert">
+<div class="tag teal">Latech</div>
+<div class="alert-body">
+<div class="alert-title">Puppis depends on Payway or Fiserv, and those partners have gone quiet</div>
+<p>Andrés Harvey asked Alexis to add Graciela to the Puppis meeting on Nov 17. Puppis says the VTEX migration only works with a native Payway or Fiserv integration, because so much of its volume comes from bank promotions. Andrés wants a short prep call first. This morning you asked Wes what he can see on both. Payway's last update was Oct 30 (NDA, then about 30 days of Conexa dev). Fiserv was "validating dates and blockers" on Oct 28. You followed up with both on Nov 4 and haven't heard back.</p>
+<div class="layer action"><strong>Get Wes's answer before the prep call</strong> so Latech hears a real status, not a promise.</div>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag teal">Dashboard</div>
+<div class="alert-body">
+<div class="alert-title">Kali solved the mystery: partner lists are hiding LATAM deals</div>
+<p>Lab51 (650636) and Moxie (639134) are both on the AMER Managed list and the catch-all "Other managed" list, and the LATAM Managed list is empty. That's why Landers (329902) lands in AMER Managed and not LATAM Scaled. ACO Maquinarias (328392) also drops out because Lab51's role on that deal is partner_powered, which the dashboard doesn't read. Kali thinks other LATAM partners are hidden the same way, and she may rebuild the dashboard from scratch.</p>
+<div class="layer action"><strong>Ask for 639134 and 650636 to come off both lists, and suggest a review of the full lists</strong> at Friday's 1:1 with Bharati.</div>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag teal">Landers</div>
+<div class="alert-body">
+<div class="alert-title">Jessie is waiting on your call about how to rebuild the lead</div>
+<p>In #help-crm, Jessie asked Katie George to handle River's account merges. She said you need to confirm how the lead gets rebuilt, with Mackenzie Rangel cc'd. Your reply said the priority is Partner sourcing. The Ewa appeal thread hasn't moved since Monday.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag teal">Infracommerce</div>
+<div class="alert-body">
+<div class="alert-title">L'Oréal is eight stores on a friends-and-family calendar</div>
+<p>Max Dahn told Victor Lunar the project covers eight countries with one store each. Each store opens around its own friends-and-family event. Chile is live, Argentina is ready, and Colombia is in development. Victor is out Nov 17 to 24.</p>
+<div class="layer context"><strong>IFC biweekly is today at 10:30 with Max.</strong> It's a good moment to ask for the country calendar.</div>
+</div>
+</div>
+
+</div>
+<div>
+
+<div class="alert">
+<div class="tag teal">Directory</div>
+<div class="alert-body">
+<div class="alert-title">Directory feedback keeps arriving, and VN is on at 14:00</div>
+<p>You posted VNS's feedback to #temp-partners-directory-feedback: a country search returns nothing, there are too many steps before useful results, and the location filter is hard to find. Ricardo sent more notes by email, and Michelle forwarded another agency's critique of the sparse desktop profile and the lack of proof points. Pablo and Ricardo both accepted today's VNS biweekly.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag teal">Lab51</div>
+<div class="alert-body">
+<div class="alert-title">Lab51 biweekly at 10:00, with the Mango payout denied</div>
+<p>Ewa ruled that the won deal was a self-serve auto-upgrade, so the one-time payout doesn't apply. Any exception would have to come from Partner Ops. Nicolás hasn't accepted today's invite.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag teal">Mozart</div>
+<div class="alert-body">
+<div class="alert-title">OXXO fixes are still open</div>
+<p>Amanda's three items are still open: request translation, rebuild the escaped module, and update dedup. Nothing since Monday shows they're done. Translation can take a day, and launch review comes after it, so the Nov 19/20 send depends on doing them this week.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag teal">Closed</div>
+<div class="alert-body">
+<div class="alert-title">Out the door yesterday</div>
+<p><strong>Facturante:</strong> told Nico work WhatsApp is no longer allowed. <strong>ANJUN:</strong> replied to Vitorino. <strong>Victor:</strong> answered his first four questions with the public terms and the referrals page. <strong>Lop:</strong> offered Mariela today at 14:30 or Monday 09:00 to 13:00 for Akiabara, no answer yet. <strong>POS terminal:</strong> sent Tanisha and Sergio three partners and two videos, which they won't share with partners. <strong>Experimentality:</strong> biweekly series created. <strong>Simplify:</strong> store list shared as a sheet.</p>
+</div>
+</div>
+
+</div>
+</div>
+
+<h2 id="lookahead">Look-ahead</h2>
+
+<div class="mtg-row">
+<div class="mtg-time">Today<br>AM</div>
+<div class="mtg-body">
+<div class="mtg-title">Andrés, Town Hall, Lab51, IFC, Moxie, Atoms</div>
+<p>Andrés Vizcarrondo (Forus) 08:45. Town Hall + Tobi AMA 09:00. Lab51 10:00. IFC 10:30. Moxie Q4 MDF webinar hold 11:00, which overlaps Atoms at 11:30 (César accepted). METARD 12:00 (15 min).</p>
+</div>
+</div>
+
+<div class="mtg-row">
+<div class="mtg-time">Today<br>PM</div>
+<div class="mtg-body">
+<div class="mtg-title">Acromático, VNS, maybe Akiabara</div>
+<p>Acromático moved to 12:30 (15 min), so the 09:00 clash is gone. VNS 14:00 with Ricardo and Pablo. If Mariela takes your offer, Lop's Akiabara call is at 14:30.</p>
+</div>
+</div>
+
+<div class="mtg-row">
+<div class="mtg-time">Thu<br>Nov 12</div>
+<div class="mtg-body">
+<div class="mtg-title">Diego (to confirm), then Pursuit</div>
+<p>Diego-Antonio 08:30. Pursuit scouting from 09:00 to 15:00: MIDE 10:00, Públicos 12:00, San Hipólito 13:30. Lop 09:30, Shawn 11:00, MaryFrances 13:00 and AMER Partnership All Hands 13:00 overlap the visits.</p>
+</div>
+</div>
+
+<div class="mtg-row">
+<div class="mtg-time">Fri<br>Nov 13</div>
+<div class="mtg-body">
+<div class="mtg-title">Bharati, Getmore, Charli, Steph</div>
+<p>Bharati 1:1 09:30 (Megan hasn't answered). Getmore 10:30. Charli 11:00. Steph 11:30. Capri's pricing answer is due by end of week.</p>
+</div>
+</div>
+
+<div class="mtg-row">
+<div class="mtg-time">Next<br>week</div>
+<div class="mtg-body">
+<div class="mtg-title">Puppis, Novaventa, icomm, Nov 20</div>
+<p>Tue 17: Moxie biweekly 09:00, Joe's Novaventa hold 11:00, and the Puppis meeting with Latech. Thu 19: icomm Trends Summit 08:00 to 10:00. Nico has declined Nico-Toño at 09:00. Fri 20: new custom apps need IP restrictions. OXXO send target Nov 19/20.</p>
+</div>
+</div>
+
+<div class="foot">Generated 2026-11-11 · Mexico City local time throughout · Slack, Gmail, Calendar and Gemini notes read · Covers Nov 10 &ndash; Nov 11 · 128th brief in the archive</div>
+</div>
+</body>
+</html>

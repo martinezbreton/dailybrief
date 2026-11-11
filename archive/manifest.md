@@ -1,6 +1,6 @@
 # Partner Brief Archive — Manifest
 
-_126 entries · 2026-03-25 → 2026-11-09_
+_128 entries · 2026-03-25 → 2026-11-11_
 
 Each row is one daily brief. The subtitle is the at-a-glance theme; the top alert is what was most urgent that day.
 
@@ -360,3 +360,5 @@ Each row is one daily brief. The subtitle is the at-a-glance theme; the top aler
 ## November 2026
 
 - **2026-11-09** (Mon) — Monday · Nov 9, 2026 · **River still needs an owner for the merged Landers account, and Novaventa is back at the table at 13:00** · _River's Landers merge question unanswered; Novaventa needs Nutresa's signature; SEIDOR date and Humberto ticket owed; METARD toolkit in Drafts; Thursday Pursuit clashes_
+- **2026-11-10** (Tue) — Tuesday · Nov 10, 2026 · **Experimentality and the CBI webinar collide at 11:00, and SEIDOR is waiting on you for Thu 19** · _Polo Club hears no on the Tennis fee, Amanda sent OXXO back, and Victor has four OFFCORSS questions_
+- **2026-11-11** (Wed) — Wednesday · Nov 11, 2026 · **Agencies need 1:1 calls on the app security allowlist before Nov 20, and SEIDOR's invite landed on the wrong Thursday** · _The H1 2027 deck never reached partners, Kali found why LATAM deals are hidden, and Puppis hinges on Payway_
