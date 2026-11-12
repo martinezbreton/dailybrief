@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Partner Brief — Thu Nov 12, 2026</title>
+<style>
+:root {
+  --ink:#0e1420; --ink-soft:#2b3648; --paper:#f7f8fb; --line:#e4e8ef;
+  --card:#ffffff; --muted:#5d6b82; --link:#0057ff;
+  --crit:#b3261e; --crit-bg:#fdecea;
+  --warn:#8a5a00; --warn-bg:#fff4dc;
+  --info:#1c4b8a; --info-bg:#e6efff;
+  --teal:#0f6b60; --teal-bg:#e2f6f2;
+  --win:#256b2a; --win-bg:#e8f6ea;
+  --neutral:#3b4658; --neutral-bg:#eef1f6;
+}
+* { box-sizing: border-box; }
+html, body { margin:0; padding:0; background:var(--paper); color:var(--ink); font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.wrap { max-width: 980px; margin: 0 auto; padding: 0 20px 60px; }
+.banner {
+  background: linear-gradient(135deg,#0f2540 0%,#2d4f78 60%,#5a8dc0 100%);
+  color:#fff; padding: 28px 32px; margin: 20px 0 22px; border-radius: 14px;
+  box-shadow: 0 2px 20px rgba(15,37,64,.15);
+}
+.banner .kicker { font-size: 12px; letter-spacing: .12em; text-transform: uppercase; opacity: .85; }
+.banner h1 { margin: 6px 0 6px; font-size: 24px; font-weight: 700; letter-spacing: -.01em; }
+.banner .sub { font-size: 14px; opacity: .92; }
+.banner .anchor { margin-top: 14px; padding-top: 14px; border-top: 1px solid rgba(255,255,255,.22); font-size: 14px; }
+.banner .anchor strong { font-weight: 600; }
+
+.grid { display: grid; grid-template-columns: 1fr; gap: 14px; }
+.card {
+  background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+  padding: 18px 20px;
+}
+.card h2 { margin: 0 0 12px; font-size: 15px; font-weight: 700; letter-spacing: -.005em; }
+.card h2 .count { color: var(--muted); font-weight: 500; margin-left: 6px; font-size: 13px; }
+.card p { margin: 0 0 8px; }
+.card p:last-child { margin-bottom: 0; }
+
+.alert { display: grid; grid-template-columns: 78px 1fr; gap: 14px; padding: 12px 0; border-top: 1px solid var(--line); }
+.alert:first-of-type { border-top: 0; padding-top: 4px; }
+.alert .tag {
+  align-self: start; font-size: 11px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase;
+  padding: 4px 8px; border-radius: 6px; text-align: center;
+}
+.tag.crit { background: var(--crit-bg); color: var(--crit); }
+.tag.warn { background: var(--warn-bg); color: var(--warn); }
+.tag.info { background: var(--info-bg); color: var(--info); }
+.tag.teal { background: var(--teal-bg); color: var(--teal); }
+.tag.win  { background: var(--win-bg);  color: var(--win); }
+.alert .body .headline { font-weight: 600; margin-bottom: 4px; }
+.alert .body .detail { color: var(--ink-soft); font-size: 14px; }
+
+.layer {
+  display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+  padding: 2px 6px; border-radius: 4px; margin-right: 6px; vertical-align: 1px;
+  background: var(--neutral-bg); color: var(--neutral);
+}
+.layer.owe    { background: #f2dfe7; color: #8a1849; }
+.layer.thread { background: #e6efff; color: #1c4b8a; }
+.layer.context{ background: #eef1f6; color: #3b4658; }
+.layer.history{ background: #eef1f6; color: #3b4658; }
+.layer.signal { background: #e2f6f2; color: #0f6b60; }
+.layer.risk   { background: #fdecea; color: #b3261e; }
+.layer.action { background: #fff4dc; color: #8a5a00; }
+.layer.win    { background: #e8f6ea; color: #256b2a; }
+
+ul.tight { margin: 6px 0 0; padding-left: 20px; }
+ul.tight li { margin: 3px 0; }
+.footer { color: var(--muted); font-size: 12px; margin-top: 22px; text-align: center; }
+.footer a { color: var(--muted); }
+
+.mtg-row { display: grid; grid-template-columns: 96px 1fr; gap: 12px; padding: 6px 0; border-top: 1px dashed var(--line); font-size: 14px; }
+.mtg-row:first-of-type { border-top: 0; padding-top: 0; }
+.mtg-row .t { color: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
+.mtg-row .n { color: var(--ink-soft); }
+.mtg-row .cx { color: var(--muted); font-size: 13px; margin-top: 2px; }
+.strike { text-decoration: line-through; opacity: .55; }
+
+.split { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+@media (max-width: 720px) { .split { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="banner">
+<div class="kicker">Partner Brief · Thursday, November 12, 2026 · Mexico City</div>
+<h1>A field day at Pursuit, with Blair's partner catalog due Friday and Payway now under NDA</h1>
+<div class="sub">From 09:00 to 15:00 you're at the Pursuit site visits, so the desk work has to fit around them. Bharati wants a long-tail LATAM list for the Community team's partner catalog, and Blair would like it by Friday EOD. Payway signed the NDA this morning, ahead of tomorrow's call, and that call overlaps Getmore. Five new inbound contacts arrived overnight. All times are Mexico City.</div>
+<a class="jump" href="#lookahead">Jump to look-ahead</a>
+</div>
+<div class="grid">
+
+<h2>Make today count</h2>
+
+<div class="alert">
+<div class="tag crit">Catalog</div>
+<div class="alert-body">
+<div class="alert-title">Bharati and Blair need your LATAM picks for the Community partner catalog</div>
+<p>Bharati asked you and Marcelo for the long tail. Her first message asked for about 50 to 75 partners, up to 100, by Monday's team meeting. Three minutes later she asked for 15 to 20 across Managed, Scaled and core-focused, and said Friday EOD to Blair "even better". She'll compile the Managed piece herself. Blair shared the "Community List – AMER Agencies" sheet last night.</p>
+<div class="layer context"><strong>Blair's test is simple:</strong> "Who would you feel good about recognizing or including in a Shopify opportunity?" It's not about revenue or install base. There's no quota, and Spanish-speaking partners are welcome ("diversity actually great"). The catalog is a pool for brand requests that range from 10 to 500 partners, and partner IDs will be used to filter it per opportunity.</div>
+<div class="layer action"><strong>Agree on a split with Marcelo today, then put 15 to 20 strong names with partner IDs into Blair's sheet by Friday EOD.</strong> Grow it toward 50 or more for Monday. The Mexico Agencies DB and the Top 50 coaching list are the fastest place to start.</div>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag warn">Pursuit</div>
+<div class="alert-body">
+<div class="alert-title">VNS and Lab51 are waiting on the Pursuit date you get today</div>
+<p>Yesterday's notes give you the same next step in two places. With VNS, the step is to get the Pursuit date at scouting and tell the team tomorrow. With Lab51, it's to tell Nicolás the date. Today's stops are MIDE at 10:00, Públicos at 12:00 and San Hipólito at 13:30. MaryFrances (13:00) and the AMER Partnership All Hands (13:00) both land in the gap between visits, and you haven't answered the All Hands invite.</p>
+<div class="layer action"><strong>Take MaryFrances from the car or move it, and watch the All Hands recording later.</strong> Once the date is confirmed, send one short message to Ricardo and Pablo and one to Nicolás.</div>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag warn">Payway</div>
+<div class="alert-body">
+<div class="alert-title">Payway signed the NDA, and tomorrow's call overlaps Getmore</div>
+<p>Emiliano confirmed to Wes this morning that the NDA is signed. He now wants to review together how much volume the integration could generate. Payway is Fri 10:45 to 11:15 with Emiliano and Bruno, and it runs into the Getmore biweekly (10:30 to 11:00). In yesterday's VNS call, your next step was to talk to Fiserv and Payway this Friday and back whichever integration is ready first. Puppis (Latech, Tue 17) depends on the same answer.</p>
+<div class="layer action"><strong>Ask Wes whether he'll join Payway.</strong> The NDA and the volume question both sit with him. Move Getmore to 10:00 or 11:15, or keep it to 15 minutes.</div>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag warn">Simplify</div>
+<div class="alert-body">
+<div class="alert-title">Elias's Ecomm Connect Day MDF claim hasn't moved since Oct 21</div>
+<p>Elias uploaded the lead list to the MDF request on Oct 21. The portal still shows "Pending Proof", the status from Sep 1. He'd guessed the $99 bank-details email was this payment, but it turned out to be his Shopify Academy reimbursement. He wrote to Andrea Castillo yesterday and this morning asked you to "echarle una mano con Andre". He says he's done everything on his side in the marketing platform.</p>
+<div class="layer action"><strong>Ping Andrea in Slack with the transaction link</strong> from his forward and ask what's still missing. Then tell Elias where it stands.</div>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag info">Inbound</div>
+<div class="alert-body">
+<div class="alert-title">Five new contacts landed overnight, and one needs a reply today</div>
+<p><strong>Damian Lobalzo</strong> (Galileo Media Lab) came through Marcelo. The agency is based in Argentina with an office in Spain, is leading a Shopify opportunity, and wants to know how to join the Partner Program. He asked when he can call you. <strong>Rodrigo (Studioeasy)</strong>: Luis Di Meco named you as his partner contact on Foodbase. <strong>PuntoPost</strong>'s Juan de Arias asked about Carrier Calculated Shipping for Basic and Grow stores and the Plus-only pickup point checkout function. He wants 20 minutes with Raúl and their CTO. <strong>ANJUN</strong> wants a meeting with its global CEO about Brazil's Remessa Conforme program. <strong>Finmatik</strong> sent a cold pitch.</p>
+<div class="layer action"><strong>Reply to Damian with two times this week or next.</strong> Leave PuntoPost's partner ask with Raúl. On plan features, point to the public help pages rather than restating terms. ANJUN and Finmatik can wait until Friday.</div>
+</div>
+</div>
+
+<h2 id="threads">Threads in motion</h2>
+<div class="split">
+<div>
+
+<div class="alert">
+<div class="tag win">VN Studios</div>
+<div class="alert-body">
+<div class="alert-title">VN's agentic commerce customizer fix is getting noticed</div>
+<p>Michelle Drawert tested it with ChatGPT and wrote "This is incredible! Just tested w/ChatGPT and voila", calling it a huge unlock for the VN team. Ricardo is also changing the app instructions so the tests are easier to follow. Pablo will share the totem marketing material with you privately.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag win">Loh Medical</div>
+<div class="alert-body">
+<div class="alert-title">Three agencies are ready for Sarah's medical-equipment lead</div>
+<p>Atoms (César), VN Studios (Ricardo) and GetMore have the intro. César and Ricardo replied right away. Ricardo mentioned NetSuite and POS experience and told Sarah to go ahead with Jannet. Sarah is waiting on the merchant before she makes the intro.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag teal">Latech</div>
+<div class="alert-body">
+<div class="alert-title">Grace says the Miami event is already in Latech's Q1 MDF request</div>
+<p>Grace thanked you for the Klaviyo intro and has already emailed Mateo. She says the Miami event is in Latech's Q1 MDF request as their event of the quarter. Your email had said the Q1 window was closed and there would be no extra funds. If the event was in the original submission, it's covered by the review already underway. The next biweekly is Wed 18.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag teal">Landers</div>
+<div class="alert-body">
+<div class="alert-title">You pushed back on Jessie's "won't be rebuilt"</div>
+<p>At 05:46 you replied in #help-crm that the two threads ask for different things. The payouts thread is about referral credit. This one is about getting the closed-won deal's source category right. No reply yet.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag teal">Forus</div>
+<div class="alert-body">
+<div class="alert-title">Lab51 and Andrés both opened Forus work for you</div>
+<p>From Lab51: build a timeline of when Forus's Plus store contracts expire, then work out the contract options and the steps for a corporate negotiation, and agree a strategy with Nicolás. He'll forward the seller emails to back up the appeal. From the Andrés call: share Bharati's email so he can draft the POS opportunity note. He'll also send technical POS questions for you to take to engineering.</p>
+</div>
+</div>
+
+</div>
+<div>
+
+<div class="alert">
+<div class="tag teal">SALs</div>
+<div class="alert-body">
+<div class="alert-title">Bharati sees LATAM at 25% of Mid-Market SALs this quarter</div>
+<p>She asked you and Marcelo to confirm the number, check whether SMB looks the same, and stay close to closing these deals, because she isn't sure they all sit with AEs who can help. Friday's 09:30 1:1 is the natural place to answer, together with Kali's list fix (639134 and 650636 off the AMER Managed and catch-all lists).</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag teal">Lop</div>
+<div class="alert-body">
+<div class="alert-title">Akiabara is Monday and the meetup call is booked</div>
+<p>Mariela's invite for the in-person Akiabara meeting is Mon 16 at 11:30 Mexico (14:30 Argentina). You accepted this morning. Sergio confirmed Faye's meetup-host call for Thu 19 at 14:00 Argentina (11:00 Mexico). Faye is steering partners to host in Q1.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag teal">Acromático</div>
+<div class="alert-body">
+<div class="alert-title">The POS playbook went out, and Construrama is next</div>
+<p>You sent Rafa the Unified Commerce playbook last night. CFD Express passed review. Rafa will write to Mónica to set up a Construrama call, and you'll join to help with the fee conversation. Also check that Rafa is getting the CDMX event invites.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag teal">Atoms</div>
+<div class="alert-body">
+<div class="alert-title">César asked for access to yesterday's notes</div>
+<p>He asked for access to the Gemini notes and the chat from the Atoms biweekly. He's also confirming a Thursday slot with their general management, which isn't on your calendar yet. He'll ask his team to check its apps for pending security notices and send you the upcoming prospects.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag teal">Carryover</div>
+<div class="alert-body">
+<div class="alert-title">Still open from earlier this week</div>
+<p>App security 1:1 outreach before Nov 20; Andre's template hasn't landed in your mail. The H1 deck Drive-link resend isn't in your sent mail. Moxie per-location pricing is with Capri, and her answer is due by end of week. OXXO Mozart fixes for the Nov 19/20 send. Michelle Shi's directory fix for alphabetical sort and filtering is due today.</p>
+</div>
+</div>
+
+</div>
+</div>
+
+<h2 id="lookahead">Look-ahead</h2>
+
+<div class="mtg-row">
+<div class="mtg-time">Thu<br>Nov 12</div>
+<div class="mtg-body">
+<div class="mtg-title">Lop and Diego, then Pursuit all day</div>
+<p>Lop biweekly 08:00. Diego (SEIDOR) 08:30, now accepted. Pursuit scouting 09:00 to 15:00: MIDE 10:00, Públicos 12:00, San Hipólito 13:30. MaryFrances and the AMER Partnership All Hands both at 13:00. Co-Marketing Office Hours 14:00.</p>
+</div>
+</div>
+
+<div class="mtg-row">
+<div class="mtg-time">Fri<br>Nov 13</div>
+<div class="mtg-body">
+<div class="mtg-title">Bharati, Charli, Getmore, Payway</div>
+<p>Pipeline sheet update 08:00. Bharati 1:1 09:30. Charli-Toño 10:00. Getmore 10:30 overlaps Payway 10:45 to 11:15. Catalog picks to Blair by EOD. Capri's pricing answer is due.</p>
+</div>
+</div>
+
+<div class="mtg-row">
+<div class="mtg-time">Next<br>week</div>
+<div class="mtg-body">
+<div class="mtg-title">Akiabara, Puppis, icomm, Nov 20</div>
+<p>Mon 16: team meeting with the fuller catalog list. Akiabara with Lop at 11:30. Tue 17: Moxie 09:00, Novaventa hold 11:00, Puppis with Latech. Wed 18: Latech biweekly. Thu 19: icomm Trends Summit 08:00 to 10:00, Lop meetup call with Faye 11:00, Steph 13:30. Fri 20: new custom apps need IP restrictions. Dec 4: XPRTS at Meta México, confirmed.</p>
+</div>
+</div>
+
+<div class="foot">Generated 2026-11-12 · Mexico City local time throughout · Slack, Gmail, Calendar and Gemini notes read · Covers Nov 11 &ndash; Nov 12 · 129th brief in the archive</div>
+</div>
+</body>
+</html>
