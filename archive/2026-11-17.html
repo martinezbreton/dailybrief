@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Partner Brief — Tue Nov 17, 2026</title>
+<style>
+:root {
+  --ink:#0e1420; --ink-soft:#2b3648; --paper:#f7f8fb; --line:#e4e8ef;
+  --card:#ffffff; --muted:#5d6b82; --link:#0057ff;
+  --crit:#b3261e; --crit-bg:#fdecea;
+  --warn:#8a5a00; --warn-bg:#fff4dc;
+  --info:#1c4b8a; --info-bg:#e6efff;
+  --teal:#0f6b60; --teal-bg:#e2f6f2;
+  --win:#256b2a; --win-bg:#e8f6ea;
+  --neutral:#3b4658; --neutral-bg:#eef1f6;
+}
+* { box-sizing: border-box; }
+html, body { margin:0; padding:0; background:var(--paper); color:var(--ink); font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.wrap { max-width: 980px; margin: 0 auto; padding: 0 20px 60px; }
+.banner {
+  background: linear-gradient(135deg,#0f2540 0%,#2d4f78 60%,#5a8dc0 100%);
+  color:#fff; padding: 28px 32px; margin: 20px 0 22px; border-radius: 14px;
+  box-shadow: 0 2px 20px rgba(15,37,64,.15);
+}
+.banner .kicker { font-size: 12px; letter-spacing: .12em; text-transform: uppercase; opacity: .85; }
+.banner h1 { margin: 6px 0 6px; font-size: 24px; font-weight: 700; letter-spacing: -.01em; }
+.banner .sub { font-size: 14px; opacity: .92; }
+.banner .anchor { margin-top: 14px; padding-top: 14px; border-top: 1px solid rgba(255,255,255,.22); font-size: 14px; }
+.banner .anchor strong { font-weight: 600; }
+
+.grid { display: grid; grid-template-columns: 1fr; gap: 14px; }
+.card {
+  background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+  padding: 18px 20px;
+}
+.card h2 { margin: 0 0 12px; font-size: 15px; font-weight: 700; letter-spacing: -.005em; }
+.card h2 .count { color: var(--muted); font-weight: 500; margin-left: 6px; font-size: 13px; }
+.card p { margin: 0 0 8px; }
+.card p:last-child { margin-bottom: 0; }
+
+.alert { display: grid; grid-template-columns: 78px 1fr; gap: 14px; padding: 12px 0; border-top: 1px solid var(--line); }
+.alert:first-of-type { border-top: 0; padding-top: 4px; }
+.alert .tag {
+  align-self: start; font-size: 11px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase;
+  padding: 4px 8px; border-radius: 6px; text-align: center;
+}
+.tag.crit { background: var(--crit-bg); color: var(--crit); }
+.tag.warn { background: var(--warn-bg); color: var(--warn); }
+.tag.info { background: var(--info-bg); color: var(--info); }
+.tag.teal { background: var(--teal-bg); color: var(--teal); }
+.tag.win  { background: var(--win-bg);  color: var(--win); }
+.alert .body .headline { font-weight: 600; margin-bottom: 4px; }
+.alert .body .detail { color: var(--ink-soft); font-size: 14px; }
+
+.layer {
+  display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+  padding: 2px 6px; border-radius: 4px; margin-right: 6px; vertical-align: 1px;
+  background: var(--neutral-bg); color: var(--neutral);
+}
+.layer.owe    { background: #f2dfe7; color: #8a1849; }
+.layer.thread { background: #e6efff; color: #1c4b8a; }
+.layer.context{ background: #eef1f6; color: #3b4658; }
+.layer.history{ background: #eef1f6; color: #3b4658; }
+.layer.signal { background: #e2f6f2; color: #0f6b60; }
+.layer.risk   { background: #fdecea; color: #b3261e; }
+.layer.action { background: #fff4dc; color: #8a5a00; }
+.layer.win    { background: #e8f6ea; color: #256b2a; }
+
+ul.tight { margin: 6px 0 0; padding-left: 20px; }
+ul.tight li { margin: 3px 0; }
+.footer { color: var(--muted); font-size: 12px; margin-top: 22px; text-align: center; }
+.footer a { color: var(--muted); }
+
+.mtg-row { display: grid; grid-template-columns: 96px 1fr; gap: 12px; padding: 6px 0; border-top: 1px dashed var(--line); font-size: 14px; }
+.mtg-row:first-of-type { border-top: 0; padding-top: 0; }
+.mtg-row .t { color: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
+.mtg-row .n { color: var(--ink-soft); }
+.mtg-row .cx { color: var(--muted); font-size: 13px; margin-top: 2px; }
+.strike { text-decoration: line-through; opacity: .55; }
+
+.split { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+@media (max-width: 720px) { .split { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="banner">
+<div class="kicker">Partner Brief · Tuesday, November 17, 2026 · Mexico City</div>
+<h1>Bharati's VTEX deals slipping to Q1 need chasing, and Moxie has three asks open at once</h1>
+<div class="sub">This covers Nov 12 to 17, since the Friday and Monday briefs didn't run. This morning you answered Bharati's Q3 and Q4 numbers, watched the All Hands, and got Cristina into the Moxie channel. This afternoon you have Fiserv at 13:00, then Charli and Andre both at 14:30. Thursday morning is triple-booked around the icomm panel. Friday's Novaventa slot now sits on top of Alce. All times are Mexico City.</div>
+<a class="jump" href="#lookahead">Jump to look-ahead</a>
+</div>
+<div class="grid">
+
+<h2>Make today count</h2>
+
+<div class="alert">
+<div class="tag crit">VTEX</div>
+<div class="alert-body">
+<div class="alert-title">About $1M of VTEX campaign PBR shows Q1'27 close dates, and the campaign ends Dec 31</div>
+<p>On Monday at 09:26, Bharati asked you and Marcelo to chase these deals and post a rough update in #scaled-crew-amer-latam. She pulled them into the "Magento VTex Campaign Open Pipe" sheet. On Nov 13 she sent you 13 opp IDs that may need a push to close this quarter (336712, 336379, 334083, 331797, 331904, 331470, 330823, 330819, 330820, 330824, 329798, 328222, 328164). You posted the summary numbers at 08:24 today: Q4 to date is 5 deals with 3 VTEX, and the rest of Q4 is 19 deals worth $2.1M with 7 VTEX. You haven't posted anything on the Q1-dated deals yet.</p>
+<div class="layer context"><strong>Monday's team meeting also left you two items:</strong> check the 6 negotiated accounts against Bharati's list, and get the exact PBR for the closed LATAM deals. There's also some confusion about the promo terms. Alexis heard today that the VTEX promo only gives 3 months of credits. The terms you've been quoting are 6 months free on a 3-year term, ending Dec 31.</div>
+<div class="layer action"><strong>Go through the sheet with the AEs on each deal and post one line per opp in the thread: real close date, blocker, and whether it can land by Dec 31.</strong> Correct the promo terms with Alexis and any AE who repeats the 3-month version.</div>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag warn">Moxie</div>
+<div class="alert-body">
+<div class="alert-title">Cristina joined the channel: Arturo Calle signature, Novaventa by Dec 1, and two missing rev share payments</div>
+<p><strong>Arturo Calle:</strong> Cristina was added to #shared-shopify-moxie-digital at 08:51. Julia's manager asked her for an update this morning, and Julia says the contract has to be signed this quarter. Moxie has stopped building until the merchant signs. <strong>Novaventa:</strong> Cristina told Joe Chung that Plus has to be active by Dec 1 at the latest. Joe moved the commercial update to Fri 10:00, which now overlaps Alce. <strong>Rev share:</strong> at 11:34 Cristina emailed you that the Multimarcas Statur and Kanupetusa payments don't show in the latest period of her partner rev share.</p>
+<div class="layer action"><strong>Create the Arturo Calle thread with Julia and Cristina today and ask Cristina for the merchant's signature date.</strong> Look up both stores in the partner payouts data before you reply to Cristina, and give her only what's on her side. Move Alce to keep Novaventa.</div>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag warn">Fiserv</div>
+<div class="alert-body">
+<div class="alert-title">Fiserv at 13:00 decides which Argentina payments integration you back</div>
+<p>Rodrigo Ventura Flores accepted. On Friday's Payway call, Payway said the 35 basis points Shopify is asking for would cost them money. They see room to move because the alliance is a priority, and they suggested a Stripe-style technical integration. Emiliano owes Wes 12 months of online GMV by category, plus Argentina's payment methods and bank promotions, early this week. Bruno will share their volume and payment methods. VNS and Puppis (Latech) both depend on whichever provider is ready first.</p>
+<div class="layer action"><strong>Come out of Fiserv with a timeline and a technical owner, then compare it with Payway's in one note to Wes.</strong> Check whether Emiliano's numbers have reached Wes.</div>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag warn">icomm</div>
+<div class="alert-body">
+<div class="alert-title">Hernán's 8 questions for Thursday arrived, and that morning is triple-booked</div>
+<p>Lucila sent the guide for the 20-minute talk: agentic commerce, what agents can do in Shopify today, which AI surfaces you're on and when WhatsApp comes, the AI traffic and conversion figures, what stays with humans, ecosystem orchestration, UCP and protocols, and when mass agentic commerce arrives. The icomm invite says 09:50 to 10:10. You told Paula 10:15 to 11:00 with a hard stop. Nico (09:00), the Tobi AMA (09:30, not answered), DNB (10:00) and the Lop meetup call (11:00) fall in the same window.</p>
+<div class="layer action"><strong>Confirm the real slot with Paula, then move DNB and skip the live AMA.</strong> Check question 4's figures (2.6x traffic, 3.3x orders, 64% conversion, 75% outside the top 100) against Shopify's public sources before you repeat them on stage. Send Lucila any edits by Wednesday.</div>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag info">Pursuit</div>
+<div class="alert-body">
+<div class="alert-title">Maxine needs the retail POC for Pursuit Mexico City, Mar 3 and 4</div>
+<p>She assigned you a comment in the "Mexico City - Pursuit 2027 - Workbook" asking who you said the retail POC was. She has started the staffing plan and attendee list, and asked for your input. You agreed that some smaller-room talks can be in Spanish, which means you'll be the reviewer for those. She also shared the "Pursuit 2027 | Planning" slides for comment. Blair moved Thursday's Pursuit content session to 12:30. Michelle Drawert wants to come.</p>
+<div class="layer action"><strong>Answer the POC comment in the workbook today, and add staffing thoughts before Thursday's session with Blair.</strong></div>
+</div>
+</div>
+
+<h2 id="threads">Threads in motion</h2>
+<div class="split">
+<div>
+
+<div class="alert">
+<div class="tag win">Numbers</div>
+<div class="alert-body">
+<div class="alert-title">Bharati has her LATAM baseline</div>
+<p>You posted Q3 (10 deals, $687K PBR, 5 VTEX), Q4 to date and the open pipe this morning. Marcelo added Brazil (13 Q3 deals, $1.13M, 6 VTEX) and the Partner Powered average. Bharati wants to show Joe that the lower Mid-Market AOV comes from LATAM share and from how Partner Powered deals are valued. She has also asked how much TOTVS deals earn once they're more than 6 months old.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag win">Referrals</div>
+<div class="alert-body">
+<div class="alert-title">Five referral handoffs went out Friday</div>
+<p>Industrias Suarez and Contra went to Matt G (POS for US events, US entity, VTEX promo terms). Sukasa went to Backend Studio with Alexis, Porta to LatamReady with Caroline Schwartz, and ICB Food Market to Pivot with Jesse Meyler. Fixlabs is also in motion.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag teal">Forus</div>
+<div class="alert-body">
+<div class="alert-title">The 430-store POS ask is with Joe Strolz and Sarah Speight</div>
+<p>Bharati replied to Andrés Vizcarrondo and forwarded his note to Joe Strolz and Virag Khara. Joe asked Sarah Speight for her view. At Monday's meeting Bharati said she'd keep the message to Forus conservative. Separately, Nicolás (Lab51) wants a review of the decision not to credit Lab51 for the Mango Uruguay Plus referral. Thursday's 09:00 biweekly is where he'll ask.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag teal">Catalog</div>
+<div class="alert-body">
+<div class="alert-title">The Community list now targets 3 to 20 core referrals</div>
+<p>Bharati moved the criteria to partners with 3 to 20 core referrals this year and last, 50 to 100 names. Alli and Kali are building it from Kali's cohort dashboard, and Marcelo asked Blair for edit access. Check that the LATAM names you'd back are in that cohort.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag teal">Tiers</div>
+<div class="alert-body">
+<div class="alert-title">Tier list for the managed versus scaled call</div>
+<p>From Friday's 1:1: list the Diamond, Platinum, Gold and Silver partners in your book so you can decide who stays managed when the new tiers start Jan 1. On Monday you shared the LATAM result (8 Platinum, 65 Gold). Bharati and Cristina accepted the Dec 4 "Getting to know the LATAM Platinum BB&lt;&gt;Moxie" session.</p>
+</div>
+</div>
+
+</div>
+<div>
+
+<div class="alert">
+<div class="tag teal">App security</div>
+<div class="alert-body">
+<div class="alert-title">Michelle Drawert offered to help with your IP allowlist list before Friday</div>
+<p>You sent the individual emails Nov 13. Dinkbit, Lobo, Infracommerce and Latech replied. Michelle is chasing scaled partners and will check your book. You told her the managed partners are fine and the risk is the small ones you don't know. New custom apps need IP restrictions from Fri 20.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag teal">Lop</div>
+<div class="alert-body">
+<div class="alert-title">Faye is making the meetup deck bilingual for Thursday</div>
+<p>The host call with Esteban and Sergio is Thu 11:00. You told Faye their English is enough for a call and you'll be there to fill gaps. Faye plans to send the deck ahead of the call.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag teal">Latech</div>
+<div class="alert-body">
+<div class="alert-title">Wednesday's biweekly has two loose ends</div>
+<p>Lucas wants to record it with Fathom. Ricky Sarkany asked about a fee on cancelled orders, so send him the public pricing or help page rather than an answer in writing. Grace and Mateo (Klaviyo) met Monday. Kai Morton is asking about the Vital proposal.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag teal">Andreani</div>
+<div class="alert-body">
+<div class="alert-title">Daniel asked again for help with the Argentina app review</div>
+<p>The Andreani app is still in Submitted status. Daniel's forward this morning asks for whatever help you can give. Route it to app review and send him the public requirements page.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag teal">Carryover</div>
+<div class="alert-body">
+<div class="alert-title">Still open</div>
+<p>Fran Martinez is waiting to be added to the channel so they can generate the link for helpdesk ticket 2012146. Mackenzie Rangel's Partners Internal link request in #help-crm. Addi's marketplace integration email goes to Wes only. Your email to mcplay@xxstudio.mx bounced because the domain doesn't exist, so check the address. Atoms (César) is waiting on Sarah's Loh Medical intro.</p>
+</div>
+</div>
+
+</div>
+</div>
+
+<h2 id="lookahead">Look-ahead</h2>
+
+<div class="mtg-row">
+<div class="mtg-time">Tue<br>Nov 17</div>
+<div class="mtg-body">
+<div class="mtg-title">Fiserv, then Charli and Andre</div>
+<p>Fiserv Arg 13:00. Charli-Toño and Andre-Toño both 14:30, so move one.</p>
+</div>
+</div>
+
+<div class="mtg-row">
+<div class="mtg-time">Wed<br>Nov 18</div>
+<div class="mtg-body">
+<div class="mtg-title">Latech, Galileo, Wualá, Triciclo</div>
+<p>Latech biweekly 09:00 (Fathom recording request). Galileo intro with Damian and Luciana 10:00. Wualá 11:00. Triciclo/Revie 11:30. Aldo 12:00. Last day to send icomm edits to Lucila.</p>
+</div>
+</div>
+
+<div class="mtg-row">
+<div class="mtg-time">Thu<br>Nov 19</div>
+<div class="mtg-body">
+<div class="mtg-title">Nico, icomm, Lop meetup, Blair</div>
+<p>Nico 09:00 (Mango Uruguay appeal). Tobi AMA 09:30. icomm Trends Summit 09:50 per the invite, or 10:15 to 11:00 per your reply. DNB 10:00. Lop and Faye meetup call 11:00. Blair, Pursuit Mexico content, 12:30. Steph 13:30. Co-Marketing Office Hours 14:00.</p>
+</div>
+</div>
+
+<div class="mtg-row">
+<div class="mtg-time">Fri<br>Nov 20</div>
+<div class="mtg-body">
+<div class="mtg-title">Novaventa over Alce, then the Chile and Mexico stack</div>
+<p>Invoice 07:30, pipeline sheet 08:00. Mango 09:00, Melissa 09:30. Novaventa and Alce both 10:00. XPRTS 10:30, Kickass 11:00, BR checkout and Alce case study 11:30, monthly team hang 12:00. IP restrictions start for new custom apps.</p>
+</div>
+</div>
+
+<div class="mtg-row">
+<div class="mtg-time">Next<br>week</div>
+<div class="mtg-body">
+<div class="mtg-title">Big 3 Monday, then Dec 4</div>
+<p>Mon 23: Big 3 check 08:30, Scaled Team Meeting 10:00, Nassim 1:1 and Moxie marketing check-in both at 11:00, Dango 11:30. Dec 4: LATAM Platinum session with Moxie at 07:30, XPRTS at Meta México.</p>
+</div>
+</div>
+
+<div class="foot">Generated 2026-11-17 · Mexico City local time throughout · Slack, Gmail, Calendar and Gemini notes read · Covers Nov 12 &ndash; Nov 17 · 130th brief in the archive</div>
+</div>
+</body>
+</html>
