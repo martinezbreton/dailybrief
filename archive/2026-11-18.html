@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Partner Brief — Wed Nov 18, 2026</title>
+<style>
+:root {
+  --ink:#0e1420; --ink-soft:#2b3648; --paper:#f7f8fb; --line:#e4e8ef;
+  --card:#ffffff; --muted:#5d6b82; --link:#0057ff;
+  --crit:#b3261e; --crit-bg:#fdecea;
+  --warn:#8a5a00; --warn-bg:#fff4dc;
+  --info:#1c4b8a; --info-bg:#e6efff;
+  --teal:#0f6b60; --teal-bg:#e2f6f2;
+  --win:#256b2a; --win-bg:#e8f6ea;
+  --neutral:#3b4658; --neutral-bg:#eef1f6;
+}
+* { box-sizing: border-box; }
+html, body { margin:0; padding:0; background:var(--paper); color:var(--ink); font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.wrap { max-width: 980px; margin: 0 auto; padding: 0 20px 60px; }
+.banner {
+  background: linear-gradient(135deg,#0f2540 0%,#2d4f78 60%,#5a8dc0 100%);
+  color:#fff; padding: 28px 32px; margin: 20px 0 22px; border-radius: 14px;
+  box-shadow: 0 2px 20px rgba(15,37,64,.15);
+}
+.banner .kicker { font-size: 12px; letter-spacing: .12em; text-transform: uppercase; opacity: .85; }
+.banner h1 { margin: 6px 0 6px; font-size: 24px; font-weight: 700; letter-spacing: -.01em; }
+.banner .sub { font-size: 14px; opacity: .92; }
+.banner .anchor { margin-top: 14px; padding-top: 14px; border-top: 1px solid rgba(255,255,255,.22); font-size: 14px; }
+.banner .anchor strong { font-weight: 600; }
+
+.grid { display: grid; grid-template-columns: 1fr; gap: 14px; }
+.card {
+  background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+  padding: 18px 20px;
+}
+.card h2 { margin: 0 0 12px; font-size: 15px; font-weight: 700; letter-spacing: -.005em; }
+.card h2 .count { color: var(--muted); font-weight: 500; margin-left: 6px; font-size: 13px; }
+.card p { margin: 0 0 8px; }
+.card p:last-child { margin-bottom: 0; }
+
+.alert { display: grid; grid-template-columns: 78px 1fr; gap: 14px; padding: 12px 0; border-top: 1px solid var(--line); }
+.alert:first-of-type { border-top: 0; padding-top: 4px; }
+.alert .tag {
+  align-self: start; font-size: 11px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase;
+  padding: 4px 8px; border-radius: 6px; text-align: center;
+}
+.tag.crit { background: var(--crit-bg); color: var(--crit); }
+.tag.warn { background: var(--warn-bg); color: var(--warn); }
+.tag.info { background: var(--info-bg); color: var(--info); }
+.tag.teal { background: var(--teal-bg); color: var(--teal); }
+.tag.win  { background: var(--win-bg);  color: var(--win); }
+.alert .body .headline { font-weight: 600; margin-bottom: 4px; }
+.alert .body .detail { color: var(--ink-soft); font-size: 14px; }
+
+.layer {
+  display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+  padding: 2px 6px; border-radius: 4px; margin-right: 6px; vertical-align: 1px;
+  background: var(--neutral-bg); color: var(--neutral);
+}
+.layer.owe    { background: #f2dfe7; color: #8a1849; }
+.layer.thread { background: #e6efff; color: #1c4b8a; }
+.layer.context{ background: #eef1f6; color: #3b4658; }
+.layer.history{ background: #eef1f6; color: #3b4658; }
+.layer.signal { background: #e2f6f2; color: #0f6b60; }
+.layer.risk   { background: #fdecea; color: #b3261e; }
+.layer.action { background: #fff4dc; color: #8a5a00; }
+.layer.win    { background: #e8f6ea; color: #256b2a; }
+
+ul.tight { margin: 6px 0 0; padding-left: 20px; }
+ul.tight li { margin: 3px 0; }
+.footer { color: var(--muted); font-size: 12px; margin-top: 22px; text-align: center; }
+.footer a { color: var(--muted); }
+
+.mtg-row { display: grid; grid-template-columns: 96px 1fr; gap: 12px; padding: 6px 0; border-top: 1px dashed var(--line); font-size: 14px; }
+.mtg-row:first-of-type { border-top: 0; padding-top: 0; }
+.mtg-row .t { color: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
+.mtg-row .n { color: var(--ink-soft); }
+.mtg-row .cx { color: var(--muted); font-size: 13px; margin-top: 2px; }
+.strike { text-decoration: line-through; opacity: .55; }
+
+.split { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+@media (max-width: 720px) { .split { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="banner">
+<div class="kicker">Partner Brief · Wednesday, November 18, 2026 · Mexico City</div>
+<h1>Wes answered all four Fiserv questions, and Moxie's OrderFor app was suspended a third time</h1>
+<div class="sub">Four partner calls before lunch: Latech, Galileo's first call, Wualá and Triciclo. Wes replied overnight to every point in your Fiserv recap, so the answers need to reach Patricio's team. Cristina has escalated OrderFor to senior App Review and copied you. The VTEX deals with Q1 close dates still have no update in the thread. All times are Mexico City.</div>
+<a class="jump" href="#lookahead">Jump to look-ahead</a>
+</div>
+<div class="grid">
+
+<h2>Make today count</h2>
+
+<div class="alert">
+<div class="tag crit">Fiserv</div>
+<div class="alert-body">
+<div class="alert-title">Fiserv's open questions are answered, and they need to hear it while Conexa is ready to start</div>
+<p>Your recap went out at 17:00. Conexa's contract is signed, launch is estimated for January, the first version redirects to Fiserv's web checkout, and you asked Fiserv to start now instead of December and shorten Conexa's 45 days. By 18:48 Wes had answered your four points in DM. <strong>Account:</strong> a new payments app under the same Partner account and the Mexico agreement works. Shopify bills one entity per Partner account, so if Fiserv Argentina needs invoices under its own CUIT, it needs a new Partner account. BNPL would mean a different conversation. <strong>Two-step purchases:</strong> supported, recommended for the MVP. <strong>Click to Pay and tokenization:</strong> nothing blocks them in the redirect, but cards can't be saved for future charges. <strong>Antifraud:</strong> the redirect gets customer, billing, shipping, browser and payment fields, with no line items. Signifyd and ClearSale read the order inside Shopify.</p>
+<div class="layer action"><strong>Reply on the Fiserv thread in Spanish with the technical answers and the shopify.dev request reference link.</strong> Ask Wes to make the account and billing point himself, since it touches agreement terms. Keep pushing on the start date.</div>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag warn">Moxie</div>
+<div class="alert-body">
+<div class="alert-title">OrderFor was suspended for the third time, and Cristina hasn't answered in the channel</div>
+<p>Yesterday at 13:39 Cristina opened an urgent escalation on ticket 72185944 and copied you. She says App Review keeps testing OrderFor against its intended behavior: the widget is hidden on purpose, the QR code isn't a payment method, free shipping runs on automatic discounts, and the QR form is optional. She also says Moxie can't see the feedback cards in its Partner Dashboard. She's asking for a senior reviewer and offering a live demo, because merchants are waiting for the public listing. You pinged her at 17:03 in #shared-shopify-moxie-digital about Arturo Calle and got no reply. The Multimarcas Statur and Kanupetusa rev share question is still open too.</p>
+<div class="layer action"><strong>Find the App Review contact for the ticket and ask for the live demo.</strong> When Cristina surfaces, use the same conversation to get the Arturo Calle signature date for Julia. Novaventa still overlaps Alce on Friday at 10:00.</div>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag warn">VTEX</div>
+<div class="alert-body">
+<div class="alert-title">There's still no update on the VTEX deals dated Q1</div>
+<p>Bharati asked on Monday for a rough status on about $1M of campaign PBR showing Q1'27 close dates, using her "Magento VTex Campaign Open Pipe" sheet. Nothing has been posted in #scaled-crew-amer-latam since. Separately, Alexis heard that the promo gives only 3 months of credits, which doesn't match what you were told. You told him this morning to check.</p>
+<div class="layer action"><strong>Post a first pass today, even if only half the opps are confirmed.</strong> Name the source of the 3-month version so the AEs hear one set of terms.</div>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag info">Calls</div>
+<div class="alert-body">
+<div class="alert-title">Four partner calls before lunch</div>
+<p><strong>Latech 09:00:</strong> Tomás is tentative, and Lucas has asked to record with Fathom. Lucas asked on Monday, for Ricky Sarkany, whether Shopify charges a fee on cancelled orders. Kai Morton is waiting on Andrés's final Vital proposal. Juan Cruz is reviewing the custom app security note. <strong>Galileo 10:00:</strong> first call with Damian and Luciana. Marcelo introduced them. They're an agency in Argentina with an office in Spain, leading a Shopify opportunity, and they want to join the Partner Program. <strong>Wualá 11:00:</strong> César and Pablo. César asked last week about Partner Directory profile changes, and you said nothing has changed yet. <strong>Triciclo 11:30:</strong> Renata accepted. Triciclo got the security follow-up on Nov 13.</p>
+<div class="layer action"><strong>For Ricky, send Lucas the public pricing page instead of an answer in writing.</strong> At Galileo, find out who the merchant is and what stage it's at before you talk about the program.</div>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag info">Intros</div>
+<div class="alert-body">
+<div class="alert-title">Carley wants your Mercado Pago contact, and LOP sent you an events lead</div>
+<p>In #amer-pluspartnerrequests, Carley Hohmann has a nonprofit Plus merchant that sells digital products, so Managed Markets isn't an option. They want Mercado Pago for LATAM payment methods but can't get through signup because an EIN doesn't fit the form. She asked if she can introduce your contact directly to the merchant. She also offered to DM you the context. Separately, Javier Boxler (eCommerce Institute) got your name from Esteban at LOP. He's inviting Shopify to the 2027 eCommerce DAY Tour and left a booking link. Alberto Mandujano (Brand Industry) booked an optional call with you for Mon 10:30.</p>
+<div class="layer action"><strong>Ask Carley for the context, then make the Mercado Pago intro.</strong> Your role is to connect them, not to commit Mercado Pago's help. Book Javier's 30 minutes for next week if the Tour fits the 2027 events plan.</div>
+</div>
+</div>
+
+<h2 id="threads">Threads in motion</h2>
+<div class="split">
+<div>
+
+<div class="alert">
+<div class="tag win">Buen Fin</div>
+<div class="alert-body">
+<div class="alert-title">Charli reported a record weekend</div>
+<p>In yesterday's 1:1, Charli said the weekend was Shopify's best three days ever in Mexico by revenue. Boschito passed its first 10,000 orders, up 150% on the previous period. Your follow-up is to check that Boschito's order badge is applied automatically.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag teal">Pursuit</div>
+<div class="alert-body">
+<div class="alert-title">Pursuit is now partner and developer only, and Mexico is one of four editions</div>
+<p>From Charli's notes: Mexico is the only emerging market of the four editions, and ticket sales open in early December. You said you'd post in the group chat when they do. Laura Dykstra gave you edit access to the workbook. Maxine's question about the retail POC is still waiting for your answer. Blair's content session is Thu 12:30.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag teal">Sukasa</div>
+<div class="alert-body">
+<div class="alert-title">Backend Studio picked the alternative payments extension</div>
+<p>Juan Daniel replied to Alexis Peterson. He prefers option 1, with offsite payments as the fallback, and he'll apply as a Payments Partner. He's asking for the fee terms in writing, how to show loyalty-tier prices before checkout on Plus, and when the review will be decided. Alexis owns the thread.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag teal">POS</div>
+<div class="alert-body">
+<div class="alert-title">Your POS Pro waiver question in #help-monetization has no replies</div>
+<p>You asked how the 200-location waiver works for a US Plus store that also has retail in Colombia. The questions are whether the Shopify Payments check applies to the whole shop or each location, whether non-Payments countries count toward the waiver, and whether there's a public page you can share. You need the answer before the partner sends its proposal.</p>
+</div>
+</div>
+
+</div>
+<div>
+
+<div class="alert">
+<div class="tag teal">Lop</div>
+<div class="alert-body">
+<div class="alert-title">Thursday's meetup call moved to 11:15</div>
+<p>Faye added an agenda covering introductions, what the meetup program and pilot are, and how Shopify supports hosts. She'll keep everything for LATAM partners in Spanish, or Portuguese for Brazil.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag teal">Polo Club</div>
+<div class="alert-body">
+<div class="alert-title">Capri has no pricing answer yet</div>
+<p>She's posting the per-location question in more channels this morning. You offered to help.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag teal">Lunch &amp; Learn</div>
+<div class="alert-body">
+<div class="alert-title">Tebiko is booked for Dec 3 at 11:00</div>
+<p>You sent the invite last night. The series uses the invite list to see who comes, so check the guest list before the reminder goes out.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag teal">Carryover</div>
+<div class="alert-body">
+<div class="alert-title">Still open</div>
+<p>Send Lucila any edits to Hernán's icomm questions today, and confirm the real slot with Paula. Lab51's Mango Uruguay appeal is at tomorrow's 09:00 with Nico. Andreani's app is still Submitted. Michelle Drawert is checking your book for the IP allowlist before Friday. Addi's email goes to Wes only. The xxstudio.mx address bounced. Fran sent the Slack link, so that item is closed.</p>
+</div>
+</div>
+
+</div>
+</div>
+
+<h2 id="lookahead">Look-ahead</h2>
+
+<div class="mtg-row">
+<div class="mtg-time">Wed<br>Nov 18</div>
+<div class="mtg-body">
+<div class="mtg-title">Latech, Galileo, Wualá, Triciclo, Aldo</div>
+<p>Latech 09:00. Galileo intro 10:00 to 10:45. Wualá 11:00. Triciclo/Revie 11:30. Aldo 12:00. Afternoon is open, so use it for Fiserv, VTEX and the icomm edits.</p>
+</div>
+</div>
+
+<div class="mtg-row">
+<div class="mtg-time">Thu<br>Nov 19</div>
+<div class="mtg-body">
+<div class="mtg-title">Nico, icomm, Lop meetup, Blair</div>
+<p>Nico 09:00. Tobi AMA 09:30, not answered. icomm 09:50 per the invite, or 10:15 per your reply. DNB 10:00. Lop meetup call 11:15. Blair 12:30. Steph 13:30. Co-Marketing Office Hours 14:00.</p>
+</div>
+</div>
+
+<div class="mtg-row">
+<div class="mtg-time">Fri<br>Nov 20</div>
+<div class="mtg-body">
+<div class="mtg-title">Novaventa over Alce, then the Chile and Mexico stack</div>
+<p>Invoice 07:30, pipeline sheet 08:00. Mango 09:00, Melissa 09:30. Novaventa and Alce both 10:00. XPRTS 10:30, Kickass 11:00, Alce case study 11:30, team hang 12:00. IP restrictions start for new custom apps.</p>
+</div>
+</div>
+
+<div class="mtg-row">
+<div class="mtg-time">Next<br>week</div>
+<div class="mtg-body">
+<div class="mtg-title">Big 3, Simplify, Lab51, VNS</div>
+<p>Mon 23: Big 3 08:30, Scaled Team Meeting 10:00, Brand Industry 10:30 (optional), Nassim 1:1 and Moxie marketing both 11:00, Dango 11:30. Tue 24: Simplify 10:00, Getmore 12:00, Andre 14:30. Wed 25: Lab51 09:30, Lobo 10:00, IFC 10:30, Vitamina 11:00, Atoms 11:30, VNS 14:00. Dec 3: Tebiko Lunch &amp; Learn. Dec 4: LATAM Platinum session with Moxie, XPRTS at Meta México.</p>
+</div>
+</div>
+
+<div class="foot">Generated 2026-11-18 · Mexico City local time throughout · Slack, Gmail, Calendar and Gemini notes read · Covers Nov 17 &ndash; Nov 18 · 131st brief in the archive</div>
+</div>
+</body>
+</html>
