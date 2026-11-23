@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Partner Brief — Mon Nov 23, 2026</title>
+<style>
+:root {
+  --ink:#0e1420; --ink-soft:#2b3648; --paper:#f7f8fb; --line:#e4e8ef;
+  --card:#ffffff; --muted:#5d6b82; --link:#0057ff;
+  --crit:#b3261e; --crit-bg:#fdecea;
+  --warn:#8a5a00; --warn-bg:#fff4dc;
+  --info:#1c4b8a; --info-bg:#e6efff;
+  --teal:#0f6b60; --teal-bg:#e2f6f2;
+  --win:#256b2a; --win-bg:#e8f6ea;
+  --neutral:#3b4658; --neutral-bg:#eef1f6;
+}
+* { box-sizing: border-box; }
+html, body { margin:0; padding:0; background:var(--paper); color:var(--ink); font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.wrap { max-width: 980px; margin: 0 auto; padding: 0 20px 60px; }
+.banner {
+  background: linear-gradient(135deg,#0f2540 0%,#2d4f78 60%,#5a8dc0 100%);
+  color:#fff; padding: 28px 32px; margin: 20px 0 22px; border-radius: 14px;
+  box-shadow: 0 2px 20px rgba(15,37,64,.15);
+}
+.banner .kicker { font-size: 12px; letter-spacing: .12em; text-transform: uppercase; opacity: .85; }
+.banner h1 { margin: 6px 0 6px; font-size: 24px; font-weight: 700; letter-spacing: -.01em; }
+.banner .sub { font-size: 14px; opacity: .92; }
+.banner .anchor { margin-top: 14px; padding-top: 14px; border-top: 1px solid rgba(255,255,255,.22); font-size: 14px; }
+.banner .anchor strong { font-weight: 600; }
+
+.grid { display: grid; grid-template-columns: 1fr; gap: 14px; }
+.card {
+  background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+  padding: 18px 20px;
+}
+.card h2 { margin: 0 0 12px; font-size: 15px; font-weight: 700; letter-spacing: -.005em; }
+.card h2 .count { color: var(--muted); font-weight: 500; margin-left: 6px; font-size: 13px; }
+.card p { margin: 0 0 8px; }
+.card p:last-child { margin-bottom: 0; }
+
+.alert { display: grid; grid-template-columns: 78px 1fr; gap: 14px; padding: 12px 0; border-top: 1px solid var(--line); }
+.alert:first-of-type { border-top: 0; padding-top: 4px; }
+.alert .tag {
+  align-self: start; font-size: 11px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase;
+  padding: 4px 8px; border-radius: 6px; text-align: center;
+}
+.tag.crit { background: var(--crit-bg); color: var(--crit); }
+.tag.warn { background: var(--warn-bg); color: var(--warn); }
+.tag.info { background: var(--info-bg); color: var(--info); }
+.tag.teal { background: var(--teal-bg); color: var(--teal); }
+.tag.win  { background: var(--win-bg);  color: var(--win); }
+.alert .body .headline { font-weight: 600; margin-bottom: 4px; }
+.alert .body .detail { color: var(--ink-soft); font-size: 14px; }
+
+.layer {
+  display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+  padding: 2px 6px; border-radius: 4px; margin-right: 6px; vertical-align: 1px;
+  background: var(--neutral-bg); color: var(--neutral);
+}
+.layer.owe    { background: #f2dfe7; color: #8a1849; }
+.layer.thread { background: #e6efff; color: #1c4b8a; }
+.layer.context{ background: #eef1f6; color: #3b4658; }
+.layer.history{ background: #eef1f6; color: #3b4658; }
+.layer.signal { background: #e2f6f2; color: #0f6b60; }
+.layer.risk   { background: #fdecea; color: #b3261e; }
+.layer.action { background: #fff4dc; color: #8a5a00; }
+.layer.win    { background: #e8f6ea; color: #256b2a; }
+
+ul.tight { margin: 6px 0 0; padding-left: 20px; }
+ul.tight li { margin: 3px 0; }
+.footer { color: var(--muted); font-size: 12px; margin-top: 22px; text-align: center; }
+.footer a { color: var(--muted); }
+
+.mtg-row { display: grid; grid-template-columns: 96px 1fr; gap: 12px; padding: 6px 0; border-top: 1px dashed var(--line); font-size: 14px; }
+.mtg-row:first-of-type { border-top: 0; padding-top: 0; }
+.mtg-row .t { color: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
+.mtg-row .n { color: var(--ink-soft); }
+.mtg-row .cx { color: var(--muted); font-size: 13px; margin-top: 2px; }
+.strike { text-decoration: line-through; opacity: .55; }
+
+.split { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+@media (max-width: 720px) { .split { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="banner">
+<div class="kicker">Partner Brief · Monday, November 23, 2026 · Mexico City</div>
+<h1>Novaventa signs this week, and Cristina is still waiting on her answer</h1>
+<div class="sub">Joe sent Novaventa the DocuSign on Friday and Andrea approved Moxie's MDF, so this is a good moment to answer Cristina's question about the rules. Payway sent Wes its 2025 numbers, and your projection is the piece finance is missing. Capri and Infracommerce each asked a pricing or payments question with a known answer. Today has no overlaps. The Scaled Team Meeting moved to 12:30. All times are Mexico City.</div>
+<a class="jump" href="#lookahead">Jump to look-ahead</a>
+</div>
+<div class="grid">
+
+<h2>Make today count</h2>
+
+<div class="alert">
+<div class="tag crit">Moxie</div>
+<div class="alert-body">
+<div class="alert-title">Cristina's question about the sales-assisted rules has been waiting since Thursday</div>
+<p>She apologized, sent the September to November log and asked two things: the sales-assisted and partner-led guidelines in writing, and what the flag means for Moxie. The group DM has had no reply since. The context has improved in the meantime. On Friday Novaventa agreed to a 1-year term with one free month, Joe sent the DocuSign to Jonathan with Daniel copied, and Juan Camilo said they'll confirm once it's signed. The target is to activate the store in December. Andrea also approved Moxie's MDF request. You cancelled today's monthly Moxie marketing check-in, so this reply is the touchpoint this week.</p>
+<div class="layer action"><strong>Check with Julia, then reply in the group DM before Nassim at 11:00.</strong> Open with Novaventa and the MDF approval, confirm Moxie's standing isn't affected, give the rule in two lines (sign the Shopify contract before building in a dev store), and ask for Arturo Calle's realistic signing date. Don't bring OrderFor or rev share into it.</div>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag warn">Payway</div>
+<div class="alert-body">
+<div class="alert-title">Payway sent its 2025 numbers, and Wes still needs your projection</div>
+<p>On Friday afternoon Emiliano sent Wes Payway's January to October 2025 card-not-present volume: $3.30B, compared with $3.14B for the same months of 2026, down about 5%. Household appliances fell the most ($1.15B to $0.95B). Supermarkets fell slightly and pharmacy grew. He blamed weaker mass-market consumption in Argentina and called it temporary. That answers Wes's growth question. On Friday Wes also asked for your view on how much of that volume would actually move to Shopify, and you said you'd chase it. Finance said it needs at least a week. Newsan and Puppis are still waiting.</p>
+<div class="layer action"><strong>Send Wes a short projection today.</strong> List the Plus deals that depend on Payway (Newsan, Puppis), the VTEX and Tiendanube merchants that bank promotions could bring over, and give a low, mid and high share of the volume. Note that the appliance category, where Payway lost the most volume, is also the one closest to Newsan.</div>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag warn">Pricing</div>
+<div class="alert-body">
+<div class="alert-title">Two questions in your queue have answers you already know</div>
+<p><strong>Capri, Tennis in Colombia:</strong> on Friday she tagged you and Matthew in #retail-sales-questions about a Plus merchant with 170 stores, about $100M a year in POS and about $10M online. The first 20 locations are included, and the other 150 at about $89 each add about $160K a year, which is why the merchant may leave. Nobody has replied. Sachin Patel confirmed the rule in #help-monetization in August: the waiver for locations 21 to 200 requires Shopify Payments as the in-store processor, and Payments isn't live in Colombia. <strong>Infracommerce, this morning:</strong> Alan Kimo wants a payments app built only for one Plus merchant's own credit system (Leancore), using the alternative or offsite payments extension. Michelle is also on the email.</p>
+<div class="layer action"><strong>Reply to Capri in the thread.</strong> Explain the Payments requirement, say there's no standard waiver in Colombia, and send her to #help-monetization for an exception. <strong>Reply to Alan</strong> that payments apps go through the Payments Partner program, which is invite-only, and that he should ask Partner Support chat in the Partner Dashboard. Don't commit to a timeline.</div>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag info">Today</div>
+<div class="alert-body">
+<div class="alert-title">A clean Monday with free time between 09:00 and 10:30</div>
+<p><strong>Newsletter 08:00, daily pulse 08:25, Big 3 08:30.</strong> <strong>10:30:</strong> Brand Industry, 15 minutes. <strong>11:00:</strong> Nassim 1:1, now on its own since the Moxie check-in is cancelled. <strong>11:30:</strong> Dango. <strong>12:00:</strong> Dani from Tebiko, ahead of the Dec 3 Lunch &amp; Learn. <strong>12:30:</strong> Scaled Team Meeting, moved from 10:00 by Bharati.</p>
+<div class="layer action"><strong>Use the 09:00 to 10:30 window</strong> for the Payway projection and the Capri reply. Leave the Moxie reply until you've heard from Julia.</div>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag info">Follow-ups</div>
+<div class="alert-body">
+<div class="alert-title">Aldo said yes, Lucas has a second question, and Faye is still waiting</div>
+<p><strong>Aldo:</strong> on Saturday he asked you to connect him directly with Unmade, Vitamina and Ads Alchemy. <strong>Lucas (Latech):</strong> he asked whether the platform percentage Shopify charges above $2,500 also applies to cancelled or refunded orders. <strong>Faye:</strong> you still haven't replied to confirm the Lop meetup pilot. <strong>Jorge (Proficient):</strong> you sent the documentation and said yes to a call, but nothing is booked. <strong>Andrés (Forus):</strong> you asked for the POS technical questions list and their peak dates, and haven't heard back. <strong>Invites:</strong> four are still unanswered. Envíos de Mercado Libre Tue 11:00, Getmore Tue 12:00, Smollan Tue 15:00 and the 1:1 with BB Fri 09:30.</p>
+<div class="layer action"><strong>Send Aldo's intros as one email per agency.</strong> Answer Lucas with the Plus pricing page link instead of restating terms. Send Faye one line, offer Jorge two slots, and accept the four invites.</div>
+</div>
+</div>
+
+<h2 id="threads">Threads in motion</h2>
+<div class="split">
+<div>
+
+<div class="alert">
+<div class="tag win">Novaventa</div>
+<div class="alert-body">
+<div class="alert-title">DocuSign sent, Jonathan signs this week</div>
+<p>Novaventa took a 1-year term with one free month and will look at a deal for the whole group's brands at renewal. Joe owns the signature and activating the store. The target is to start in December.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag win">Kickass</div>
+<div class="alert-body">
+<div class="alert-title">Platinum in Chile, and Canon Home in the last stage</div>
+<p>In Friday's call, Francisca said Kickass reached Platinum in Chile with 139 stores, led by Kinegan and Joyas Chile. The Canon Home migration is in the last CRM stage, and she'll keep you posted so the referral gets assigned. The MDF is approved against lead and PQL targets. She'll send Pursuit topics and wants an ideation call with Jose and Emilio. She also suggested Shopify Awards in March.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag win">eCommerce Institute</div>
+<div class="alert-body">
+<div class="alert-title">Javier sent the 2027 Tour brochure and a speaking invite</div>
+<p>He shared the sponsorship brochure (some dates still to confirm) and hopes Shopify joins directly or through a partner. He invited you to speak at eDAY Chile on April 15. Your intro to Blas for the Spain stop is done, and Javier has followed up with him.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag win">ISIL Peru</div>
+<div class="alert-body">
+<div class="alert-title">You've emailed the university, and River drafted the course outline</div>
+<p>You emailed Deborah directly. Michelle agreed a formal alliance is out of scope. River wrote 10 module outlines in English and Spanish, with objectives, current sources, labs and quizzes, and Mai Lee will point Deborah to your email.</p>
+</div>
+</div>
+
+</div>
+<div>
+
+<div class="alert">
+<div class="tag teal">Pursuit</div>
+<div class="alert-body">
+<div class="alert-title">Partners are sending topics</div>
+<p>Francisca and Edgar are both sending topic ideas. Edgar's include the relevance of AI, security vulnerabilities and LATAM payments roadmaps. The XPRTS notes give you two actions: add a tax session to the Pursuit plan that covers the new Mexican CFDI invoicing app, and send slides for the Dec 4 Meta event. You shared the Dinkbit Meta deck with Edgar on Friday, so check whether that covers it. Maxine shared "Shopify Pursuit 2027 | Planning" with edit access. You flagged RPM Luxury Brands (Jacob) in the workbook.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag teal">IP allowlist</div>
+<div class="alert-body">
+<div class="alert-title">Existing installs have until Jan 1</div>
+<p>Michelle told Infracommerce that allowlists are required for custom apps installed outside the partner's org. New installs need one now, and existing installs have until Jan 1. Simplify confirmed it's done. Edgar will push Rafa to finish Dinkbit's remaining apps.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag teal">Forus</div>
+<div class="alert-body">
+<div class="alert-title">Fortech is their only POS before peak season</div>
+<p>Andrés explained that after the attack, their in-house tablet POS became the only system, with no fallback. They want customizable omnichannel POS. You told him the Retail team is reviewing and that you're writing a technical summary, and you're waiting on his question list and dates. The last 10% of the e-commerce migration continues.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag teal">Carryover</div>
+<div class="alert-body">
+<div class="alert-title">Still open</div>
+<p>On Friday Gmail gave up on sof-ada.com, zigatta.com, roiker.com and bfgo.mx, so fix those contacts in the list. Andreani is still waiting on its app review. Smollan has a catch-up on Tuesday. Andrea asked the PSMs whether they can open Conductor, where PMMs upload MDF campaign leads. Companion Hub submissions are due Dec 2. Addi goes to Wes only.</p>
+</div>
+</div>
+
+</div>
+</div>
+
+<h2 id="lookahead">Look-ahead</h2>
+
+<div class="mtg-row">
+<div class="mtg-time">Mon<br>Nov 23</div>
+<div class="mtg-body">
+<div class="mtg-title">Brand Industry, Nassim, Dango, Tebiko, Scaled Team</div>
+<p>Newsletter 08:00, daily pulse 08:25, Big 3 08:30. Brand Industry 10:30, Nassim 1:1 11:00, Dango 11:30, Dani from Tebiko 12:00, Scaled Team Meeting 12:30.</p>
+</div>
+</div>
+
+<div class="mtg-row">
+<div class="mtg-time">Tue–Wed<br>Nov 24–25</div>
+<div class="mtg-body">
+<div class="mtg-title">Envíos de MeLi and Smollan, then the Wednesday partner day</div>
+<p>Tue: Simplify 10:00, Envíos de Mercado Libre 11:00, Getmore 12:00, Andre 14:30, Smollan 15:00. Wed: Lab51 09:30, Lobo 10:00, IFC 10:30, Vitamina 11:00, Atoms 11:30, VNS 14:00.</p>
+</div>
+</div>
+
+<div class="mtg-row">
+<div class="mtg-time">Thu–Fri<br>Nov 26–27</div>
+<div class="mtg-body">
+<div class="mtg-title">Lop and Experimentality, then Black Friday with three things at 11:00</div>
+<p>Thu: Lop 09:30, Shawn 11:00, Experimentality 11:30, MaryFrances 13:00, Co-Marketing Office Hours 14:00. Fri: BFCM Radio 09:00, 1:1 with BB 09:30, AMER Campaign Review 09:45. At 11:00, Charli, Getmore and Tobi's AMA are all at the same time. The Alce checkpoint is at 11:30.</p>
+</div>
+</div>
+
+<div class="mtg-row">
+<div class="mtg-time">Mon<br>Nov 30</div>
+<div class="mtg-body">
+<div class="mtg-title">Amanda and the Scaled Team, both at 10:00</div>
+<p>Newsletter 08:00, Big 3 08:30. Amanda biweekly and the Scaled Team Meeting are both at 10:00, the same time as the BFCM Radio data scoreboard. Dec 2: Companion Hub deadline. Dec 3: Tebiko Lunch &amp; Learn. Dec 4: Platinum session with Moxie, XPRTS at Meta México.</p>
+</div>
+</div>
+
+<div class="foot">Generated 2026-11-23 · Mexico City local time throughout · Slack, Gmail, Calendar and Gemini notes read · Covers Nov 20 &ndash; Nov 23 · 134th brief in the archive</div>
+</div>
+</body>
+</html>

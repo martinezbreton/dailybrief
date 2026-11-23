@@ -1,6 +1,6 @@
 # Partner Brief Archive — Manifest
 
-_133 entries · 2026-03-25 → 2026-11-20_
+_134 entries · 2026-03-25 → 2026-11-23_
 
 Each row is one daily brief. The subtitle is the at-a-glance theme; the top alert is what was most urgent that day.
 
@@ -367,3 +367,4 @@ Each row is one daily brief. The subtitle is the at-a-glance theme; the top aler
 - **2026-11-18** (Wed) — Wednesday · Nov 18, 2026 · **Wes answered all four Fiserv questions, and Moxie's OrderFor app was suspended a third time** · _Fiserv's answers need to reach Patricio's team, Cristina escalated OrderFor to senior App Review, the Q1 VTEX deals still have no update, and four partner calls land before lunch._
 - **2026-11-19** (Thu) — Thursday · Nov 19, 2026 · **Cristina is pushing back on the Arturo Calle contract, and two Argentina Plus deals are waiting on Payway** · _Moxie will send evidence today and wants the rules in writing. Newsan and Puppis only move to Plus if Payway integrates. Nico, Tobi's AMA, the icomm panel, then Lop, Blair and Steph._
 - **2026-11-20** (Fri) — Friday · Nov 20, 2026 · **Cristina apologized and sent her evidence, and now she's asking for the rules in writing** · _Moxie reply before the weekend, two overlaps today, Pursuit lists due mid-December_
+- **2026-11-23** (Mon) — Monday · Nov 23, 2026 · **Novaventa signs this week, and Cristina is still waiting on her answer** · _Moxie reply, Payway projection for Wes, Capri and Infracommerce questions_
