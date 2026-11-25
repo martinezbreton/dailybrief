@@ -1,6 +1,6 @@
 # Partner Brief Archive — Manifest
 
-_135 entries · 2026-03-25 → 2026-11-24_
+_136 entries · 2026-03-25 → 2026-11-25_
 
 Each row is one daily brief. The subtitle is the at-a-glance theme; the top alert is what was most urgent that day.
 
@@ -369,3 +369,4 @@ Each row is one daily brief. The subtitle is the at-a-glance theme; the top aler
 - **2026-11-20** (Fri) — Friday · Nov 20, 2026 · **Cristina apologized and sent her evidence, and now she's asking for the rules in writing** · _Moxie reply before the weekend, two overlaps today, Pursuit lists due mid-December_
 - **2026-11-23** (Mon) — Monday · Nov 23, 2026 · **Novaventa signs this week, and Cristina is still waiting on her answer** · _Moxie reply, Payway projection for Wes, Capri and Infracommerce questions_
 - **2026-11-24** (Tue) — Tuesday · Nov 24, 2026 · **Novaventa signed, and Tennis is on the table tomorrow** · _Cristina reply before the Tennis sync, Steve's Triciclo lead, Scaled Team actions, two reschedules_
+- **2026-11-25** (Wed) — Wednesday · Nov 25, 2026 · **Tennis at 13:30, and Flexi has until Friday to get the promo** · _Cristina's guidelines and OrderFor answers before the Tennis sync, Flexi details and SOW, Fiserv billing questions for Wes_
