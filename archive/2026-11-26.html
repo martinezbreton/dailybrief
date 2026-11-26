@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Partner Brief — Thu Nov 26, 2026</title>
+<style>
+:root {
+  --ink:#0e1420; --ink-soft:#2b3648; --paper:#f7f8fb; --line:#e4e8ef;
+  --card:#ffffff; --muted:#5d6b82; --link:#0057ff;
+  --crit:#b3261e; --crit-bg:#fdecea;
+  --warn:#8a5a00; --warn-bg:#fff4dc;
+  --info:#1c4b8a; --info-bg:#e6efff;
+  --teal:#0f6b60; --teal-bg:#e2f6f2;
+  --win:#256b2a; --win-bg:#e8f6ea;
+  --neutral:#3b4658; --neutral-bg:#eef1f6;
+}
+* { box-sizing: border-box; }
+html, body { margin:0; padding:0; background:var(--paper); color:var(--ink); font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.wrap { max-width: 980px; margin: 0 auto; padding: 0 20px 60px; }
+.banner {
+  background: linear-gradient(135deg,#0f2540 0%,#2d4f78 60%,#5a8dc0 100%);
+  color:#fff; padding: 28px 32px; margin: 20px 0 22px; border-radius: 14px;
+  box-shadow: 0 2px 20px rgba(15,37,64,.15);
+}
+.banner .kicker { font-size: 12px; letter-spacing: .12em; text-transform: uppercase; opacity: .85; }
+.banner h1 { margin: 6px 0 6px; font-size: 24px; font-weight: 700; letter-spacing: -.01em; }
+.banner .sub { font-size: 14px; opacity: .92; }
+.banner .anchor { margin-top: 14px; padding-top: 14px; border-top: 1px solid rgba(255,255,255,.22); font-size: 14px; }
+.banner .anchor strong { font-weight: 600; }
+
+.grid { display: grid; grid-template-columns: 1fr; gap: 14px; }
+.card {
+  background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+  padding: 18px 20px;
+}
+.card h2 { margin: 0 0 12px; font-size: 15px; font-weight: 700; letter-spacing: -.005em; }
+.card h2 .count { color: var(--muted); font-weight: 500; margin-left: 6px; font-size: 13px; }
+.card p { margin: 0 0 8px; }
+.card p:last-child { margin-bottom: 0; }
+
+.alert { display: grid; grid-template-columns: 78px 1fr; gap: 14px; padding: 12px 0; border-top: 1px solid var(--line); }
+.alert:first-of-type { border-top: 0; padding-top: 4px; }
+.alert .tag {
+  align-self: start; font-size: 11px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase;
+  padding: 4px 8px; border-radius: 6px; text-align: center;
+}
+.tag.crit { background: var(--crit-bg); color: var(--crit); }
+.tag.warn { background: var(--warn-bg); color: var(--warn); }
+.tag.info { background: var(--info-bg); color: var(--info); }
+.tag.teal { background: var(--teal-bg); color: var(--teal); }
+.tag.win  { background: var(--win-bg);  color: var(--win); }
+.alert .body .headline { font-weight: 600; margin-bottom: 4px; }
+.alert .body .detail { color: var(--ink-soft); font-size: 14px; }
+
+.layer {
+  display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+  padding: 2px 6px; border-radius: 4px; margin-right: 6px; vertical-align: 1px;
+  background: var(--neutral-bg); color: var(--neutral);
+}
+.layer.owe    { background: #f2dfe7; color: #8a1849; }
+.layer.thread { background: #e6efff; color: #1c4b8a; }
+.layer.context{ background: #eef1f6; color: #3b4658; }
+.layer.history{ background: #eef1f6; color: #3b4658; }
+.layer.signal { background: #e2f6f2; color: #0f6b60; }
+.layer.risk   { background: #fdecea; color: #b3261e; }
+.layer.action { background: #fff4dc; color: #8a5a00; }
+.layer.win    { background: #e8f6ea; color: #256b2a; }
+
+ul.tight { margin: 6px 0 0; padding-left: 20px; }
+ul.tight li { margin: 3px 0; }
+.footer { color: var(--muted); font-size: 12px; margin-top: 22px; text-align: center; }
+.footer a { color: var(--muted); }
+
+.mtg-row { display: grid; grid-template-columns: 96px 1fr; gap: 12px; padding: 6px 0; border-top: 1px dashed var(--line); font-size: 14px; }
+.mtg-row:first-of-type { border-top: 0; padding-top: 0; }
+.mtg-row .t { color: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
+.mtg-row .n { color: var(--ink-soft); }
+.mtg-row .cx { color: var(--muted); font-size: 13px; margin-top: 2px; }
+.strike { text-decoration: line-through; opacity: .55; }
+
+.split { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+@media (max-width: 720px) { .split { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="banner">
+<div class="kicker">Partner Brief · Thursday, November 26, 2026 · Mexico City</div>
+<h1>Cristina is confirmed for Tennis at 13:30, and Flexi still owes Steve two answers</h1>
+<div class="sub">Cristina told you this morning that she's joining the Tennis sync, and Capri has the confirmation. Steve has Flexi's store URL for the platform credits, but he still needs a launch date and a contract length before the promo window closes Friday. Jordan moved Wednesday's Spanish-speaking lead to Elie Mechoulam, a Mexico City AE, and asked you to loop him in. Bharati's 1:1 left you with a deck update and a one-pager. It's US Thanksgiving, so many US colleagues are out today and Friday. All times are Mexico City.</div>
+<a class="jump" href="#lookahead">Jump to look-ahead</a>
+</div>
+<div class="grid">
+
+<h2>Make today count</h2>
+
+<div class="alert">
+<div class="tag crit">Moxie</div>
+<div class="alert-body">
+<div class="alert-title">Tennis at 13:30: open with Novaventa, then the location fees</div>
+<p>Capri asked at 09:09 whether Cris could join, and you confirmed she is. Capri said Shopify is working on relief for the location fees and is bringing a member of leadership. The numbers going in: 170 stores, about $160K a year in fees for locations 21 to 200, and no standard waiver because Payments isn't live in Colombia. Moxie won't get referral credit on Tennis, because the April 2025 referral falls outside the 90-day window. Novaventa gives you a good opening. On Wednesday Joe introduced Zinny Obayagbona from Activation, and Cristina corrected the go-live from Jan 1 to Jan 29. She also offered to introduce Zinny to the Novaventa team. Julia told you she never wrote back to Cristina, and you said you'd already spoken with her. Cristina's Nov 19 request for the sales-assisted and partner-led guidelines in writing still has no written answer in the group DM.</p>
+<div class="layer action"><strong>On the call, congratulate Moxie on Novaventa first,</strong> then let Capri lead on fees and ask about Tennis's rollout timeline. If the referral credit comes up, say it plainly: it's outside the 90-day window. <strong>After the call,</strong> post the two-line rule in the group DM (sign the Shopify contract before building in a dev store) so Cristina has it in writing, and agree with Julia who sends it.</div>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag warn">Triciclo</div>
+<div class="alert-body">
+<div class="alert-title">Flexi needs a launch date and a contract length by Friday</div>
+<p>Renata sent Flexi's legal details on Wednesday: Flexi Ecommerce SAPI de C.V. in León, with Paula Gabriela González Luévano as the signer. Steve asked for the .myshopify URL so he could allocate platform credits, and Fabián sent fleximexico.myshopify.com. Steve also told you in DM that they never gave him an expected go-live date. At 16:40 you asked Fabián for the launch date and how many years Flexi wants to sign, and reminded him that a longer term gets a better promo. No reply yet. The promo window closes at the end of this week, and Thanksgiving may slow things down on Steve's side.</p>
+<div class="layer action"><strong>Nudge Fabián and Renata before noon</strong> (WhatsApp is faster than email) for the two answers. Once they reply, send them to Steve in DM, and check that he's working Friday so the contract doesn't wait until Monday.</div>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag warn">Spanish AE</div>
+<div class="alert-body">
+<div class="alert-title">Marketstrat now has a Mexico City AE: loop in Elie</div>
+<p>On Wednesday a Mexican partner submitted a lead for Marketstrat S.A. de C.V., about $3M in GMV. The merchant will only discuss commercials with a Spanish-speaking AE. You asked Jordan Yeats for help. He moved the lead and the account to Elie Mechoulam, who is from Mexico City, and asked you to loop Elie in. Jordan is back Monday. This also covers the Atoms note about getting a Spanish-speaking seller on the opportunity.</p>
+<div class="layer action"><strong>Send the three-way intro today:</strong> partner, merchant and Elie. Write it in Spanish with English below, present Elie as your sales contact, and close by offering help. Thank Jordan in the DM.</div>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag warn">Bharati</div>
+<div class="alert-body">
+<div class="alert-title">Three actions from Wednesday's 1:1</div>
+<p>You covered Lacoste Argentina, the 100 to 150 Spanish LATAM brand target, the 250 non-Shopify brands list, Payway and Fiserv, the Mexican agency offshoring pilot, the NetSuite migration idea and Pursuit planning with Blair. The notes give you three actions. First, update the LATAM deck with Marcelo (brand logos, partner structure and GTM) by the end of next week. Second, write a one-pager on 5 tenured Mexican partners covering partnership dates, tiers, billing stats, website links and implementation costs. Third, book a December alignment with Marcelo and Bharati for the second week of December. Bharati will follow up with Wesley on Payway and take the one-pager to Lauren to propose white-labeling Mexico partner recommendations.</p>
+<div class="layer action"><strong>Send the calendar invite for the week of Dec 7 today</strong> while it's fresh, and pick the 5 partners for the one-pager. Bharati needs it before she can go to Lauren, so do it first. Then set a time with Marcelo for the deck.</div>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag info">Today</div>
+<div class="alert-body">
+<div class="alert-title">Five more meetings, and Andrea needs a yes or no on office hours</div>
+<p><strong>10:30</strong> Nassim 1:1. <strong>11:00</strong> Shawn. <strong>11:30</strong> Experimentality. <strong>13:00</strong> MaryFrances. <strong>13:30</strong> Tennis SA x Shopify sync. <strong>14:00</strong> Co-Marketing Office Hours. At 08:40 Andrea asked Canadian and LATAM PSMs to say whether they're joining today's session, since the US team is out. She's happy to cancel if nothing is pressing. ISIL took place at 08:30. Deborah will send ISIL's Partner account number, and after that you owe her a signed letter confirming ISIL's Partner status. You also owe her an intro to Nicolás Cavieses at Clúter. You already emailed Deborah and Jonathan about the course.</p>
+<div class="layer action"><strong>Reply to Andrea's thread now.</strong> Skipping is the easy choice because Tennis runs right up to 14:00. Do the Clúter intro today, and draft the ISIL letter on letterhead so it's ready once the account number arrives.</div>
+</div>
+</div>
+
+<h2 id="threads">Threads in motion</h2>
+<div class="split">
+<div>
+
+<div class="alert">
+<div class="tag win">Lop</div>
+<div class="alert-body">
+<div class="alert-title">Lacoste Argentina is on Plus</div>
+<p>It's the week's biggest win. The store moved from a frozen plan to Plus on Nov 24. It's Partner-powered with Lop, and you raised it with Bharati in Wednesday's 1:1. This morning's Lop biweekly is a natural place to ask about a case study.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag win">Novaventa</div>
+<div class="alert-body">
+<div class="alert-title">Activated, with Activation on board</div>
+<p>Joe confirmed the Plus store is active. Zinny from Activation will support launch readiness and offered a readiness audit before go-live. Cristina set the launch for Jan 29 and is collecting the SOW and project docs for Zinny.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag win">VNS</div>
+<div class="alert-body">
+<div class="alert-title">PDS Equipments accepted the transfer</div>
+<p>The client accepted the dev store transfer, and Ricardo sent the SOW through DocuSign. He'll send you the signed Mimaki SOW once the client signs. The Q3 eBook PO is fully resolved.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag win">Closed loops</div>
+<div class="alert-body">
+<div class="alert-title">Pickit, Jorge and Lab51</div>
+<p>Marcos confirmed Pickit on Wednesday. Jorge (Proficient) said your email answered his points and a call probably isn't needed. Nicolás emailed Alexis and Luis that Lab51 has been a Premier Partner since October. Jorge at Lab51 also finished the app IP allowlist validation.</p>
+</div>
+</div>
+
+</div>
+<div>
+
+<div class="alert">
+<div class="tag teal">Fiserv</div>
+<div class="alert-body">
+<div class="alert-title">Billing questions are with Wes</div>
+<p>On Wednesday you thanked Manuel for picking the fastest path (billing stays on the Mexico Partner account) and asked Wes, in copy, to give the official answer on his four billing questions. Conexa starts development next week, and Fiserv promised the timeline and a web checkout demo.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag teal">Pursuit</div>
+<div class="alert-body">
+<div class="alert-title">March 9 and 10 in Mexico City, and partners want tickets</div>
+<p>Atoms, Lab51, Getmore and VNS all heard about it this week: 200 seats near Reforma, $200 tickets on sale in early January, and content that's about 70% Spanish. Each asked you to tell them when presale opens. Alejandro asked you to tell the big Mexican partners the dates. César and Ricardo are voting on workshop topics.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag teal">Partner pipeline</div>
+<div class="alert-body">
+<div class="alert-title">Atoms, VNS and Lab51</div>
+<p><strong>Atoms:</strong> Birkenstock, about $3M in annual GMV, is evaluating Plus. Surtidor Tapicero starts implementation in December. César owes you and Michelle an API update on Friday. <strong>VNS:</strong> the Villalba transfer is pushed to Dec 15 and Plus activates Dec 30. You owe Ricardo the Q3 PO email and an answer on whether tier exceptions exist. <strong>Lab51:</strong> Forus's remaining stores migrate by May. You said you'd check on Deport Group (Peru).</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag teal">Inbound</div>
+<div class="alert-body">
+<div class="alert-title">Dislicores wants a contact</div>
+<p>Rommel Cadavid, Dislicores's IT director, wrote on Wednesday night. Dislicores is Colombia's largest importer of wine, liquor and beer. Its ecommerce is live on Shopify, POS is in implementation, and he wants a closer relationship with Shopify. He'll also be at AWS re:Invent. Check the CRM owner before you reply. Separately, you sent Ana at Mercado Pago Debora's question and copied Debora.</p>
+</div>
+</div>
+
+<div class="alert">
+<div class="tag teal">Carryover</div>
+<div class="alert-body">
+<div class="alert-title">Still open</div>
+<p>The Payway projection for Wes. Lucas (Latech) needs the Plus pricing page link for his platform fee question. Faye still has the Lop meetup pilot. Alexis has Known Online's 5 Plus leads. Daniel's Tebiko deck for Dec 3. Companion Hub submissions are due Dec 2. Fix the four bounced contacts. Addi goes to Wes only.</p>
+</div>
+</div>
+
+</div>
+</div>
+
+<h2 id="lookahead">Look-ahead</h2>
+
+<div class="mtg-row">
+<div class="mtg-time">Thu<br>Nov 26</div>
+<div class="mtg-body">
+<div class="mtg-title">Tennis at 13:30, with office hours right after</div>
+<p>Nassim 10:30, Shawn 11:00, Experimentality 11:30, MaryFrances 13:00, Tennis SA x Shopify sync 13:30, Co-Marketing Office Hours 14:00 (Andrea may cancel).</p>
+</div>
+</div>
+
+<div class="mtg-row">
+<div class="mtg-time">Fri<br>Nov 27</div>
+<div class="mtg-body">
+<div class="mtg-title">Black Friday, and Getmore is off the calendar</div>
+<p>Pipeline sheet 08:00, BFCM Radio 09:00 and 10:00. Charli and Tobi's AMA are both at 11:00. Alejandro declined Friday's Getmore. Alce checkpoint 11:30. This is also the end of Flexi's promo window.</p>
+</div>
+</div>
+
+<div class="mtg-row">
+<div class="mtg-time">Mon–Tue<br>Nov 30–Dec 1</div>
+<div class="mtg-body">
+<div class="mtg-title">Brainwave on Monday, and two double-bookings</div>
+<p>Mon: Newsletter 08:00, Big 3 08:30, BFCM 09:00. Amanda, the Scaled Team and the BFCM data session are all at 10:00. Brainwave x Shopify 10:30 (Roberto accepted; he wants to talk about how they can contribute to Shopify's growth). Merlion 12:00. Tue: Moxie and Cluster both 09:00, XPRTS 10:00, Disco and AMER Campaign Review both 11:00, Wualá 11:30, Andre 14:30.</p>
+</div>
+</div>
+
+<div class="mtg-row">
+<div class="mtg-time">Wed–Fri<br>Dec 2–4</div>
+<div class="mtg-body">
+<div class="mtg-title">Companion Hub deadline, Tebiko, and three things at 10:00 on Friday</div>
+<p>Wed: Latech 09:00, Triciclo/Revie 11:30, Vitamina moved to 12:00 (Miriam accepted), Companion Hub due. Thu: Nico 09:00, DNB 10:00, Tebiko Lunch &amp; Learn 11:00, Co-Marketing Office Hours 14:00. Fri: Moxie Platinum 07:30, Mango 09:00, Melissa 09:30. The Dinkbit hold, Alce and the Steph 1:1 are all at 10:00. Kickass 11:00, Alce checkpoint 11:30.</p>
+</div>
+</div>
+
+<div class="foot">Generated 2026-11-26 · Mexico City local time throughout · Slack, Gmail, Calendar and Gemini notes read · Covers Nov 25 &ndash; Nov 26 · 137th brief in the archive</div>
+</div>
+</body>
+</html>

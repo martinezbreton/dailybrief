@@ -1,6 +1,6 @@
 # Partner Brief Archive — Manifest
 
-_136 entries · 2026-03-25 → 2026-11-25_
+_137 entries · 2026-03-25 → 2026-11-26_
 
 Each row is one daily brief. The subtitle is the at-a-glance theme; the top alert is what was most urgent that day.
 
@@ -370,3 +370,4 @@ Each row is one daily brief. The subtitle is the at-a-glance theme; the top aler
 - **2026-11-23** (Mon) — Monday · Nov 23, 2026 · **Novaventa signs this week, and Cristina is still waiting on her answer** · _Moxie reply, Payway projection for Wes, Capri and Infracommerce questions_
 - **2026-11-24** (Tue) — Tuesday · Nov 24, 2026 · **Novaventa signed, and Tennis is on the table tomorrow** · _Cristina reply before the Tennis sync, Steve's Triciclo lead, Scaled Team actions, two reschedules_
 - **2026-11-25** (Wed) — Wednesday · Nov 25, 2026 · **Lop launched Lacoste Argentina on Plus, and Tennis is at 13:30** · _Cristina's guidelines and OrderFor answers before the Tennis sync, Flexi details and SOW, Fiserv billing questions for Wes_
+- **2026-11-26** (Thu) — Thursday · Nov 26, 2026 · **Cristina is confirmed for Tennis at 13:30, and Flexi still owes Steve two answers** · _Flexi needs a launch date and term by Friday, Elie Mechoulam takes the Spanish-speaking Marketstrat lead, and Bharati's 1:1 left a deck update and a one-pager._
